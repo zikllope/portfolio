@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Rend le site responsive sur mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Portfolio BTS SIO SISR – Mathias Alcide</title>
+
+  <!-- Pré-connexion Google Fonts pour accélérer le chargement -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Feuille de style externe — tout le design est dans style.css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════
+     NAVIGATION
+     Barre sticky. nav-toggle = bouton hamburger mobile.
+     href="#id" = défilement vers l'ancre correspondante.
+════════════════════════════════════════════════════════ -->
+<nav>
+  <div class="container nav-inner">
+
+    <span class="nav-logo">Mathias <span>Alcide</span></span>
+
+    <!-- Bouton hamburger, visible uniquement sur mobile (géré en CSS) -->
+    <button
+      class="nav-toggle"
+      onclick="document.querySelector('.nav-links').classList.toggle('open')"
+      aria-label="Ouvrir le menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#bts">BTS SIO</a></li>
+      <li><a href="#activites">Activités</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#veille">Veille</a></li>
+      <!-- nav-cta = lien stylisé comme un bouton -->
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     HERO (ACCUEIL)
+     Fond sombre avec image d'arrière-plan.
+     hero-grid = texte à gauche, stats en bas.
+     hero-badge = petit bandeau indicatif au-dessus du nom.
+════════════════════════════════════════════════════════ -->
+<section id="accueil">
+
+  <!-- Image d'arrière-plan : salle serveurs (Unsplash, libre de droits) -->
+  <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80');"></div>
+  <!-- Couche sombre par-dessus l'image pour lisibilité du texte -->
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+    <div class="hero-grid">
+      <div>
+
+        <!-- Badge "Portfolio E4" au-dessus du nom -->
+        <div class="hero-badge">Portfolio E4 · BTS SIO SISR</div>
+
+        <!-- H1 : nom complet. <em> = partie colorée en vert -->
+        <h1 class="hero-name">Mathias<br><em>Alcide</em></h1>
+
+        <p class="hero-sub">
+          Étudiant en BTS SIO option SISR — passionné par les réseaux,
+          l'administration système et la cybersécurité. À la recherche d'une
+          alternance en infrastructure informatique.
+        </p>
+
+        <!-- Deux boutons d'action principaux -->
+        <div class="hero-actions">
+          <a href="#projets" class="btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn-outline">Me contacter</a>
+        </div>
+
+        <!-- Bande de statistiques sous les boutons -->
+        <div class="hero-stats">
+          <div>
+            <div class="stat-n">5+</div>
+            <div class="stat-l">Projets réalisés</div>
+          </div>
+          <div>
+            <div class="stat-n">4</div>
+            <div class="stat-l">Ans de pratique</div>
+          </div>
+          <div>
+            <div class="stat-n">2</div>
+            <div class="stat-l">Années de formation</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PRÉSENTATION
+     profile-grid = deux colonnes : infos + parcours.
+     info-list = liste clé / valeur alignée.
+     placeholder = texte à remplir, stylé en italique coloré.
+════════════════════════════════════════════════════════ -->
+<section id="presentation">
+  <div class="container">
+
+    <p class="section-label">À propos</p>
+    <h2 class="section-title">Présentation</h2>
+    <p class="section-intro">
+      Bonjour ! Je m'appelle Mathias Alcide, j'ai 19 ans et je suis étudiant
+      en BTS SIO option SISR au Lycée Viljenis de Massy. Après une année en
+      licence informatique, j'ai choisi cette filière pour me spécialiser dans
+      les réseaux et l'infrastructure, tout en continuant le développement en
+      autodidacte.
+    </p>
+
+    <!-- Image illustrative de la section : poste de travail développeur -->
+    <div class="section-img-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1000&q=80"
+        alt="Poste de travail informatique"
+        class="section-img"
+        loading="lazy"
+      />
+    </div>
+
+    <!-- Grille deux colonnes : infos perso | parcours -->
+    <div class="profile-grid">
+
+      <!-- Carte informations personnelles -->
+      <div class="profile-card">
+        <h3>Informations personnelles</h3>
+        <ul class="info-list">
+          <li>
+            <span class="key">Nom complet</span>
+            <span class="val">Mathias Alcide</span>
+          </li>
+          <li>
+            <span class="key">Âge</span>
+            <span class="val">19 ans</span>
+          </li>
+          <li>
+            <span class="key">Localisation</span>
+            <span class="val">Palaiseau, Île-de-France</span>
+          </li>
+          <li>
+            <span class="key">Formation</span>
+            <span class="val">BTS SIO – option SISR</span>
+          </li>
+          <li>
+            <span class="key">Établissement</span>
+            <span class="val">Lycée Viljenis, Massy</span>
+          </li>
+          <li>
+            <span class="key">Année</span>
+            <span class="val">1ère année (2025–2026)</span>
+          </li>
+          <li>
+            <span class="key">Statut recherché</span>
+            <span class="val">Alternance SISR</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Carte parcours scolaire + centres d'intérêt -->
+      <div class="profile-card">
+        <h3>Parcours scolaire</h3>
+        <ul class="info-list">
+          <li>
+            <span class="key">2025 – 2026</span>
+            <span class="val">BTS SIO SISR – Lycée Viljenis, Massy</span>
+          </li>
+          <li>
+            <span class="key">2024 – 2025</span>
+            <span class="val">L1 Informatique – UPEC, Créteil</span>
+          </li>
+          <li>
+            <span class="key">2023 – 2024</span>
+            <span class="val">Bac Maths / NSI – Lycée Camille Claudel, Palaiseau</span>
+          </li>
+          <li>
+            <span class="key">Expérience</span>
+            <span class="val">Coach Football U6-U7, Club de Champlan</span>
+          </li>
+        </ul>
+
+        <div class="card-separator"></div>
+
+        <h3>Centres d'intérêt</h3>
+        <div class="tags-row">
+          <span class="tag navy">🎮 Jeux vidéo</span>
+          <span class="tag navy">⚽ Football</span>
+          <span class="tag navy">🧑‍🏫 Coaching</span>
+          <span class="tag navy">💻 Développement</span>
+          <span class="tag navy">⚽ Football Manager</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     BTS SIO
+     bts-card = carte avec bordure gauche colorée.
+     bts-card.green = variante bordure verte.
+════════════════════════════════════════════════════════ -->
+<section id="bts">
+  <div class="container">
+
+    <p class="section-label">La formation</p>
+    <h2 class="section-title">BTS SIO – option SISR</h2>
+    <p class="section-intro">
+      Le BTS Services Informatiques aux Organisations forme des techniciens
+      capables de gérer et sécuriser des systèmes d'information.
+      L'option SISR est orientée réseaux, systèmes et infrastructure.
+    </p>
+
+    <div class="bts-grid">
+
+      <div class="bts-card">
+        <h4>🎓 Qu'est-ce que le BTS SIO ?</h4>
+        <p>
+          Formation en 2 ans préparant aux métiers de l'informatique. Elle couvre
+          le développement applicatif (SLAM) et les réseaux / systèmes (SISR),
+          avec une période de stage obligatoire en entreprise.
+        </p>
+      </div>
+
+      <div class="bts-card green">
+        <h4>🌐 Option SISR</h4>
+        <p>
+          Solutions d'Infrastructure, Systèmes et Réseaux. Administration des
+          serveurs, gestion des réseaux, cybersécurité et mise en œuvre de
+          services informatiques dans une organisation.
+        </p>
+      </div>
+
+      <div class="bts-card">
+        <h4>📋 Épreuve E4</h4>
+        <p>
+          L'épreuve E4 évalue les compétences professionnelles à partir d'un
+          dossier de réalisations. Ce portfolio en est le support principal et
+          recense l'ensemble de mes activités et compétences mobilisées.
+        </p>
+      </div>
+
+      <div class="bts-card green">
+        <h4>🏢 Pourquoi SISR ?</h4>
+        <p>
+          J'ai choisi l'option SISR car je voulais comprendre l'infrastructure
+          qui fait tourner les applications. Le développement, je le pratique en
+          autodidacte — les réseaux et systèmes, ça s'apprend sur le terrain.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     ACTIVITÉS SISR
+     Six domaines du référentiel BTS SIO SISR.
+     activite-icon = carré emoji en haut de carte.
+     activite-meta = ligne de pied avec réalisation associée.
+════════════════════════════════════════════════════════ -->
+<section id="activites">
+  <div class="container">
+
+    <p class="section-label">Référentiel SISR</p>
+    <h2 class="section-title">Activités liées aux compétences</h2>
+    <p class="section-intro">
+      Ces six domaines structurent le référentiel du BTS SIO SISR.
+      Voici mes activités réalisées dans chacun d'eux au cours de ma première année.
+    </p>
+
+    <!-- Image illustrative : infrastructure réseau -->
+    <div class="section-img-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1000&q=80"
+        alt="Infrastructure réseau et serveurs"
+        class="section-img"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="activites-grid">
+
+      <!-- Activité 1 -->
+      <div class="activite-card">
+        <div class="activite-icon">🖥️</div>
+        <h4>Gérer le patrimoine informatique</h4>
+        <p>
+          Inventaire du parc informatique via GLPI, gestion des équipements,
+          suivi des licences logicielles et documentation des configurations
+          matérielles et logicielles.
+        </p>
+        <div class="tags-row">
+          <span class="tag">GLPI</span>
+          <span class="tag">Inventaire</span>
+          <span class="tag">Documentation</span>
+        </div>
+        <div class="activite-meta">
+          📁 Réalisation : mise en place d'un inventaire GLPI en TP
+        </div>
+      </div>
+
+      <!-- Activité 2 -->
+      <div class="activite-card">
+        <div class="activite-icon">🔧</div>
+        <h4>Répondre aux incidents et demandes d'assistance</h4>
+        <p>
+          Traitement de tickets d'incidents, diagnostic de pannes matérielles
+          et logicielles, assistance aux utilisateurs et remontée des anomalies
+          via un système de ticketing.
+        </p>
+        <div class="tags-row">
+          <span class="tag">GLPI</span>
+          <span class="tag">Support N1/N2</span>
+          <span class="tag">Ticketing</span>
+        </div>
+        <div class="activite-meta">
+          📁 Réalisation : simulation de gestion d'incidents en TP GLPI
+        </div>
+      </div>
+
+      <!-- Activité 3 -->
+      <div class="activite-card">
+        <div class="activite-icon">🌍</div>
+        <h4>Développer la présence en ligne de l'organisation</h4>
+        <p>
+          Création et déploiement d'un site web professionnel sous WordPress
+          avec Elementor pour une entreprise de gestion de patrimoine.
+          Configuration du nom de domaine et de l'hébergement.
+        </p>
+        <div class="tags-row">
+          <span class="tag">WordPress</span>
+          <span class="tag">Elementor</span>
+          <span class="tag">HTML/CSS</span>
+        </div>
+        <div class="activite-meta">
+          📁 Réalisation : site WordPress — entreprise de gestion de patrimoine
+        </div>
+      </div>
+
+      <!-- Activité 4 -->
+      <div class="activite-card">
+        <div class="activite-icon">📊</div>
+        <h4>Travailler en mode projet</h4>
+        <p>
+          Participation à des projets informatiques en équipe avec planification
+          des tâches, communication structurée et rendu de livrables dans les
+          délais impartis.
+        </p>
+        <div class="tags-row">
+          <span class="tag">Gantt</span>
+          <span class="tag">Travail en équipe</span>
+          <span class="tag">Livrables</span>
+        </div>
+        <div class="activite-meta">
+          📁 Réalisation : projet AP en équipe — déploiement infrastructure
+        </div>
+      </div>
+
+      <!-- Activité 5 -->
+      <div class="activite-card">
+        <div class="activite-icon">⚙️</div>
+        <h4>Mettre à disposition un service informatique</h4>
+        <p>
+          Installation et configuration de services réseaux : DHCP, DNS,
+          Active Directory sous Windows Server. Déploiement de machines
+          virtuelles et documentation technique associée.
+        </p>
+        <div class="tags-row">
+          <span class="tag">Windows Server</span>
+          <span class="tag">Active Directory</span>
+          <span class="tag">DHCP / DNS</span>
+          <span class="tag">VirtualBox</span>
+        </div>
+        <div class="activite-meta">
+          📁 Réalisation : déploiement AD DS + DHCP en TP Windows Server
+        </div>
+      </div>
+
+      <!-- Activité 6 -->
+      <div class="activite-card">
+        <div class="activite-icon">📈</div>
+        <h4>Organiser son développement professionnel</h4>
+        <p>
+          Veille technologique régulière sur les évolutions en cybersécurité
+          et réseaux. Maintien d'un portfolio en ligne et pratique du
+          développement web en autodidacte pour renforcer le profil technique.
+        </p>
+        <div class="tags-row">
+          <span class="tag">Veille</span>
+          <span class="tag">Portfolio</span>
+          <span class="tag">Autodidacte</span>
+        </div>
+        <div class="activite-meta">
+          📁 Réalisation : site portfolio mathiasalcide.fr + veille mensuelle
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PROJETS
+     projet-row = ligne deux colonnes : description | badge.
+     projet-badge.vert = variante verte du badge de contexte.
+════════════════════════════════════════════════════════ -->
+<section id="projets">
+  <div class="container">
+
+    <p class="section-label">Réalisations</p>
+    <h2 class="section-title">Projets réalisés</h2>
+    <p class="section-intro">
+      Ensemble des projets menés en formation, en TP et en autonomie,
+      classés par compétences mobilisées.
+    </p>
+
+    <div class="projets-list">
+
+      <!-- Projet 1 : WordPress patrimoine -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=400&q=80"
+            alt="Création de site web WordPress"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Site WordPress — Gestion de patrimoine</h4>
+          <p>
+            Création d'un site web complet pour une entreprise de gestion de
+            patrimoine. Utilisation de WordPress avec le constructeur Elementor
+            pour concevoir les pages, configuration du thème, mise en place
+            du formulaire de contact et optimisation de la lisibilité pour les
+            clients. Déploiement et configuration du nom de domaine inclus.
+          </p>
+          <div class="tags-row">
+            <span class="tag">WordPress</span>
+            <span class="tag">Elementor</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">Hébergement</span>
+          </div>
+        </div>
+        <span class="projet-badge vert">Expérience pro</span>
+      </div>
+
+      <!-- Projet 2 : Portfolio personnel -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&q=80"
+            alt="Portfolio web personnel"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Site portfolio personnel — mathiasalcide.fr</h4>
+          <p>
+            Conception et déploiement d'un site portfolio professionnel sous
+            WordPress avec Elementor. Présentation du parcours, des compétences
+            et des projets. Configuration du nom de domaine et de l'hébergement.
+            Ce site sert de vitrine de candidature pour l'alternance.
+          </p>
+          <div class="tags-row">
+            <span class="tag">WordPress</span>
+            <span class="tag">Elementor</span>
+            <span class="tag">DNS / Hébergement</span>
+          </div>
+        </div>
+        <span class="projet-badge">Personnel</span>
+      </div>
+
+      <!-- Projet 3 : Déploiement AD DS en TP -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=400&q=80"
+            alt="Administration Windows Server"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Déploiement Active Directory — Windows Server</h4>
+          <p>
+            En TP SISR, installation et configuration d'un contrôleur de domaine
+            sous Windows Server dans un environnement virtualisé (VirtualBox).
+            Mise en place de l'AD DS, création d'unités d'organisation, de
+            groupes et de comptes utilisateurs, puis configuration du service
+            DHCP pour attribution automatique des adresses IP.
+          </p>
+          <div class="tags-row">
+            <span class="tag">Windows Server</span>
+            <span class="tag">Active Directory</span>
+            <span class="tag">DHCP</span>
+            <span class="tag">VirtualBox</span>
+          </div>
+        </div>
+        <span class="projet-badge">TP SISR</span>
+      </div>
+
+      <!-- Projet 4 : Analyse de vulnérabilités / cybersécurité -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&q=80"
+            alt="Cybersécurité et analyse de réseau"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Analyse de sécurité réseau — Wireshark & Nmap</h4>
+          <p>
+            Réalisation d'une analyse de trafic réseau avec Wireshark pour
+            identifier les protocoles échangés et détecter d'éventuels flux
+            non sécurisés. Utilisation de Nmap pour scanner les ports ouverts
+            sur un réseau local en environnement de test. Rédaction d'un compte
+            rendu listant les risques identifiés et les recommandations associées.
+          </p>
+          <div class="tags-row">
+            <span class="tag">Wireshark</span>
+            <span class="tag">Nmap</span>
+            <span class="tag">Cybersécurité</span>
+            <span class="tag">Analyse réseau</span>
+          </div>
+        </div>
+        <span class="projet-badge">TP / AP</span>
+      </div>
+
+      <!-- Projet 5 : Infrastructure réseau simulée (Packet Tracer) -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80"
+            alt="Simulation réseau Packet Tracer"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Simulation d'infrastructure réseau — Cisco Packet Tracer</h4>
+          <p>
+            Conception et simulation d'une infrastructure réseau d'entreprise
+            avec Cisco Packet Tracer : routeurs, switchs, VLAN, adressage IP,
+            configuration des interfaces et tests de connectivité. L'objectif
+            était de reproduire l'architecture d'un réseau de PME avec une
+            séparation des services par VLAN.
+          </p>
+          <div class="tags-row">
+            <span class="tag">Cisco Packet Tracer</span>
+            <span class="tag">VLAN</span>
+            <span class="tag">Routage</span>
+            <span class="tag">TCP/IP</span>
+          </div>
+        </div>
+        <span class="projet-badge">AP / Cours</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     COMPÉTENCES
+     Pas de barres visuelles — affichage en grilles de tags.
+     comp-block = bloc par domaine technique.
+════════════════════════════════════════════════════════ -->
+<section id="competences">
+  <div class="container">
+
+    <p class="section-label">Savoir-faire</p>
+    <h2 class="section-title">Compétences techniques</h2>
+    <p class="section-intro">
+      Compétences acquises en cours, en TP, en stage et en pratique personnelle
+      au cours de ma première année de BTS SIO SISR.
+    </p>
+
+    <div class="competences-wrap">
+
+      <!-- Bloc Réseaux -->
+      <div class="comp-block">
+        <h4>🌐 Réseaux &amp; Infrastructure</h4>
+        <div class="comp-tags">
+          <span class="tag">TCP/IP</span>
+          <span class="tag">VLAN</span>
+          <span class="tag">DNS</span>
+          <span class="tag">DHCP</span>
+          <span class="tag">Routage statique</span>
+          <span class="tag">Cisco Packet Tracer</span>
+          <span class="tag">Adressage IP</span>
+          <span class="tag">Sous-réseaux (VLSM)</span>
+        </div>
+      </div>
+
+      <!-- Bloc Systèmes -->
+      <div class="comp-block">
+        <h4>🖥️ Systèmes</h4>
+        <div class="comp-tags">
+          <span class="tag">Windows Server 2019</span>
+          <span class="tag">Active Directory (AD DS)</span>
+          <span class="tag">Debian / Linux</span>
+          <span class="tag">VirtualBox</span>
+          <span class="tag">GLPI</span>
+          <span class="tag">Scripts Bash</span>
+          <span class="tag">PowerShell (bases)</span>
+        </div>
+      </div>
+
+      <!-- Bloc Cybersécurité -->
+      <div class="comp-block">
+        <h4>🔐 Cybersécurité</h4>
+        <div class="comp-tags">
+          <span class="tag">Wireshark</span>
+          <span class="tag">Nmap</span>
+          <span class="tag">Analyse de trafic</span>
+          <span class="tag">Scan de ports</span>
+          <span class="tag">Notions de pare-feu</span>
+          <span class="tag">Protocoles sécurisés (HTTPS, SSH)</span>
+        </div>
+      </div>
+
+      <!-- Bloc Développement Web -->
+      <div class="comp-block">
+        <h4>💻 Développement Web &amp; Outils</h4>
+        <div class="comp-tags">
+          <span class="tag">HTML / CSS</span>
+          <span class="tag">PHP (bases)</span>
+          <span class="tag">SQL</span>
+          <span class="tag">WordPress</span>
+          <span class="tag">Elementor</span>
+          <span class="tag">Git / GitHub</span>
+          <span class="tag">Python (bases)</span>
+          <span class="tag">Java (bases)</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Soft skills -->
+    <p class="section-label section-label-spaced">Soft skills</p>
+    <div class="tags-row">
+      <span class="tag green">Autonomie</span>
+      <span class="tag green">Curiosité technique</span>
+      <span class="tag green">Travail en équipe</span>
+      <span class="tag green">Rigueur</span>
+      <span class="tag green">Esprit d'analyse</span>
+      <span class="tag green">Pédagogie (coaching)</span>
+      <span class="tag green">Adaptabilité</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     VEILLE TECHNOLOGIQUE
+     veille-card = fiche de veille individuelle.
+     v-date = date stylisée en haut de la fiche.
+     veille-tools = boîte des sources et outils utilisés.
+════════════════════════════════════════════════════════ -->
+<section id="veille">
+  <div class="container">
+
+    <p class="section-label">Développement professionnel</p>
+    <h2 class="section-title">Veille technologique</h2>
+    <p class="section-intro">
+      La veille est une compétence clé du BTS SIO. Elle me permet de suivre
+      les évolutions du secteur et d'anticiper les nouvelles pratiques en
+      réseaux et cybersécurité.
+    </p>
+
+    <div class="veille-grid">
+
+      <!-- Fiche 1 -->
+      <div class="veille-card">
+        <div class="v-date">Novembre 2025</div>
+        <h4>Montée en puissance du Zero Trust Network Access (ZTNA)</h4>
+        <p>
+          Le modèle Zero Trust remplace progressivement les VPN traditionnels
+          dans les entreprises. Il consiste à ne faire confiance à aucun
+          utilisateur ou équipement par défaut, même à l'intérieur du réseau.
+          Pertinent pour la gestion des accès distants en SISR.
+        </p>
+        <div class="tags-row">
+          <span class="tag">Cybersécurité</span>
+          <span class="tag">Réseaux</span>
+        </div>
+      </div>
+
+      <!-- Fiche 2 -->
+      <div class="veille-card">
+        <div class="v-date">Janvier 2026</div>
+        <h4>Vulnérabilités critiques dans les équipements Cisco IOS</h4>
+        <p>
+          Publication par Cisco de correctifs pour plusieurs failles critiques
+          affectant IOS XE. Ces vulnérabilités permettaient une élévation de
+          privilèges à distance. Rappel de l'importance des mises à jour
+          firmware sur les équipements réseau.
+        </p>
+        <div class="tags-row">
+          <span class="tag">Cisco</span>
+          <span class="tag">CVE</span>
+          <span class="tag">Patch management</span>
+        </div>
+      </div>
+
+      <!-- Fiche 3 -->
+      <div class="veille-card">
+        <div class="v-date">Mars 2026</div>
+        <h4>Active Directory : les attaques Pass-the-Hash en entreprise</h4>
+        <p>
+          Étude des techniques d'attaque Pass-the-Hash ciblant les
+          environnements Active Directory. Ces attaques exploitent les hachages
+          NTLM pour s'authentifier sans connaître le mot de passe en clair.
+          Lien direct avec les TP Windows Server effectués en cours.
+        </p>
+        <div class="tags-row">
+          <span class="tag">Active Directory</span>
+          <span class="tag">Sécurité Windows</span>
+          <span class="tag">NTLM</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Sources de veille -->
+    <div class="veille-tools">
+      <h4>📡 Outils et sources de veille</h4>
+      <div class="tags-row">
+        <span class="tag navy">ANSSI (cert.ssi.gouv.fr)</span>
+        <span class="tag navy">CVE Details</span>
+        <span class="tag navy">Le Monde Informatique</span>
+        <span class="tag navy">Korben.info</span>
+        <span class="tag navy">Reddit r/netsec</span>
+        <span class="tag navy">LinkedIn</span>
+      </div>
+    </div>
+
+    <!-- Certifications visées -->
+    <p class="section-label section-label-spaced">Certifications visées</p>
+    <div class="tags-row">
+      <span class="tag green">Cisco CCNA (objectif 2026)</span>
+      <span class="tag green">CompTIA Network+ (objectif 2026)</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     CONTACT
+     contact-wrap = deux colonnes : coordonnées | formulaire.
+     contact-line = ligne icône + texte structuré.
+     Le formulaire est connecté à Formspree (service gratuit).
+     → Remplacer YOUR_FORM_ID par l'ID Formspree de ton compte.
+     → Créer un compte sur https://formspree.io puis remplacer l'action.
+════════════════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+
+    <p class="section-label">Me joindre</p>
+    <h2 class="section-title">Contact</h2>
+    <p class="section-intro">
+      Pour toute demande de stage, d'alternance ou d'échange professionnel,
+      n'hésitez pas à me contacter directement.
+    </p>
+
+    <div class="contact-wrap">
+
+      <!-- Colonne gauche : coordonnées -->
+      <div class="contact-info">
+
+        <p>Je suis disponible pour un contrat d'alternance en infrastructure
+        réseau / systèmes dès la rentrée 2026. N'hésitez pas à me contacter.</p>
+
+        <div class="contact-line">
+          <div class="contact-icon">✉️</div>
+          <div class="cl-text">
+            <strong>Adresse e-mail</strong>
+            <a href="mailto:Mathias.adc@outlook.com">Mathias.adc@outlook.com</a>
+          </div>
+        </div>
+
+        <div class="contact-line">
+          <div class="contact-icon">🔗</div>
+          <div class="cl-text">
+            <strong>LinkedIn</strong>
+            <a href="https://www.linkedin.com/in/mathias-alcide-dit-clauzel-93827a349" target="_blank" rel="noopener">
+              Mathias Alcide
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-line">
+          <div class="contact-icon">💻</div>
+          <div class="cl-text">
+            <strong>GitHub</strong>
+            <a href="https://github.com/zikllope" target="_blank" rel="noopener">
+              github.com/zikllope
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-line">
+          <div class="contact-icon">🌐</div>
+          <div class="cl-text">
+            <strong>Site web</strong>
+            <a href="https://mathiasalcide.fr" target="_blank" rel="noopener">
+              mathiasalcide.fr
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-line">
+          <div class="contact-icon">📍</div>
+          <div class="cl-text">
+            <strong>Localisation</strong>
+            <span>Palaiseau, Île-de-France</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Colonne droite : formulaire connecté à Formspree -->
+      <!-- IMPORTANT : créer un compte sur https://formspree.io
+           puis remplacer "YOUR_FORM_ID" dans l'action ci-dessous
+           par l'identifiant de ton formulaire Formspree -->
+      <!-- Formulaire de contact supprimé -->
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     FOOTER
+     Pied de page avec nom, année et liens rapides.
+════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <p>Portfolio BTS SIO SISR — <strong>Mathias Alcide</strong> — 2025–2026</p>
+    <div class="footer-links">
+      <a href="#accueil">Accueil</a>
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#contact">Contact</a>
+      <a href="https://mathiasalcide.fr" target="_blank" rel="noopener">mathiasalcide.fr</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+# ============================================
+# feeds.txt - Sources de veille
+# "Intelligence artificielle et football : quand les
+#  algorithmes arbitrent, analysent et racontent le match"
+# ============================================
+# Une URL par ligne. Les lignes commencant par # sont ignorees.
+
+# --- FOOTBALL FRANCOPHONE ---
+https://www.lequipe.fr/rss/actu_rss_Football.xml
+https://www.sofoot.com/feed
+https://www.cahiersdufootball.net/rss
+https://rmcsport.bfmtv.com/rss/
+
+# --- FOOTBALL ANGLOPHONE (VAR, Premier League, SAOT) ---
+https://feeds.bbci.co.uk/sport/football/rss.xml
+https://www.espn.com/espn/rss/soccer/news
+
+# --- TECH / IA (FR) ---
+https://www.zdnet.fr/feeds/rss/
+https://www.numerama.com/feed/
+https://www.01net.com/rss/
+
+# --- TECH / INNOVATION (EN) ---
+https://www.theverge.com/rss/index.xml
+https://feeds.arstechnica.com/arstechnica/index
+
+# --- DATA & ANALYSE FOOTBALL ---
+https://statsbomb.com/feed/
+https://towardsdatascience.com/feed
+
+# --- SCIENTIFIQUE (computer vision, tracking) ---
+https://arxiv.org/rss/cs.CV

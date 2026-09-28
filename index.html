@@ -12,22 +12,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Feuille de style externe — tout le design est dans style.css -->
+  <!-- Feuille de style externe — design préservé à l'identique -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- ═══════════════════════════════════════════════════════
      NAVIGATION
-     Barre sticky. nav-toggle = bouton hamburger mobile.
-     href="#id" = défilement vers l'ancre correspondante.
+     Barre sticky avec accès direct à toutes les sections clés
 ════════════════════════════════════════════════════════ -->
 <nav>
   <div class="container nav-inner">
 
     <span class="nav-logo">Mathias <span>Alcide</span></span>
 
-    <!-- Bouton hamburger, visible uniquement sur mobile (géré en CSS) -->
+    <!-- Bouton hamburger mobile -->
     <button
       class="nav-toggle"
       onclick="document.querySelector('.nav-links').classList.toggle('open')"
@@ -42,11 +41,11 @@
       <li><a href="#accueil">Accueil</a></li>
       <li><a href="#presentation">Présentation</a></li>
       <li><a href="#bts">BTS SIO</a></li>
-      <li><a href="#activites">Activités</a></li>
+      <li><a href="#synthese">Synthèse E5</a></li>
+      <li><a href="#stage">Stage</a></li>
       <li><a href="#projets">Projets</a></li>
       <li><a href="#competences">Compétences</a></li>
       <li><a href="#veille">Veille</a></li>
-      <!-- nav-cta = lien stylisé comme un bouton -->
       <li><a href="#contact" class="nav-cta">Contact</a></li>
     </ul>
 
@@ -56,48 +55,40 @@
 
 <!-- ═══════════════════════════════════════════════════════
      HERO (ACCUEIL)
-     Fond sombre avec image d'arrière-plan.
-     hero-grid = texte à gauche, stats en bas.
-     hero-badge = petit bandeau indicatif au-dessus du nom.
+     Fond sombre avec image d'arrière-plan et stats clés
 ════════════════════════════════════════════════════════ -->
 <section id="accueil">
 
-  <!-- Image d'arrière-plan : salle serveurs (Unsplash, libre de droits) -->
   <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80');"></div>
-  <!-- Couche sombre par-dessus l'image pour lisibilité du texte -->
   <div class="hero-overlay"></div>
 
   <div class="container hero-content">
     <div class="hero-grid">
       <div>
 
-        <!-- Badge "Portfolio E5" au-dessus du nom -->
         <div class="hero-badge">Portfolio E5 · BTS SIO SISR</div>
 
-        <!-- H1 : nom complet. <em> = partie colorée en vert -->
         <h1 class="hero-name">Mathias<br><em>Alcide</em></h1>
 
         <p class="hero-sub">
-          Étudiant en BTS SIO option SISR — passionné par les réseaux,
-          l'administration système et la cybersécurité. À la recherche d'une
-          alternance en infrastructure informatique.
+          Étudiant en BTS SIO option SISR au Lycée Vilgénis de Massy — passionné par les réseaux,
+          l'administration système, la cybersécurité et l'automatisation. Préparation du diplôme
+          et projet de poursuite d'études en alternance post-BTS (Bac+3 / Cycle ingénieur).
         </p>
 
-        <!-- Deux boutons d'action principaux -->
         <div class="hero-actions">
-          <a href="#projets" class="btn-primary">Voir mes projets</a>
-          <a href="#contact" class="btn-outline">Me contacter</a>
+          <a href="#stage" class="btn-primary">Découvrir mon stage</a>
+          <a href="#projets" class="btn-outline">Voir mes projets</a>
         </div>
 
-        <!-- Bande de statistiques sous les boutons -->
         <div class="hero-stats">
           <div>
-            <div class="stat-n">5+</div>
-            <div class="stat-l">Projets réalisés</div>
+            <div class="stat-n">5</div>
+            <div class="stat-l">Semaines de stage</div>
           </div>
           <div>
-            <div class="stat-n">4</div>
-            <div class="stat-l">Ans de pratique</div>
+            <div class="stat-n">8+</div>
+            <div class="stat-l">Projets &amp; Réalisations</div>
           </div>
           <div>
             <div class="stat-n">2</div>
@@ -113,9 +104,7 @@
 
 <!-- ═══════════════════════════════════════════════════════
      PRÉSENTATION
-     profile-grid = deux colonnes : infos + parcours.
-     info-list = liste clé / valeur alignée.
-     placeholder = texte à remplir, stylé en italique coloré.
+     Informations personnelles, parcours académique et centres d'intérêt
 ════════════════════════════════════════════════════════ -->
 <section id="presentation">
   <div class="container">
@@ -124,26 +113,23 @@
     <h2 class="section-title">Présentation</h2>
     <p class="section-intro">
       Bonjour ! Je m'appelle Mathias Alcide, j'ai 19 ans et je suis étudiant
-      en BTS SIO option SISR au Lycée Viljenis de Massy. Après une année en
-      licence informatique, j'ai choisi cette filière pour me spécialiser dans
-      les réseaux et l'infrastructure, tout en continuant le développement en
-      autodidacte.
+      en BTS SIO option SISR au Lycée Vilgénis de Massy. Passionné par l'architecture
+      système et réseau, je conçois également mes propres environnements d'expérimentation
+      (Homelab) et j'intègre les technologies émergentes telles que l'intelligence artificielle locale.
     </p>
 
-    <!-- Image illustrative de la section : poste de travail développeur -->
     <div class="section-img-wrap">
       <img
         src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1000&q=80"
-        alt="Poste de travail informatique"
+        alt="Poste de travail informatique et infrastructure"
         class="section-img"
         loading="lazy"
       />
     </div>
 
-    <!-- Grille deux colonnes : infos perso | parcours -->
     <div class="profile-grid">
 
-      <!-- Carte informations personnelles -->
+      <!-- Informations personnelles -->
       <div class="profile-card">
         <h3>Informations personnelles</h3>
         <ul class="info-list">
@@ -165,26 +151,34 @@
           </li>
           <li>
             <span class="key">Établissement</span>
-            <span class="val">Lycée Viljenis, Massy</span>
+            <span class="val">Lycée Vilgénis, Massy</span>
           </li>
           <li>
-            <span class="key">Année</span>
-            <span class="val">1ère année (2025–2026)</span>
+            <span class="key">Session</span>
+            <span class="val">Session 2026</span>
           </li>
           <li>
-            <span class="key">Statut recherché</span>
-            <span class="val">Alternance SISR</span>
+            <span class="key">Statut actuel</span>
+            <span class="val">BTS SIO SISR (Formation initiale)</span>
+          </li>
+          <li>
+            <span class="key">Projet futur</span>
+            <span class="val">Alternance post-BTS (Bac+3)</span>
           </li>
         </ul>
       </div>
 
-      <!-- Carte parcours scolaire + centres d'intérêt -->
+      <!-- Parcours scolaire & centres d'intérêt -->
       <div class="profile-card">
-        <h3>Parcours scolaire</h3>
+        <h3>Parcours &amp; Expériences</h3>
         <ul class="info-list">
           <li>
             <span class="key">2025 – 2026</span>
-            <span class="val">BTS SIO SISR – Lycée Viljenis, Massy</span>
+            <span class="val">BTS SIO SISR – Lycée Vilgénis, Massy</span>
+          </li>
+          <li>
+            <span class="key">Juin – Juil. 2025</span>
+            <span class="val">Stage Technicien Support &amp; Réseau (5 sem.)</span>
           </li>
           <li>
             <span class="key">2024 – 2025</span>
@@ -192,11 +186,11 @@
           </li>
           <li>
             <span class="key">2023 – 2024</span>
-            <span class="val">Bac Maths / NSI – Lycée Camille Claudel, Palaiseau</span>
+            <span class="val">Bac Général Maths / NSI – Lycée C. Claudel</span>
           </li>
           <li>
-            <span class="key">Expérience</span>
-            <span class="val">Coach Football U6-U7, Club de Champlan</span>
+            <span class="key">Engagement</span>
+            <span class="val">Coach Football U6-U7 – Club de Champlan</span>
           </li>
         </ul>
 
@@ -204,11 +198,11 @@
 
         <h3>Centres d'intérêt</h3>
         <div class="tags-row">
-          <span class="tag navy">🎮 Jeux vidéo</span>
-          <span class="tag navy">⚽ Football</span>
-          <span class="tag navy">🧑‍🏫 Coaching</span>
-          <span class="tag navy">💻 Développement</span>
-          <span class="tag navy">⚽ Football Manager</span>
+          <span class="tag navy">🖥️ Homelab &amp; Serveurs</span>
+          <span class="tag navy">🤖 Intelligence Artificielle</span>
+          <span class="tag navy">⚽ Football &amp; Data</span>
+          <span class="tag navy">🧑‍🏫 Coaching sportif</span>
+          <span class="tag navy">🎮 Stratégie &amp; Gaming</span>
         </div>
       </div>
 
@@ -219,8 +213,7 @@
 
 <!-- ═══════════════════════════════════════════════════════
      BTS SIO
-     bts-card = carte avec bordure gauche colorée.
-     bts-card.green = variante bordure verte.
+     Présentation de la filière et de l'option SISR
 ════════════════════════════════════════════════════════ -->
 <section id="bts">
   <div class="container">
@@ -228,9 +221,9 @@
     <p class="section-label">La formation</p>
     <h2 class="section-title">BTS SIO – option SISR</h2>
     <p class="section-intro">
-      Le BTS Services Informatiques aux Organisations forme des techniciens
-      capables de gérer et sécuriser des systèmes d'information.
-      L'option SISR est orientée réseaux, systèmes et infrastructure.
+      Le BTS Services Informatiques aux Organisations forme des spécialistes
+      capables de déployer, maintenir et sécuriser les infrastructures numériques
+      en répondant aux exigences opérationnelles des entreprises.
     </p>
 
     <div class="bts-grid">
@@ -238,36 +231,36 @@
       <div class="bts-card">
         <h4>🎓 Qu'est-ce que le BTS SIO ?</h4>
         <p>
-          Formation en 2 ans préparant aux métiers de l'informatique. Elle couvre
-          le développement applicatif (SLAM) et les réseaux / systèmes (SISR),
-          avec une période de stage obligatoire en entreprise.
+          Cursus d'État en 2 ans structuré autour de projets pratiques et de stages obligatoires.
+          Il se décline en deux spécialités : le développement applicatif (SLAM) et l'administration
+          des systèmes et réseaux (SISR).
         </p>
       </div>
 
       <div class="bts-card green">
         <h4>🌐 Option SISR</h4>
         <p>
-          Solutions d'Infrastructure, Systèmes et Réseaux. Administration des
-          serveurs, gestion des réseaux, cybersécurité et mise en œuvre de
-          services informatiques dans une organisation.
+          Solutions d'Infrastructure, Systèmes et Réseaux. Spécialisation en administration des
+          environnements serveurs (Windows/Linux), routage, commutation, cybersécurité périmétrique,
+          virtualisation et téléphonie d'entreprise.
         </p>
       </div>
 
       <div class="bts-card">
         <h4>📋 Épreuve E5</h4>
         <p>
-          L'épreuve E5 évalue les compétences professionnelles à partir d'un
-          dossier de réalisations. Ce portfolio en est le support principal et
-          recense l'ensemble de mes activités et compétences mobilisées.
+          Épreuve phare évaluant les compétences professionnelles à travers un dossier de réalisations,
+          le tableau de synthèse officiel et la soutenance des missions techniques menées en entreprise
+          et en formation.
         </p>
       </div>
 
       <div class="bts-card green">
         <h4>🏢 Pourquoi SISR ?</h4>
         <p>
-          J'ai choisi l'option SISR car je voulais comprendre l'infrastructure
-          qui fait tourner les applications. Le développement, je le pratique en
-          autodidacte — les réseaux et systèmes, ça s'apprend sur le terrain.
+          Comprendre, sécuriser et faire évoluer les fondations invisibles qui soutiennent l'ensemble
+          des services numériques. La rigueur réseau, la virtualisation et l'automatisation constituent
+          le cœur de mon projet professionnel.
         </p>
       </div>
 
@@ -277,306 +270,684 @@
 
 
 <!-- ═══════════════════════════════════════════════════════
-     ACTIVITÉS SISR
-     Six domaines du référentiel BTS SIO SISR.
-     activite-icon = carré emoji en haut de carte.
-     activite-meta = ligne de pied avec réalisation associée.
+     TABLEAU DE SYNTHÈSE (ÉPREUVE E5)
+     Récapitulatif officiel des réalisations et compétences
 ════════════════════════════════════════════════════════ -->
-<section id="activites">
+<section id="synthese">
   <div class="container">
 
-    <p class="section-label">Référentiel SISR</p>
-    <h2 class="section-title">Activités liées aux compétences</h2>
+    <p class="section-label">Épreuve E5 · Référentiel Officiel</p>
+    <h2 class="section-title">Tableau de synthèse des réalisations</h2>
     <p class="section-intro">
-      Ces six domaines structurent le référentiel du BTS SIO SISR.
-      Voici mes activités réalisées dans chacun d'eux au cours de ma première année.
+      Ce tableau officiel récapitule l'ensemble des compétences professionnelles du BTS SIO SISR
+      mises en œuvre lors de mes réalisations en formation et en milieu professionnel.
     </p>
 
-    <!-- Image illustrative : infrastructure réseau -->
-    <div class="section-img-wrap">
-      <img
-        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1000&q=80"
-        alt="Infrastructure réseau et serveurs"
-        class="section-img"
-        loading="lazy"
-      />
+    <!-- Fiche récapitulative du candidat & session -->
+    <div class="synthese-container">
+      <div class="synthese-info-bar">
+        <div class="synthese-info-item">
+          <strong>Candidat</strong>
+          Mathias Alcide
+        </div>
+        <div class="synthese-info-item">
+          <strong>Session</strong>
+          Session 2026
+        </div>
+        <div class="synthese-info-item">
+          <strong>Option</strong>
+          SISR (Solutions d'Infrastructure, Systèmes et Réseaux)
+        </div>
+        <div class="synthese-info-item">
+          <strong>Centre de formation</strong>
+          Lycée Vilgénis, Massy
+        </div>
+        <div class="synthese-info-item">
+          <strong>URL Portfolio</strong>
+          <a href="https://zikllope.github.io/portfolio/" target="_blank" rel="noopener">zikllope.github.io/portfolio</a>
+        </div>
+      </div>
+
+      <!-- Conteneur avec scroll horizontal pour affichage responsive optimal -->
+      <div class="table-responsive">
+        <table class="synthese-table">
+          <thead>
+            <tr class="head-top">
+              <th rowspan="2">Compétences mises en œuvre<br><br>Réalisations professionnelles<br><small style="font-weight: normal; opacity: 0.85;">(Intitulé et liste des documents &amp; productions associés)</small></th>
+              <th rowspan="2">Période<br><small style="font-weight: normal; opacity: 0.85;">(JJ/MM/AA au JJ/MM/AA)</small></th>
+              <th>Gérer le patrimoine informatique</th>
+              <th>Répondre aux incidents et demandes d'assistance</th>
+              <th>Développer la présence en ligne</th>
+              <th>Travailler en mode projet</th>
+              <th>Mettre à disposition un service info</th>
+              <th>Organiser son développement pro</th>
+            </tr>
+            <tr class="sub-criteria">
+              <th>
+                <ul>
+                  <li>Recenser &amp; identifier les ressources</li>
+                  <li>Exploiter référentiels &amp; normes</li>
+                  <li>Vérifier niveaux d'habilitation</li>
+                  <li>Vérifier continuité de service</li>
+                  <li>Gérer des sauvegardes</li>
+                  <li>Vérifier règles d'utilisation</li>
+                </ul>
+              </th>
+              <th>
+                <ul>
+                  <li>Collecter, suivre &amp; orienter demandes</li>
+                  <li>Traiter demandes réseau/système</li>
+                  <li>Traiter demandes applicatives</li>
+                </ul>
+              </th>
+              <th>
+                <ul>
+                  <li>Valoriser l'image numérique</li>
+                  <li>Référencer services &amp; visibilité</li>
+                  <li>Évolution de site Web</li>
+                </ul>
+              </th>
+              <th>
+                <ul>
+                  <li>Analyser objectifs d'organisation</li>
+                  <li>Planifier les activités</li>
+                  <li>Évaluer indicateurs &amp; écarts</li>
+                </ul>
+              </th>
+              <th>
+                <ul>
+                  <li>Tests d'intégration &amp; acceptation</li>
+                  <li>Déployer un service</li>
+                  <li>Accompagner les utilisateurs</li>
+                </ul>
+              </th>
+              <th>
+                <ul>
+                  <li>Environnement d'apprentissage</li>
+                  <li>Veille informationnelle</li>
+                  <li>Gérer identité professionnelle</li>
+                  <li>Développer projet pro</li>
+                </ul>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <!-- ── Catégorie 1 : Réalisations en cours de formation ── -->
+            <tr class="section-row">
+              <td colspan="8">Réalisations en cours de formation</td>
+            </tr>
+
+            <!-- Ligne 1 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>TP Active Directory &amp; GPO</strong>
+                Déploiement d'un domaine Windows Server, création d'UO, gestion des utilisateurs, application de stratégies de groupe (blocage Internet via proxy mort).
+                <span class="docs">📄 Documents : Compte-rendu TP, script PowerShell gestion-eleves.ps1</span>
+              </td>
+              <td class="col-periode">2025 – 2026</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 2 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Automatisation PowerShell</strong>
+                Script de gestion des élèves (import CSV, création comptes AD, création automatique des OU, journalisation).
+                <span class="docs">📄 Documents : gestion-eleves.ps1, fichier CSV, logs</span>
+              </td>
+              <td class="col-periode">2025 – 2026</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 3 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>TP GLPI sur Debian</strong>
+                Installation et configuration de l'outil ITSM (résolution erreurs PHP 8.4, symlinks, DocumentRoot Apache).
+                <span class="docs">📄 Documents : Compte-rendu TP, captures d'écran</span>
+              </td>
+              <td class="col-periode">2025 – 2026</td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 4 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>TP Cisco Packet Tracer</strong>
+                Configuration VLAN et trunking inter-switch, résolution conflit CDP native VLAN.
+                <span class="docs">📄 Documents : Fichier .pkt, compte-rendu</span>
+              </td>
+              <td class="col-periode">2025 – 2026</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 5 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>TP Déploiement d'image système</strong>
+                Sysprep, création image WIM, déploiement via WDS (résolution erreur 0x800F0975).
+                <span class="docs">📄 Documents : Compte-rendu, procédure Cleanup.xml</span>
+              </td>
+              <td class="col-periode">2024 – 2025</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 6 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Document cybersécurité</strong>
+                Conception architecture PKI, inter-VLAN et DMZ.
+                <span class="docs">📄 Documents : Document Word rendu</span>
+              </td>
+              <td class="col-periode">2025 – 2026</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+            </tr>
+
+            <!-- Ligne 7 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Portfolio BTS SIO</strong>
+                Conception et déploiement du portfolio professionnel personnel (HTML/CSS, GitHub Pages).
+                <span class="docs">📄 Documents : Site mathiasalcide.fr, dépôt GitHub zikllope</span>
+              </td>
+              <td class="col-periode">2025 – 2026</td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+            </tr>
+
+            <!-- ── Catégorie 2 : Réalisations en milieu professionnel en 1ère année ── -->
+            <tr class="section-row">
+              <td colspan="8">Réalisations en milieu professionnel en cours de première année (Stage en entreprise)</td>
+            </tr>
+
+            <!-- Ligne 8 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Enrôlement de postes Windows 11 via Active Directory</strong>
+                Configuration selon procédure, ajout au domaine, application des GPO.
+                <span class="docs">📄 Documents : Procédure d'enrôlement rédigée et mise à jour</span>
+              </td>
+              <td class="col-periode">01/06/25 au 03/07/25</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 9 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Diagnostic et réinstallation d'un PC chiffré par BitLocker</strong>
+                Création clé bootable Windows 11, réinstallation depuis serveur réseau, ré-enrôlement AD.
+                <span class="docs">📄 Documents : Ticket FreshService</span>
+              </td>
+              <td class="col-periode">01/06/25 au 03/07/25</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 10 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Diagnostic, mise à jour et envoi au SAV de PC défectueux</strong>
+                Contact SAV Lenovo, rédaction et mise à jour de la procédure SAV interne.
+                <span class="docs">📄 Documents : Procédure SAV, tickets FreshService</span>
+              </td>
+              <td class="col-periode">01/06/25 au 03/07/25</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 11 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Déploiement et support du softphone 3CX</strong>
+                Activation prises RJ45, installation sur postes, résolution incidents (micro bloqué, notifications, sortie audio), rédaction guide utilisateur.
+                <span class="docs">📄 Documents : Guide utilisateur 3CX, tickets FreshService</span>
+              </td>
+              <td class="col-periode">01/06/25 au 03/07/25</td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 12 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Installation complète du service CRC</strong>
+                Déplacement et installation des postes, câblage réseau, branchements, vérification connectivité, déploiement logiciels.
+                <span class="docs">📄 Documents : Tickets FreshService</span>
+              </td>
+              <td class="col-periode">01/06/25 au 03/07/25</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+            </tr>
+
+            <!-- Ligne 13 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Enrôlement et préparation de 60 iPhone</strong>
+                Attribution profils MDM (licences VPP Apple), activation double authentification (Microsoft Authenticator), vérification applications (Outlook, Edge…).
+                <span class="docs">📄 Documents : Base de données MDM, procédure enrôlement</span>
+              </td>
+              <td class="col-periode">01/06/25 au 03/07/25</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+            </tr>
+
+            <!-- Ligne 14 -->
+            <tr>
+              <td class="col-realisation">
+                <strong>Participation à une campagne de sensibilisation au phishing</strong>
+                Configuration règles pare-feu Orange, whitelisting domaines Microsoft, simulation d'attaque phishing (prestataire AAI2).
+                <span class="docs">📄 Documents : Règles pare-feu documentées</span>
+              </td>
+              <td class="col-periode">01/06/25 au 03/07/25</td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"></td>
+              <td class="col-check"><span class="badge-check">✓</span></td>
+            </tr>
+
+            <!-- ── Catégorie 3 : Réalisations en milieu professionnel en seconde année ── -->
+            <tr class="section-row">
+              <td colspan="8">Réalisations en milieu professionnel en cours de seconde année</td>
+            </tr>
+            <tr>
+              <td class="col-realisation" colspan="2" style="font-style: italic; color: var(--muted); text-align: center; padding: 20px;">
+                Stage de seconde année et projets professionnels en cours de réalisation (Session 2026)
+              </td>
+              <td class="col-check" colspan="6"></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="activites-grid">
-
-      <!-- Activité 1 -->
-      <div class="activite-card">
-        <div class="activite-icon">🖥️</div>
-        <h4>Gérer le patrimoine informatique</h4>
-        <p>
-          Inventaire du parc informatique via GLPI, gestion des équipements,
-          suivi des licences logicielles et documentation des configurations
-          matérielles et logicielles.
-        </p>
-        <div class="tags-row">
-          <span class="tag">GLPI</span>
-          <span class="tag">Inventaire</span>
-          <span class="tag">Documentation</span>
-        </div>
-        <div class="activite-meta">
-          📁 Réalisation : mise en place d'un inventaire GLPI en TP
-        </div>
-      </div>
-
-      <!-- Activité 2 -->
-      <div class="activite-card">
-        <div class="activite-icon">🔧</div>
-        <h4>Répondre aux incidents et demandes d'assistance</h4>
-        <p>
-          Traitement de tickets d'incidents, diagnostic de pannes matérielles
-          et logicielles, assistance aux utilisateurs et remontée des anomalies
-          via un système de ticketing.
-        </p>
-        <div class="tags-row">
-          <span class="tag">GLPI</span>
-          <span class="tag">Support N1/N2</span>
-          <span class="tag">Ticketing</span>
-        </div>
-        <div class="activite-meta">
-          📁 Réalisation : simulation de gestion d'incidents en TP GLPI
-        </div>
-      </div>
-
-      <!-- Activité 3 -->
-      <div class="activite-card">
-        <div class="activite-icon">🌍</div>
-        <h4>Développer la présence en ligne de l'organisation</h4>
-        <p>
-          Création et déploiement d'un site web professionnel sous WordPress
-          avec Elementor pour une entreprise de gestion de patrimoine.
-          Configuration du nom de domaine et de l'hébergement.
-        </p>
-        <div class="tags-row">
-          <span class="tag">WordPress</span>
-          <span class="tag">Elementor</span>
-          <span class="tag">HTML/CSS</span>
-        </div>
-        <div class="activite-meta">
-          📁 Réalisation : site WordPress — entreprise de gestion de patrimoine
-        </div>
-      </div>
-
-      <!-- Activité 4 -->
-      <div class="activite-card">
-        <div class="activite-icon">📊</div>
-        <h4>Travailler en mode projet</h4>
-        <p>
-          Participation à des projets informatiques en équipe avec planification
-          des tâches, communication structurée et rendu de livrables dans les
-          délais impartis.
-        </p>
-        <div class="tags-row">
-          <span class="tag">Gantt</span>
-          <span class="tag">Travail en équipe</span>
-          <span class="tag">Livrables</span>
-        </div>
-        <div class="activite-meta">
-          📁 Réalisation : projet AP en équipe — déploiement infrastructure
-        </div>
-      </div>
-
-      <!-- Activité 5 -->
-      <div class="activite-card">
-        <div class="activite-icon">⚙️</div>
-        <h4>Mettre à disposition un service informatique</h4>
-        <p>
-          Installation et configuration de services réseaux : DHCP, DNS,
-          Active Directory sous Windows Server. Déploiement de machines
-          virtuelles et documentation technique associée.
-        </p>
-        <div class="tags-row">
-          <span class="tag">Windows Server</span>
-          <span class="tag">Active Directory</span>
-          <span class="tag">DHCP / DNS</span>
-          <span class="tag">VirtualBox</span>
-        </div>
-        <div class="activite-meta">
-          📁 Réalisation : déploiement AD DS + DHCP en TP Windows Server
-        </div>
-      </div>
-
-      <!-- Activité 6 -->
-      <div class="activite-card">
-        <div class="activite-icon">📈</div>
-        <h4>Organiser son développement professionnel</h4>
-        <p>
-          Veille technologique régulière sur les évolutions en cybersécurité
-          et réseaux. Maintien d'un portfolio en ligne et pratique du
-          développement web en autodidacte pour renforcer le profil technique.
-        </p>
-        <div class="tags-row">
-          <span class="tag">Veille</span>
-          <span class="tag">Portfolio</span>
-          <span class="tag">Autodidacte</span>
-        </div>
-        <div class="activite-meta">
-          📁 Réalisation : site portfolio mathiasalcide.fr + veille mensuelle
-        </div>
-      </div>
-
-    </div>
   </div>
 </section>
 
 
 <!-- ═══════════════════════════════════════════════════════
-     PROJETS
-     projet-row = ligne deux colonnes : description | badge.
-     projet-badge.vert = variante verte du badge de contexte.
+     STAGE EN ENTREPRISE (MILIEU PROFESSIONNEL)
+     Rapport de stage et missions techniques du tableau de synthèse
 ════════════════════════════════════════════════════════ -->
-<section id="projets">
+<section id="stage">
   <div class="container">
 
-    <p class="section-label">Réalisations</p>
-    <h2 class="section-title">Projets réalisés</h2>
+    <p class="section-label">Immersion professionnelle</p>
+    <h2 class="section-title">Stage en entreprise – Support &amp; Infrastructure</h2>
     <p class="section-intro">
-      Ensemble des projets menés en formation, en TP et en autonomie,
-      classés par compétences mobilisées.
+      Stage de première année réalisé du 01/06/2025 au 03/07/2025 (5 semaines) au sein du pôle
+      informatique, en collaboration directe avec l'équipe Support utilisateur et l'équipe Réseau &amp; Systèmes.
     </p>
 
+    <!-- Fiche de contexte de stage -->
+    <div class="profile-card" style="margin-bottom: 32px;">
+      <h3>Cadre &amp; Environnement d'entreprise</h3>
+      <ul class="info-list">
+        <li>
+          <span class="key">Période du stage</span>
+          <span class="val">Du 01/06/2025 au 03/07/2025 (5 semaines à temps plein)</span>
+        </li>
+        <li>
+          <span class="key">Pôle d'affectation</span>
+          <span class="val">Support Informatique N1/N2 &amp; Pôle Infrastructure Réseau / Systèmes</span>
+        </li>
+        <li>
+          <span class="key">Encadrement technique</span>
+          <span class="val">Administrateurs réseau et techniciens support (Jawad, Amel, Emmanuel)</span>
+        </li>
+        <li>
+          <span class="key">Outils d'infrastructure</span>
+          <span class="val">Active Directory, RSAT, Windows 11 Pro, FreshService, MDM, ToIP 3CX, Pare-feu Orange</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Liste des 4 grandes missions techniques du stage -->
     <div class="projets-list">
 
-      <!-- Projet 1 : WordPress patrimoine -->
+      <!-- Mission 1 : Déploiement ToIP 3CX & Aménagement réseau CRC -->
       <div class="projet-row">
         <div class="projet-img-col">
           <img
-            src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=400&q=80"
-            alt="Création de site web WordPress"
+            src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80"
+            alt="Baie de brassage réseau et téléphonie ToIP"
             loading="lazy"
           />
         </div>
         <div class="projet-content">
-          <h4>Site WordPress — Gestion de patrimoine</h4>
+          <h4>Déploiement de la téléphonie ToIP 3CX &amp; Aménagement réseau CRC</h4>
           <p>
-            Création d'un site web complet pour une entreprise de gestion de
-            patrimoine. Utilisation de WordPress avec le constructeur Elementor
-            pour concevoir les pages, configuration du thème, mise en place
-            du formulaire de contact et optimisation de la lisibilité pour les
-            clients. Déploiement et configuration du nom de domaine inclus.
+            Participation majeure à la transition vers la téléphonie sur IP (softphone 3CX) pour remplacer
+            les téléphones fixes physiques de l'entreprise. Activation et raccordement des prises RJ45 au niveau
+            des switchs de brassage, installation et configuration du client 3CX sur les postes. Résolution d'incidents
+            critiques (périphériques micro verrouillés, routage des flux audio dans les casques, gestion des popups
+            de notifications en arrière-plan). Rédaction de la procédure interne et du guide utilisateur, formation
+            du personnel d'accueil et installation réseau complète du nouveau service CRC (Centre de Relation Client).
           </p>
           <div class="tags-row">
-            <span class="tag">WordPress</span>
-            <span class="tag">Elementor</span>
-            <span class="tag">HTML/CSS</span>
-            <span class="tag">Hébergement</span>
+            <span class="tag">ToIP 3CX</span>
+            <span class="tag">Switching RJ45</span>
+            <span class="tag">Brassage réseau</span>
+            <span class="tag">Service CRC</span>
+            <span class="tag">Guide utilisateur</span>
           </div>
         </div>
-        <span class="projet-badge vert">Expérience pro</span>
+        <span class="projet-badge vert">Stage (Entreprise)</span>
       </div>
 
-      <!-- Projet 2 : Portfolio personnel -->
+      <!-- Mission 2 : Gestion de flotte mobile MDM & Apple VPP (60 iPhone) -->
       <div class="projet-row">
         <div class="projet-img-col">
           <img
-            src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&q=80"
-            alt="Portfolio web personnel"
+            src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&q=80"
+            alt="Gestion de flotte mobile de smartphones"
             loading="lazy"
           />
         </div>
         <div class="projet-content">
-          <h4>Site portfolio personnel — mathiasalcide.fr</h4>
+          <h4>Enrôlement et sécurisation d'une flotte de 60 iPhone (MDM &amp; VPP)</h4>
           <p>
-            Conception et déploiement d'un site portfolio professionnel sous
-            WordPress avec Elementor. Présentation du parcours, des compétences
-            et des projets. Configuration du nom de domaine et de l'hébergement.
-            Ce site sert de vitrine de candidature pour l'alternance.
+            Préparation, enrôlement et déploiement de profils de sécurité sur une flotte de 60 smartphones Apple
+            d'entreprise. Diagnostic approfondi d'un incident bloquant empêchant la descente des applications professionnelles
+            (Outlook, Edge) : identification d'une rupture de synchronisation du jeton de licence Apple VPP (Volume Purchase Program)
+            et rétablissement des flux. Déploiement généralisé de l'authentification multifacteur (MFA) via Microsoft Authenticator
+            et mise à jour de la base de données de suivi d'inventaire de la flotte.
           </p>
           <div class="tags-row">
-            <span class="tag">WordPress</span>
-            <span class="tag">Elementor</span>
-            <span class="tag">DNS / Hébergement</span>
+            <span class="tag">MDM</span>
+            <span class="tag">Apple VPP</span>
+            <span class="tag">Microsoft Authenticator</span>
+            <span class="tag">MFA</span>
+            <span class="tag">Flotte mobile</span>
           </div>
         </div>
-        <span class="projet-badge">Personnel</span>
+        <span class="projet-badge vert">Stage (Entreprise)</span>
       </div>
 
-      <!-- Projet 3 : Déploiement AD DS en TP -->
+      <!-- Mission 3 : Administration Windows 11, RSAT & Dépannage BitLocker -->
       <div class="projet-row">
         <div class="projet-img-col">
           <img
             src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=400&q=80"
-            alt="Administration Windows Server"
+            alt="Console d'administration système et postes de travail"
             loading="lazy"
           />
         </div>
         <div class="projet-content">
-          <h4>Déploiement Active Directory — Windows Server</h4>
+          <h4>Administration Windows 11, RSAT, Active Directory &amp; Dépannage BitLocker</h4>
           <p>
-            En TP SISR, installation et configuration d'un contrôleur de domaine
-            sous Windows Server dans un environnement virtualisé (VirtualBox).
-            Mise en place de l'AD DS, création d'unités d'organisation, de
-            groupes et de comptes utilisateurs, puis configuration du service
-            DHCP pour attribution automatique des adresses IP.
+            Enrôlement et intégration de postes Windows 11 Pro au domaine Active Directory via les outils d'administration
+            à distance RSAT, application des stratégies de groupe (GPO) et rédaction/mise à jour de la procédure d'enrôlement
+            interne. Dépannage avancé d'un poste critique bloqué par le chiffrement BitLocker : confection d'un média d'amorce
+            Windows 11 bootable, réinstallation du système depuis le serveur de déploiement réseau et réintégration au domaine.
+            Diagnostic matériel sur parc Lenovo, mise à jour et gestion des retours sous garantie constructeur via FreshService.
           </p>
           <div class="tags-row">
-            <span class="tag">Windows Server</span>
+            <span class="tag">Windows 11 Pro</span>
             <span class="tag">Active Directory</span>
-            <span class="tag">DHCP</span>
-            <span class="tag">VirtualBox</span>
+            <span class="tag">RSAT</span>
+            <span class="tag">BitLocker</span>
+            <span class="tag">SAV Lenovo</span>
+            <span class="tag">FreshService</span>
+          </div>
+        </div>
+        <span class="projet-badge vert">Stage (Entreprise)</span>
+      </div>
+
+      <!-- Mission 4 : Cybersécurité opérationnelle & Sensibilisation au Phishing -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&q=80"
+            alt="Cybersécurité et pare-feu réseau"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Cybersécurité opérationnelle &amp; Campagne de sensibilisation anti-phishing</h4>
+          <p>
+            Implication dans la campagne d'audit et de sensibilisation aux risques d'ingénierie sociale menée en
+            partenariat avec le prestataire spécialisé AAI2. Définition et paramétrage des règles de filtrage sur le
+            pare-feu managé Orange pour autoriser les flux de test contrôlés. Whitelisting des domaines d'attaque simulée
+            sur les passerelles de messagerie Microsoft 365 / Exchange Online, suivi des remontées d'incidents et sensibilisation
+            des collaborateurs aux bonnes pratiques face aux attaques par hameçonnage.
+          </p>
+          <div class="tags-row">
+            <span class="tag">Cybersécurité</span>
+            <span class="tag">Anti-Phishing</span>
+            <span class="tag">Pare-feu Orange</span>
+            <span class="tag">Microsoft 365</span>
+            <span class="tag">Filtrage de flux</span>
+          </div>
+        </div>
+        <span class="projet-badge vert">Stage (Entreprise)</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════════
+     PROJETS PERSONNELS, HOMELAB & FORMATION
+     Projets techniques en autonomie (Homelab IA) et TP BTS SIO
+════════════════════════════════════════════════════════ -->
+<section id="projets">
+  <div class="container">
+
+    <p class="section-label">Réalisations techniques</p>
+    <h2 class="section-title">Projets Personnels, Homelab &amp; Formation</h2>
+    <p class="section-intro">
+      Ensemble de mes projets d'infrastructure menés en autonomie au sein de mon Homelab
+      ainsi que les travaux pratiques approfondis réalisés en formation BTS SIO SISR.
+    </p>
+
+    <div class="projets-list">
+
+      <!-- Projet Phare : Homelab & Serveur Agents IA -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&q=80"
+            alt="Serveur local Homelab et intelligence artificielle"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Homelab personnel d'infrastructure locale &amp; Serveur d'agents IA</h4>
+          <p>
+            Conception et administration d'un environnement serveur dédié à domicile (Homelab on-premise) hébergeant
+            des agents d'intelligence artificielle autonomes. Segmentation réseau locale avec adressage statique et
+            accès distant sécurisé (SSH, reverse proxy). Déploiement d'environnements virtualisés et conteneurisés sous Linux,
+            gestion optimisée de l'allocation des ressources matérielles (CPU, mémoire vive, accélération d'inférence)
+            et mise en place de modèles d'IA locaux pour exécuter des tâches d'assistance et d'automatisation sans dépendance
+            au cloud, garantissant une totale souveraineté et confidentialité des données.
+          </p>
+          <div class="tags-row">
+            <span class="tag">Homelab</span>
+            <span class="tag">Agents IA locaux</span>
+            <span class="tag">Linux / Docker</span>
+            <span class="tag">Virtualisation</span>
+            <span class="tag">Segmentation réseau</span>
+            <span class="tag">On-premise</span>
+          </div>
+        </div>
+        <span class="projet-badge vert">Personnel / Homelab</span>
+      </div>
+
+      <!-- Projet 2 : Automatisation PowerShell Active Directory -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&q=80"
+            alt="Automatisation par script PowerShell"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Automatisation Active Directory par script PowerShell (gestion-eleves.ps1)</h4>
+          <p>
+            Développement d'un script d'automatisation PowerShell permettant le provisionnement massif de comptes
+            utilisateurs dans un annuaire Active Directory Windows Server à partir d'un fichier CSV. Le script gère
+            la création dynamique de l'arborescence des Unités d'Organisation (OU), la génération sécurisée des identifiants
+            et mots de passe temporaires, l'affectation automatique aux groupes de sécurité et la journalisation complète
+            des actions dans un fichier de log horodaté.
+          </p>
+          <div class="tags-row">
+            <span class="tag">PowerShell</span>
+            <span class="tag">Active Directory</span>
+            <span class="tag">Windows Server</span>
+            <span class="tag">Import CSV</span>
+            <span class="tag">Automatisation</span>
           </div>
         </div>
         <span class="projet-badge">TP SISR</span>
       </div>
 
-      <!-- Projet 4 : Analyse de vulnérabilités / cybersécurité -->
-      <div class="projet-row">
-        <div class="projet-img-col">
-          <img
-            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&q=80"
-            alt="Cybersécurité et analyse de réseau"
-            loading="lazy"
-          />
-        </div>
-        <div class="projet-content">
-          <h4>Analyse de sécurité réseau — Wireshark & Nmap</h4>
-          <p>
-            Réalisation d'une analyse de trafic réseau avec Wireshark pour
-            identifier les protocoles échangés et détecter d'éventuels flux
-            non sécurisés. Utilisation de Nmap pour scanner les ports ouverts
-            sur un réseau local en environnement de test. Rédaction d'un compte
-            rendu listant les risques identifiés et les recommandations associées.
-          </p>
-          <div class="tags-row">
-            <span class="tag">Wireshark</span>
-            <span class="tag">Nmap</span>
-            <span class="tag">Cybersécurité</span>
-            <span class="tag">Analyse réseau</span>
-          </div>
-        </div>
-        <span class="projet-badge">TP / AP</span>
-      </div>
-
-      <!-- Projet 5 : Infrastructure réseau simulée (Packet Tracer) -->
+      <!-- Projet 3 : Architecture réseau Cisco Packet Tracer -->
       <div class="projet-row">
         <div class="projet-img-col">
           <img
             src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80"
-            alt="Simulation réseau Packet Tracer"
+            alt="Simulation architecture réseau Cisco"
             loading="lazy"
           />
         </div>
         <div class="projet-content">
-          <h4>Simulation d'infrastructure réseau — Cisco Packet Tracer</h4>
+          <h4>Architecture réseau d'entreprise, VLAN &amp; Trunking 802.1Q</h4>
           <p>
-            Conception et simulation d'une infrastructure réseau d'entreprise
-            avec Cisco Packet Tracer : routeurs, switchs, VLAN, adressage IP,
-            configuration des interfaces et tests de connectivité. L'objectif
-            était de reproduire l'architecture d'un réseau de PME avec une
-            séparation des services par VLAN.
+            Modélisation et simulation d'une infrastructure d'entreprise sous Cisco Packet Tracer : segmentation par
+            VLAN par service, configuration du trunking inter-switchs selon la norme IEEE 802.1Q, résolution de conflits
+            CDP (Native VLAN Mismatch), mise en place du routage inter-VLAN (Router-on-a-Stick) et sécurisation des ports
+            d'accès commutés (Port-Security contre les attaques d'usurpation MAC).
           </p>
           <div class="tags-row">
             <span class="tag">Cisco Packet Tracer</span>
             <span class="tag">VLAN</span>
-            <span class="tag">Routage</span>
-            <span class="tag">TCP/IP</span>
+            <span class="tag">Trunk 802.1Q</span>
+            <span class="tag">Routage inter-VLAN</span>
+            <span class="tag">Switching</span>
           </div>
         </div>
-        <span class="projet-badge">AP / Cours</span>
+        <span class="projet-badge">AP / Réseau</span>
+      </div>
+
+      <!-- Projet 4 : Serveur GLPI Debian -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=400&q=80"
+            alt="Serveur Linux Debian et base de données"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Déploiement et sécurisation d'un serveur ITSM GLPI sous Debian</h4>
+          <p>
+            Installation et configuration de la solution de gestion de parc et d'incidents GLPI sur machine virtuelle Linux
+            Debian. Déploiement de la pile LAMP (Apache, MariaDB, PHP 8.4), résolution des problématiques de compatibilité PHP,
+            gestion des liens symboliques et sécurisation du DocumentRoot Apache. Paramétrage des entités, profils techniciens,
+            catégories de tickets d'assistance et inventaire des équipements.
+          </p>
+          <div class="tags-row">
+            <span class="tag">Debian</span>
+            <span class="tag">GLPI</span>
+            <span class="tag">Apache / PHP 8.4</span>
+            <span class="tag">MariaDB</span>
+            <span class="tag">ITSM</span>
+          </div>
+        </div>
+        <span class="projet-badge">TP SISR</span>
+      </div>
+
+      <!-- Projet 5 : Architecture Cybersécurité PKI & DMZ -->
+      <div class="projet-row">
+        <div class="projet-img-col">
+          <img
+            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&q=80"
+            alt="Conception sécurité réseau PKI et DMZ"
+            loading="lazy"
+          />
+        </div>
+        <div class="projet-content">
+          <h4>Conception d'une architecture sécurisée PKI, DMZ &amp; Filtrage réseau</h4>
+          <p>
+            Élaboration d'un dossier d'architecture technique de cybersécurité pour une infrastructure d'organisation :
+            définition d'une autorité de certification à deux niveaux (PKI racine hors-ligne et autorité émettrice),
+            sécurisation des flux internes via certificats X.509, conception d'une zone démilitarisée (DMZ) pour isoler les
+            serveurs exposés à Internet et rédaction des matrices de filtrage pare-feu inter-VLAN.
+          </p>
+          <div class="tags-row">
+            <span class="tag">Cybersécurité</span>
+            <span class="tag">PKI / X.509</span>
+            <span class="tag">DMZ</span>
+            <span class="tag">Pare-feu</span>
+            <span class="tag">Matrice de flux</span>
+          </div>
+        </div>
+        <span class="projet-badge">Cybersécurité</span>
       </div>
 
     </div>
@@ -585,9 +956,8 @@
 
 
 <!-- ═══════════════════════════════════════════════════════
-     COMPÉTENCES
-     Pas de barres visuelles — affichage en grilles de tags.
-     comp-block = bloc par domaine technique.
+     COMPÉTENCES TECHNIQUES
+     Grille par domaines de compétences et soft skills
 ════════════════════════════════════════════════════════ -->
 <section id="competences">
   <div class="container">
@@ -595,81 +965,86 @@
     <p class="section-label">Savoir-faire</p>
     <h2 class="section-title">Compétences techniques</h2>
     <p class="section-intro">
-      Compétences acquises en cours, en TP, en stage et en pratique personnelle
-      au cours de ma première année de BTS SIO SISR.
+      Ensemble des compétences technologiques mobilisées et validées en stage,
+      en travaux pratiques de BTS SIO SISR et au sein de mes projets personnels.
     </p>
 
     <div class="competences-wrap">
 
       <!-- Bloc Réseaux -->
       <div class="comp-block">
-        <h4>🌐 Réseaux &amp; Infrastructure</h4>
+        <h4>🌐 Réseaux &amp; Téléphonie ToIP</h4>
         <div class="comp-tags">
           <span class="tag">TCP/IP</span>
-          <span class="tag">VLAN</span>
-          <span class="tag">DNS</span>
-          <span class="tag">DHCP</span>
-          <span class="tag">Routage statique</span>
+          <span class="tag">VLAN (802.1Q)</span>
+          <span class="tag">Trunking</span>
+          <span class="tag">Routage inter-VLAN</span>
+          <span class="tag">DNS / DHCP</span>
+          <span class="tag">Brassage RJ45</span>
+          <span class="tag">ToIP 3CX</span>
           <span class="tag">Cisco Packet Tracer</span>
-          <span class="tag">Adressage IP</span>
-          <span class="tag">Sous-réseaux (VLSM)</span>
+          <span class="tag">Adressage IP (VLSM)</span>
         </div>
       </div>
 
       <!-- Bloc Systèmes -->
       <div class="comp-block">
-        <h4>🖥️ Systèmes</h4>
+        <h4>🖥️ Systèmes &amp; Virtualisation</h4>
         <div class="comp-tags">
-          <span class="tag">Windows Server 2019</span>
+          <span class="tag">Windows Server 2019/2022</span>
           <span class="tag">Active Directory (AD DS)</span>
+          <span class="tag">RSAT</span>
+          <span class="tag">GPO (Stratégies)</span>
+          <span class="tag">Windows 11 Pro</span>
           <span class="tag">Debian / Linux</span>
+          <span class="tag">PowerShell (Scripting)</span>
           <span class="tag">VirtualBox</span>
-          <span class="tag">GLPI</span>
-          <span class="tag">Scripts Bash</span>
-          <span class="tag">PowerShell (bases)</span>
+          <span class="tag">GLPI ITSM</span>
         </div>
       </div>
 
-      <!-- Bloc Cybersécurité -->
+      <!-- Bloc Cybersécurité & Flotte -->
       <div class="comp-block">
-        <h4>🔐 Cybersécurité</h4>
+        <h4>🔐 Cybersécurité &amp; Gestion MDM</h4>
         <div class="comp-tags">
-          <span class="tag">Wireshark</span>
-          <span class="tag">Nmap</span>
-          <span class="tag">Analyse de trafic</span>
-          <span class="tag">Scan de ports</span>
-          <span class="tag">Notions de pare-feu</span>
-          <span class="tag">Protocoles sécurisés (HTTPS, SSH)</span>
+          <span class="tag">Chiffrement BitLocker</span>
+          <span class="tag">MFA (Authenticator)</span>
+          <span class="tag">MDM (iOS / iPhone)</span>
+          <span class="tag">Apple VPP</span>
+          <span class="tag">Pare-feu (Orange / Filtrage)</span>
+          <span class="tag">Sensibilisation Phishing</span>
+          <span class="tag">PKI &amp; Certificats</span>
+          <span class="tag">Wireshark &amp; Nmap</span>
         </div>
       </div>
 
-      <!-- Bloc Développement Web -->
+      <!-- Bloc Développement, Homelab & IA -->
       <div class="comp-block">
-        <h4>💻 Développement Web &amp; Outils</h4>
+        <h4>🤖 Homelab, IA &amp; Développement</h4>
         <div class="comp-tags">
+          <span class="tag">Homelab on-premise</span>
+          <span class="tag">Serveur Agents IA</span>
+          <span class="tag">LLM &amp; Inférence locale</span>
+          <span class="tag">Docker (bases)</span>
+          <span class="tag">Python (scripts)</span>
+          <span class="tag">Git / GitHub Pages</span>
           <span class="tag">HTML / CSS</span>
-          <span class="tag">PHP (bases)</span>
-          <span class="tag">SQL</span>
-          <span class="tag">WordPress</span>
-          <span class="tag">Elementor</span>
-          <span class="tag">Git / GitHub</span>
-          <span class="tag">Python (bases)</span>
-          <span class="tag">Java (bases)</span>
+          <span class="tag">SQL / MariaDB</span>
         </div>
       </div>
 
     </div>
 
     <!-- Soft skills -->
-    <p class="section-label section-label-spaced">Soft skills</p>
+    <p class="section-label section-label-spaced">Qualités humaines &amp; relationnelles</p>
     <div class="tags-row">
-      <span class="tag green">Autonomie</span>
-      <span class="tag green">Curiosité technique</span>
+      <span class="tag green">Autonomie &amp; Curiosité</span>
+      <span class="tag green">Sens du service &amp; Support utilisateur</span>
+      <span class="tag green">Rigueur méthodologique</span>
       <span class="tag green">Travail en équipe</span>
-      <span class="tag green">Rigueur</span>
-      <span class="tag green">Esprit d'analyse</span>
-      <span class="tag green">Pédagogie (coaching)</span>
-      <span class="tag green">Adaptabilité</span>
+      <span class="tag green">Pédagogie &amp; Transmission</span>
+      <span class="tag green">Esprit d'analyse et de diagnostic</span>
+      <span class="tag green">Adaptabilité face aux imprévus</span>
     </div>
 
   </div>
@@ -678,93 +1053,182 @@
 
 <!-- ═══════════════════════════════════════════════════════
      VEILLE TECHNOLOGIQUE
-     veille-card = fiche de veille individuelle.
-     v-date = date stylisée en haut de la fiche.
-     veille-tools = boîte des sources et outils utilisés.
+     Sujet : Intelligence artificielle et football :
+     quand les algorithmes arbitrent, analysent et racontent le match
+     Rendu dynamique connecté aux flux RSS
 ════════════════════════════════════════════════════════ -->
 <section id="veille">
   <div class="container">
 
-    <p class="section-label">Développement professionnel</p>
-    <h2 class="section-title">Veille technologique</h2>
+    <p class="section-label">Veille technologique · Épreuve E5</p>
+    <h2 class="section-title">Intelligence Artificielle &amp; Football</h2>
     <p class="section-intro">
-      La veille est une compétence clé du BTS SIO. Elle me permet de suivre
-      les évolutions du secteur et d'anticiper les nouvelles pratiques en
-      réseaux et cybersécurité.
+      Thématique de veille : <strong>« Quand les algorithmes arbitrent, analysent et racontent le match »</strong>.
+      Suivi régulier des innovations croisant vision par ordinateur, capteurs IoT, analyse de données prédictive
+      et modèles génératifs au service du sport professionnel.
     </p>
 
-    <div class="veille-grid">
-
-      <!-- Fiche 1 -->
-      <div class="veille-card">
-        <div class="v-date">Novembre 2025</div>
-        <h4>Montée en puissance du Zero Trust Network Access (ZTNA)</h4>
+    <!-- Les 3 axes thématiques de la veille -->
+    <div class="bts-grid" style="margin-bottom: 36px;">
+      <div class="bts-card">
+        <h4>1. Arbitrage &amp; SAOT</h4>
         <p>
-          Le modèle Zero Trust remplace progressivement les VPN traditionnels
-          dans les entreprises. Il consiste à ne faire confiance à aucun
-          utilisateur ou équipement par défaut, même à l'intérieur du réseau.
-          Pertinent pour la gestion des accès distants en SISR.
+          Hors-jeu semi-automatisé (SAOT), Goal-Line Technology (GLT) et aide à la décision VAR.
+          Exploitation de caméras optiques synchronisées et de capteurs inertiels (IMU) pour la reconstruction 3D en temps réel.
+        </p>
+      </div>
+
+      <div class="bts-card green">
+        <h4>2. Data Science &amp; Performance</h4>
+        <p>
+          Tracking optique multi-joueurs par computer vision, calcul des métriques avancées (Expected Goals xG, Expected Threat xT)
+          et modélisation biomécanique pour la prévention individualisée des blessures.
+        </p>
+      </div>
+
+      <div class="bts-card">
+        <h4>3. Média &amp; Narration IA</h4>
+        <p>
+          Génération instantanée de résumés vidéo par détection multimodale d'évènements clés, commentaires audio
+          automatisés par modèles de langage (LLM) et personnalisation des flux de diffusion pour les diffuseurs.
+        </p>
+      </div>
+    </div>
+
+    <!-- En-tête des articles avec indicateur de synchronisation -->
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 20px;">
+      <p class="section-label" style="margin-bottom: 0;">Articles de veille qualifiés</p>
+      <span id="veille-sync-badge" class="tag green">● Flux automatisés (RSS &amp; GitHub Actions)</span>
+    </div>
+
+    <!-- Filtres interactifs par catégorie -->
+    <div class="tags-row" style="margin-bottom: 24px;">
+      <button onclick="filterVeille('all')" class="tag navy" style="border:none; cursor:pointer; font-family:inherit;">Tous les articles</button>
+      <button onclick="filterVeille('Arbitrage & SAOT')" class="tag" style="border:none; cursor:pointer; font-family:inherit;">Arbitrage &amp; SAOT</button>
+      <button onclick="filterVeille('Data & Performance')" class="tag" style="border:none; cursor:pointer; font-family:inherit;">Data &amp; Performance</button>
+      <button onclick="filterVeille('Média & Narration IA')" class="tag" style="border:none; cursor:pointer; font-family:inherit;">Média &amp; Narration IA</button>
+    </div>
+
+    <!-- Grille des articles de veille (dynamique avec fallback pré-rendu) -->
+    <div class="veille-grid" id="veille-articles">
+
+      <!-- Article 1 -->
+      <div class="veille-card" data-category="Arbitrage & SAOT">
+        <div class="v-date">15 Mars 2026 · The Analyst (Opta)</div>
+        <h4><a href="https://theanalyst.com/eu/2024/02/semi-automated-offside-technology-explained/" target="_blank" rel="noopener">Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale</a></h4>
+        <p>
+          Déploiement de 12 caméras optiques dédiées et d'un capteur inertiel IMU à 500 Hz placé au cœur du ballon : comment la vision par ordinateur et le tracking squelettique à 29 points d'articulation par joueur réduisent le temps de décision de 70 secondes à moins de 25 secondes.
         </p>
         <div class="tags-row">
-          <span class="tag">Cybersécurité</span>
-          <span class="tag">Réseaux</span>
+          <span class="tag">SAOT</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Arbitrage</span>
+          <span class="tag">Tracking 3D</span>
         </div>
       </div>
 
-      <!-- Fiche 2 -->
-      <div class="veille-card">
-        <div class="v-date">Janvier 2026</div>
-        <h4>Vulnérabilités critiques dans les équipements Cisco IOS</h4>
+      <!-- Article 2 -->
+      <div class="veille-card" data-category="Data & Performance">
+        <div class="v-date">28 Février 2026 · arXiv cs.CV</div>
+        <h4><a href="https://arxiv.org/abs/2304.05389" target="_blank" rel="noopener">Computer Vision &amp; Tracking multi-joueurs : modéliser la tactique spatio-temporelle</a></h4>
         <p>
-          Publication par Cisco de correctifs pour plusieurs failles critiques
-          affectant IOS XE. Ces vulnérabilités permettaient une élévation de
-          privilèges à distance. Rappel de l'importance des mises à jour
-          firmware sur les équipements réseau.
+          Étude des réseaux de neurones convolutifs et Transformers appliqués à l'extraction de trajectoires 2D/3D en temps réel à partir de flux vidéo broadcast, permettant le calcul automatisé du pressing, de la compacité de bloc et du contrôle d'espace.
         </p>
         <div class="tags-row">
-          <span class="tag">Cisco</span>
-          <span class="tag">CVE</span>
-          <span class="tag">Patch management</span>
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Tactique</span>
+          <span class="tag">Tracking</span>
         </div>
       </div>
 
-      <!-- Fiche 3 -->
-      <div class="veille-card">
-        <div class="v-date">Mars 2026</div>
-        <h4>Active Directory : les attaques Pass-the-Hash en entreprise</h4>
+      <!-- Article 3 -->
+      <div class="veille-card" data-category="Data & Performance">
+        <div class="v-date">20 Janvier 2026 · Towards Data Science</div>
+        <h4><a href="https://towardsdatascience.com" target="_blank" rel="noopener">Expected Goals (xG) et Expected Threat (xT) : l'évaluation algorithmique des actions</a></h4>
         <p>
-          Étude des techniques d'attaque Pass-the-Hash ciblant les
-          environnements Active Directory. Ces attaques exploitent les hachages
-          NTLM pour s'authentifier sans connaître le mot de passe en clair.
-          Lien direct avec les TP Windows Server effectués en cours.
+          Comment les modèles d'apprentissage supervisé (arbres de décision Gradient Boosting, réseaux de neurones) calculent la probabilité qu'un tir se transforme en but selon la position, l'angle, la pression adverse et la trajectoire de passe.
         </p>
         <div class="tags-row">
-          <span class="tag">Active Directory</span>
-          <span class="tag">Sécurité Windows</span>
-          <span class="tag">NTLM</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">xG / xT</span>
+          <span class="tag">Big Data</span>
+          <span class="tag">Performance</span>
+        </div>
+      </div>
+
+      <!-- Article 4 -->
+      <div class="veille-card" data-category="Média & Narration IA">
+        <div class="v-date">10 Décembre 2025 · The Verge / Innovation</div>
+        <h4><a href="https://www.theverge.com" target="_blank" rel="noopener">Génération automatisée de résumés vidéo et commentaires multilingues par IA générative</a></h4>
+        <p>
+          Utilisation de modèles multimodaux pour détecter les moments forts (cris de foule, gestes d'arbitres, tirs cadrés) afin d'assembler des résumés de match personnalisés en temps réel et de synthétiser des commentaires audio multilingues.
+        </p>
+        <div class="tags-row">
+          <span class="tag">IA Générative</span>
+          <span class="tag">Multimodal</span>
+          <span class="tag">Broadcast</span>
+          <span class="tag">LLM</span>
+        </div>
+      </div>
+
+      <!-- Article 5 -->
+      <div class="veille-card" data-category="Arbitrage & SAOT">
+        <div class="v-date">18 Novembre 2025 · BBC Sport</div>
+        <h4><a href="https://feeds.bbci.co.uk/sport/football/rss.xml" target="_blank" rel="noopener">Premier League &amp; SAOT : bilan technique de l'intégration technologique</a></h4>
+        <p>
+          Retours d'expérience sur la précision millimétrique des reconstructions 3D diffusées aux spectateurs et téléspectateurs, et analyse de l'acceptation par le corps arbitral et le public.
+        </p>
+        <div class="tags-row">
+          <span class="tag">Premier League</span>
+          <span class="tag">SAOT</span>
+          <span class="tag">VAR</span>
+          <span class="tag">Réglementation</span>
+        </div>
+      </div>
+
+      <!-- Article 6 -->
+      <div class="veille-card" data-category="Data & Performance">
+        <div class="v-date">04 Octobre 2025 · The Analyst (Opta)</div>
+        <h4><a href="https://theanalyst.com" target="_blank" rel="noopener">Prévention algorithmique des blessures : capteurs GPS et biomécanique prédictive</a></h4>
+        <p>
+          Croisement des données de charge d'entraînement (accélérations, décélérations, fréquence cardiaque) et d'historique médical par des modèles prédictifs pour identifier les pics de fatigue et prévenir les déchirures musculaires.
+        </p>
+        <div class="tags-row">
+          <span class="tag">IoT</span>
+          <span class="tag">Biométrie</span>
+          <span class="tag">Santé athlète</span>
+          <span class="tag">Prédictif</span>
         </div>
       </div>
 
     </div>
 
-    <!-- Sources de veille -->
+    <!-- Outils, méthodologie et sources de veille -->
     <div class="veille-tools">
-      <h4>📡 Outils et sources de veille</h4>
+      <h4>📡 Méthodologie, outils et sources de veille</h4>
+      <p style="font-size: 13px; color: var(--muted); margin-bottom: 14px;">
+        Pipeline automatisé : agrégation quotidienne via script Python (<code>update_veille.py</code>) et GitHub Actions,
+        interrogeant les flux RSS spécialisés déclarés dans <code>feeds.txt</code> avec filtrage sémantique.
+      </p>
       <div class="tags-row">
-        <span class="tag navy">ANSSI (cert.ssi.gouv.fr)</span>
-        <span class="tag navy">CVE Details</span>
-        <span class="tag navy">Le Monde Informatique</span>
-        <span class="tag navy">Korben.info</span>
-        <span class="tag navy">Reddit r/netsec</span>
-        <span class="tag navy">LinkedIn</span>
+        <span class="tag navy">The Analyst (Opta)</span>
+        <span class="tag navy">arXiv cs.CV (Computer Vision)</span>
+        <span class="tag navy">Towards Data Science</span>
+        <span class="tag navy">BBC Sport (VAR &amp; SAOT)</span>
+        <span class="tag navy">ESPN Soccer</span>
+        <span class="tag navy">The Verge</span>
+        <span class="tag navy">Numerama</span>
+        <span class="tag navy">ZDNet</span>
+        <span class="tag navy">GitHub Actions (Cron quotidien)</span>
       </div>
     </div>
 
     <!-- Certifications visées -->
-    <p class="section-label section-label-spaced">Certifications visées</p>
+    <p class="section-label section-label-spaced">Certifications professionnelles en préparation</p>
     <div class="tags-row">
-      <span class="tag green">Cisco CCNA (objectif 2026)</span>
-      <span class="tag green">CompTIA Network+ (objectif 2026)</span>
+      <span class="tag green">Cisco CCNA 200-301 (Objectif 2026)</span>
+      <span class="tag green">CompTIA Network+ / Security+ (En cours)</span>
     </div>
 
   </div>
@@ -773,11 +1237,7 @@
 
 <!-- ═══════════════════════════════════════════════════════
      CONTACT
-     contact-wrap = deux colonnes : coordonnées | formulaire.
-     contact-line = ligne icône + texte structuré.
-     Le formulaire est connecté à Formspree (service gratuit).
-     → Remplacer YOUR_FORM_ID par l'ID Formspree de ton compte.
-     → Créer un compte sur https://formspree.io puis remplacer l'action.
+     Coordonnées professionnelles directes
 ════════════════════════════════════════════════════════ -->
 <section id="contact">
   <div class="container">
@@ -785,17 +1245,19 @@
     <p class="section-label">Me joindre</p>
     <h2 class="section-title">Contact</h2>
     <p class="section-intro">
-      Pour toute demande de stage, d'alternance ou d'échange professionnel,
-      n'hésitez pas à me contacter directement.
+      Pour toute question concernant mes réalisations, mon parcours en BTS SIO SISR
+      ou pour échanger sur une future opportunité professionnelle post-BTS, n'hésitez pas à me contacter.
     </p>
 
     <div class="contact-wrap">
 
-      <!-- Colonne gauche : coordonnées -->
+      <!-- Colonne : coordonnées directes -->
       <div class="contact-info">
 
-        <p>Je suis disponible pour un contrat d'alternance en infrastructure
-        réseau / systèmes dès la rentrée 2026. N'hésitez pas à me contacter.</p>
+        <p>
+          Étudiant rigoureux et engagé, je suis disponible pour échanger sur mes projets
+          techniques et prépare mon projet professionnel vers une poursuite d'études post-BTS (Bac+3 / Cycle ingénieur).
+        </p>
 
         <div class="contact-line">
           <div class="contact-icon">✉️</div>
@@ -828,9 +1290,9 @@
         <div class="contact-line">
           <div class="contact-icon">🌐</div>
           <div class="cl-text">
-            <strong>Site web</strong>
-            <a href="https://mathiasalcide.fr" target="_blank" rel="noopener">
-              mathiasalcide.fr
+            <strong>Site portfolio</strong>
+            <a href="https://zikllope.github.io/portfolio/" target="_blank" rel="noopener">
+              zikllope.github.io/portfolio
             </a>
           </div>
         </div>
@@ -845,11 +1307,36 @@
 
       </div>
 
-      <!-- Colonne droite : formulaire connecté à Formspree -->
-      <!-- IMPORTANT : créer un compte sur https://formspree.io
-           puis remplacer "YOUR_FORM_ID" dans l'action ci-dessous
-           par l'identifiant de ton formulaire Formspree -->
-      <!-- Formulaire de contact supprimé -->
+      <!-- Colonne : encart d'accompagnement -->
+      <div class="profile-card">
+        <h3>Profil &amp; Objectifs</h3>
+        <p style="font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 16px;">
+          Actuellement étudiant en BTS SIO option SISR au Lycée Vilgénis de Massy (formation initiale),
+          je prépare activement l'obtention de mon diplôme et mon projet de poursuite d'études post-BTS.
+        </p>
+        <ul class="info-list">
+          <li>
+            <span class="key">Formation actuelle</span>
+            <span class="val">BTS SIO SISR (Formation initiale)</span>
+          </li>
+          <li>
+            <span class="key">Objectif post-BTS</span>
+            <span class="val">Alternance Bac+3 (Réseaux / Sécurité)</span>
+          </li>
+          <li>
+            <span class="key">Mobilité</span>
+            <span class="val">Île-de-France (Essonne, Paris, RER B/C)</span>
+          </li>
+          <li>
+            <span class="key">Localisation</span>
+            <span class="val">Palaiseau (91)</span>
+          </li>
+        </ul>
+        <div style="margin-top: 20px;">
+          <a href="mailto:Mathias.adc@outlook.com" class="btn-primary" style="display: inline-block; text-align: center; width: 100%;">Envoyer un e-mail direct</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -857,20 +1344,110 @@
 
 <!-- ═══════════════════════════════════════════════════════
      FOOTER
-     Pied de page avec nom, année et liens rapides.
+     Pied de page avec nom, année et liens rapides
 ════════════════════════════════════════════════════════ -->
 <footer>
   <div class="container">
-    <p>Portfolio BTS SIO SISR — <strong>Mathias Alcide</strong> — 2025–2026</p>
+    <p>Portfolio BTS SIO SISR — <strong>Mathias Alcide</strong> — Session 2026</p>
     <div class="footer-links">
       <a href="#accueil">Accueil</a>
+      <a href="#synthese">Synthèse E5</a>
+      <a href="#stage">Stage</a>
       <a href="#projets">Projets</a>
       <a href="#competences">Compétences</a>
+      <a href="#veille">Veille</a>
       <a href="#contact">Contact</a>
-      <a href="https://mathiasalcide.fr" target="_blank" rel="noopener">mathiasalcide.fr</a>
+      <a href="https://github.com/zikllope" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>
 </footer>
+
+<!-- ═══════════════════════════════════════════════════════
+     SCRIPT VEILLE TECHNOLOGIQUE DYNAMIQUE
+     Charge articles.json et permet le filtrage instantané
+════════════════════════════════════════════════════════ -->
+<script>
+  // Fonction de filtrage des articles de veille par catégorie
+  function filterVeille(category) {
+    const cards = document.querySelectorAll('#veille-articles .veille-card');
+    cards.forEach(card => {
+      const cardCat = card.getAttribute('data-category');
+      if (category === 'all' || cardCat === category) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Chargement dynamique du fichier articles.json s'il existe
+  document.addEventListener('DOMContentLoaded', () => {
+    fetch('articles.json')
+      .then(res => {
+        if (!res.ok) throw new Error('Fichier articles.json indisponible');
+        return res.json();
+      })
+      .then(data => {
+        if (data && data.articles && data.articles.length > 0) {
+          const container = document.getElementById('veille-articles');
+          container.innerHTML = ''; // Remplace par les flux dynamiques actualisés
+
+          data.articles.forEach(art => {
+            const card = document.createElement('div');
+            card.className = 'veille-card';
+            card.setAttribute('data-category', art.category);
+
+            // Date et source
+            const dateStr = art.date ? art.date.slice(0, 16) : '';
+            const header = document.createElement('div');
+            header.className = 'v-date';
+            header.textContent = `${art.source} · ${art.category}`;
+
+            // Titre avec lien
+            const h4 = document.createElement('h4');
+            const link = document.createElement('a');
+            link.href = art.link;
+            link.target = '_blank';
+            link.rel = 'noopener';
+            link.textContent = art.title;
+            h4.appendChild(link);
+
+            // Résumé
+            const p = document.createElement('p');
+            p.textContent = art.summary;
+
+            // Tags
+            const tagsRow = document.createElement('div');
+            tagsRow.className = 'tags-row';
+            if (art.tags && Array.isArray(art.tags)) {
+              art.tags.forEach(t => {
+                const tagSpan = document.createElement('span');
+                tagSpan.className = 'tag';
+                tagSpan.textContent = t;
+                tagsRow.appendChild(tagSpan);
+              });
+            }
+
+            card.appendChild(header);
+            card.appendChild(h4);
+            card.appendChild(p);
+            card.appendChild(tagsRow);
+            container.appendChild(card);
+          });
+
+          // Mise à jour de l'indicateur
+          const badge = document.getElementById('veille-sync-badge');
+          if (badge && data.last_updated) {
+            badge.textContent = `● Actualisé le ${data.last_updated}`;
+          }
+        }
+      })
+      .catch(err => {
+        // En cas d'accès direct local (CORS file://), le contenu pré-rendu statique est préservé
+        console.log('Mode affichage statique actif :', err.message);
+      });
+  });
+</script>
 
 </body>
 </html>

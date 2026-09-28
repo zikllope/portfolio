@@ -1,0 +1,32 @@
+name: Mise à jour automatique de la Veille Technologique
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Récupération du code source
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Exécution du script de veille RSS
+        run: |
+          python update_veille.py
+
+      - name: Commit et push des nouveaux articles
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action [Veille Bot]"
+          git add articles.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(veille): actualisation quotidienne des articles de veille RSS" && git push)

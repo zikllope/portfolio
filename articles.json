@@ -1,0 +1,127 @@
+{
+  "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
+  "last_updated": "28/09/2026 à 17:34",
+  "total_articles": 9,
+  "articles": [
+    {
+      "title": "Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale",
+      "link": "https://theanalyst.com/eu/2024/02/semi-automated-offside-technology-explained/",
+      "date": "2026-03-15",
+      "source": "The Analyst (Opta)",
+      "category": "Arbitrage & SAOT",
+      "summary": "Déploiement de 12 caméras optiques dédiées et d'un capteur inertiel IMU à 500 Hz placé au cœur du ballon : comment la vision par ordinateur et le tracking squelettique à 29 points d'articulation par joueur réduisent le temps de décision de 70 secondes à moins de 25 secondes.",
+      "tags": [
+        "SAOT",
+        "Computer Vision",
+        "Arbitrage",
+        "Tracking 3D"
+      ]
+    },
+    {
+      "title": "Computer Vision & Tracking multi-joueurs : modéliser la tactique spatio-temporelle",
+      "link": "https://arxiv.org/abs/2304.05389",
+      "date": "2026-02-28",
+      "source": "arXiv cs.CV",
+      "category": "Data & Performance",
+      "summary": "Étude des réseaux de neurones convolutifs et Transformers appliqués à l'extraction de trajectoires 2D/3D en temps réel à partir de flux vidéo broadcast, permettant le calcul automatisé du pressing, de la compacité de bloc et du contrôle d'espace.",
+      "tags": [
+        "Deep Learning",
+        "Computer Vision",
+        "Tactique",
+        "Tracking"
+      ]
+    },
+    {
+      "title": "Expected Goals (xG) et Expected Threat (xT) : l'évaluation algorithmique des actions",
+      "link": "https://towardsdatascience.com",
+      "date": "2026-01-20",
+      "source": "Towards Data Science",
+      "category": "Data & Performance",
+      "summary": "Comment les modèles d'apprentissage supervisé (arbres de décision Gradient Boosting, réseaux de neurones) calculent la probabilité qu'un tir se transforme en but selon la position, l'angle, la pression adverse et la trajectoire de passe.",
+      "tags": [
+        "Machine Learning",
+        "xG / xT",
+        "Big Data",
+        "Performance"
+      ]
+    },
+    {
+      "title": "Génération automatisée de résumés vidéo et commentaires multilingues par IA générative",
+      "link": "https://www.theverge.com",
+      "date": "2025-12-10",
+      "source": "The Verge / Innovation",
+      "category": "Média & Narration IA",
+      "summary": "Utilisation de modèles multimodaux pour détecter les moments forts (cris de foule, gestes d'arbitres, tirs cadrés) afin d'assembler des résumés de match personnalisés en temps réel et de synthétiser des commentaires audio multilingues.",
+      "tags": [
+        "IA Générative",
+        "Multimodal",
+        "Broadcast",
+        "LLM"
+      ]
+    },
+    {
+      "title": "Premier League & SAOT : bilan technique de l'intégration technologique",
+      "link": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "date": "2025-11-18",
+      "source": "BBC Sport",
+      "category": "Arbitrage & SAOT",
+      "summary": "Retours d'expérience sur la précision millimétrique des reconstructions 3D diffusées aux spectateurs et téléspectateurs, et analyse de l'acceptation par le corps arbitral et le public.",
+      "tags": [
+        "Premier League",
+        "SAOT",
+        "VAR",
+        "Réglementation"
+      ]
+    },
+    {
+      "title": "Prévention algorithmique des blessures : capteurs GPS et biomécanique prédictive",
+      "link": "https://theanalyst.com",
+      "date": "2025-10-04",
+      "source": "The Analyst",
+      "category": "Data & Performance",
+      "summary": "Croisement des données de charge d'entraînement (accélérations, décélérations, fréquence cardiaque) et d'historique médical par des modèles prédictifs pour identifier les pics de fatigue et prévenir les déchirures musculaires.",
+      "tags": [
+        "IoT",
+        "Biométrie",
+        "Santé athlète",
+        "Prédictif"
+      ]
+    },
+    {
+      "title": "Test de FC 27 : un open world désastreux, des bugs dans tous les sens et de rares améliorations",
+      "link": "https://www.numerama.com/pop-culture/2341619-test-de-fc-27-un-open-world-desastreux-des-bugs-dans-tous-les-sens-et-de-rares-ameliorations.html",
+      "date": "Mon, 28 Sep 2026 14:38:07 +0000",
+      "source": "numerama.com",
+      "category": "Arbitrage & SAOT",
+      "summary": "Fidèle à sa réputation de jeu qui ne change presque rien d'une année sur l'autre, EA Sports FC 27 donne une immense impression de déjà-vu tout en améliorant enfin certains modes délaissés comme le mode carrière. Mais l'héritier de FIFA incarne aussi ce qu'il y a de pire dans l...",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
+      ]
+    },
+    {
+      "title": "St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4)",
+      "link": "https://theanalyst.com/articles/fcs-football-awards-week-4-team-players-2026-season",
+      "date": "Mon, 28 Sep 2026 12:31:38 +0000",
+      "source": "theanalyst.com",
+      "category": "Data & Performance",
+      "summary": "The St. Thomas Tommies and Montana's Eli Gillman lead the way among Stats Perform's Week 4 FCS football awards recipients. The post St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4) appeared first on Opta Analyst.",
+      "tags": [
+        "Veille RSS",
+        "Data & Performance"
+      ]
+    },
+    {
+      "title": "LensDesigner: A Self-Improving Agent for Optical Lens Design",
+      "link": "https://arxiv.org/abs/2609.30450",
+      "date": "Mon, 28 Sep 2026 00:00:00 -0400",
+      "source": "arxiv.org",
+      "category": "Arbitrage & SAOT",
+      "summary": "arXiv:2609.30450v1 Announce Type: new Abstract: Optical lens design is a complex, non-convex optimization challenge that relies heavily on human experience and intuition. Existing optimized-based automatic lens design methods struggle to navigate this vast parameter space with...",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
+      ]
+    }
+  ]
+}

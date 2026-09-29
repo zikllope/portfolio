@@ -1,7 +1,7 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "28/09/2026 à 17:34",
-  "total_articles": 9,
+  "last_updated": "29/09/2026 à 11:56",
+  "total_articles": 7,
   "articles": [
     {
       "title": "Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale",
@@ -88,18 +88,6 @@
       ]
     },
     {
-      "title": "Test de FC 27 : un open world désastreux, des bugs dans tous les sens et de rares améliorations",
-      "link": "https://www.numerama.com/pop-culture/2341619-test-de-fc-27-un-open-world-desastreux-des-bugs-dans-tous-les-sens-et-de-rares-ameliorations.html",
-      "date": "Mon, 28 Sep 2026 14:38:07 +0000",
-      "source": "numerama.com",
-      "category": "Arbitrage & SAOT",
-      "summary": "Fidèle à sa réputation de jeu qui ne change presque rien d'une année sur l'autre, EA Sports FC 27 donne une immense impression de déjà-vu tout en améliorant enfin certains modes délaissés comme le mode carrière. Mais l'héritier de FIFA incarne aussi ce qu'il y a de pire dans l...",
-      "tags": [
-        "Veille RSS",
-        "Arbitrage & SAOT"
-      ]
-    },
-    {
       "title": "St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4)",
       "link": "https://theanalyst.com/articles/fcs-football-awards-week-4-team-players-2026-season",
       "date": "Mon, 28 Sep 2026 12:31:38 +0000",
@@ -109,18 +97,6 @@
       "tags": [
         "Veille RSS",
         "Data & Performance"
-      ]
-    },
-    {
-      "title": "LensDesigner: A Self-Improving Agent for Optical Lens Design",
-      "link": "https://arxiv.org/abs/2609.30450",
-      "date": "Mon, 28 Sep 2026 00:00:00 -0400",
-      "source": "arxiv.org",
-      "category": "Arbitrage & SAOT",
-      "summary": "arXiv:2609.30450v1 Announce Type: new Abstract: Optical lens design is a complex, non-convex optimization challenge that relies heavily on human experience and intuition. Existing optimized-based automatic lens design methods struggle to navigate this vast parameter space with...",
-      "tags": [
-        "Veille RSS",
-        "Arbitrage & SAOT"
       ]
     }
   ]

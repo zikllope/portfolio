@@ -1,7 +1,7 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "29/09/2026 à 11:56",
-  "total_articles": 7,
+  "last_updated": "30/09/2026 à 11:44",
+  "total_articles": 9,
   "articles": [
     {
       "title": "Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale",
@@ -85,6 +85,30 @@
         "Biométrie",
         "Santé athlète",
         "Prédictif"
+      ]
+    },
+    {
+      "title": "Équipe de France : les joueurs sont subjugués par Zinédine Zidane",
+      "link": "https://www.footmercato.net/a2708954492861896469-equipe-de-france-les-joueurs-sont-sous-le-charme-de-zinedine-zidane",
+      "date": "Wed, 30 Sep 2026 12:01:05 +0200",
+      "source": "footmercato.net",
+      "category": "Arbitrage & SAOT",
+      "summary": "Depuis le début du rassemblement, l’attachement viscéral de Zinedine Zidane à son groupe de joueurs se ressent. Le sélectionneur national transmet un maximum de confiance à ses ouailles, qui semblent (…)",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
+      ]
+    },
+    {
+      "title": "\"Pas envie que l’on fasse de lui un objet de foire\": les révélations émouvantes de l’épouse de Jean-Marc Furlan sur la maladie neurodégénérative qui a ruiné sa fin de carrière",
+      "link": "https://rmcsport.bfmtv.com/football/pas-envie-que-l-on-fasse-de-lui-un-objet-de-foire-les-revelations-emouvantes-de-l-epouse-de-jean-marc-furlan-sur-la-maladie-neurodegenerative-qui-a-ruine-sa-fin-de-carriere_AV-202609300371.html",
+      "date": "Wed, 30 Sep 2026 09:20:56 GMT",
+      "source": "rmcsport.bfmtv.com",
+      "category": "Arbitrage & SAOT",
+      "summary": "Entraîneur en Ligue 1 et Ligue 2 pendant plusieurs décennies, Jean-Marc Furlan a connu une fin de carrière des plus mouvementées après une expérience compliquée à Caen en 2023. Sans club depuis son aventure normande, le technicien de 68 ans souffre d’une maladie neurodégénérat...",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
       ]
     },
     {

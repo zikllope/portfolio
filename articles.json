@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "30/09/2026 à 11:44",
+  "last_updated": "01/10/2026 à 12:13",
   "total_articles": 9,
   "articles": [
     {
@@ -88,27 +88,15 @@
       ]
     },
     {
-      "title": "Équipe de France : les joueurs sont subjugués par Zinédine Zidane",
-      "link": "https://www.footmercato.net/a2708954492861896469-equipe-de-france-les-joueurs-sont-sous-le-charme-de-zinedine-zidane",
-      "date": "Wed, 30 Sep 2026 12:01:05 +0200",
-      "source": "footmercato.net",
-      "category": "Arbitrage & SAOT",
-      "summary": "Depuis le début du rassemblement, l’attachement viscéral de Zinedine Zidane à son groupe de joueurs se ressent. Le sélectionneur national transmet un maximum de confiance à ses ouailles, qui semblent (…)",
-      "tags": [
-        "Veille RSS",
-        "Arbitrage & SAOT"
-      ]
-    },
-    {
-      "title": "\"Pas envie que l’on fasse de lui un objet de foire\": les révélations émouvantes de l’épouse de Jean-Marc Furlan sur la maladie neurodégénérative qui a ruiné sa fin de carrière",
-      "link": "https://rmcsport.bfmtv.com/football/pas-envie-que-l-on-fasse-de-lui-un-objet-de-foire-les-revelations-emouvantes-de-l-epouse-de-jean-marc-furlan-sur-la-maladie-neurodegenerative-qui-a-ruine-sa-fin-de-carriere_AV-202609300371.html",
-      "date": "Wed, 30 Sep 2026 09:20:56 GMT",
+      "title": "Liverpool-City ou encore Manchester United-Tottenham: l'astuce de la rentrée pour débloquer toute la Premier League sans vous ruiner",
+      "link": "https://rmcsport.bfmtv.com/football/premier-league/liverpool-city-ou-encore-manchester-united-tottenham-l-astuce-de-la-rentree-pour-debloquer-toute-la-premier-league-sans-vous-ruiner_AB-202610010003.html",
+      "date": "Thu, 01 Oct 2026 04:45:00 GMT",
       "source": "rmcsport.bfmtv.com",
-      "category": "Arbitrage & SAOT",
-      "summary": "Entraîneur en Ligue 1 et Ligue 2 pendant plusieurs décennies, Jean-Marc Furlan a connu une fin de carrière des plus mouvementées après une expérience compliquée à Caen en 2023. Sans club depuis son aventure normande, le technicien de 68 ans souffre d’une maladie neurodégénérat...",
+      "category": "Data & Performance",
+      "summary": "La Premier League promet encore son lot de rebondissements ! Entre Arsenal et Manchester City qui se disputent déjà la tête du classement, Liverpool en quête de nouveaux repères et plusieurs cadors à la peine, le championnat anglais ne manque pas d’enjeux en ce début de saison...",
       "tags": [
         "Veille RSS",
-        "Arbitrage & SAOT"
+        "Data & Performance"
       ]
     },
     {
@@ -121,6 +109,18 @@
       "tags": [
         "Veille RSS",
         "Data & Performance"
+      ]
+    },
+    {
+      "title": "It Takes Little to Rewrite Perception: Targeted Semantic Substitution in Vision-Language Models at $\\epsilon \\leq 4/255$",
+      "link": "https://arxiv.org/abs/2609.38298",
+      "date": "Thu, 01 Oct 2026 00:00:00 -0400",
+      "source": "arxiv.org",
+      "category": "Arbitrage & SAOT",
+      "summary": "arXiv:2609.38298v1 Announce Type: new Abstract: Vision Language Models (VLMs) are widely deployed in safety-critical scenarios, and understanding to which extent they can be controlled by adversarial perturbation is a prerequisite for evaluating their trustworthiness. Existing...",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
       ]
     }
   ]

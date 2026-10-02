@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "01/10/2026 à 12:13",
+  "last_updated": "02/10/2026 à 11:42",
   "total_articles": 9,
   "articles": [
     {
@@ -88,15 +88,15 @@
       ]
     },
     {
-      "title": "Liverpool-City ou encore Manchester United-Tottenham: l'astuce de la rentrée pour débloquer toute la Premier League sans vous ruiner",
-      "link": "https://rmcsport.bfmtv.com/football/premier-league/liverpool-city-ou-encore-manchester-united-tottenham-l-astuce-de-la-rentree-pour-debloquer-toute-la-premier-league-sans-vous-ruiner_AB-202610010003.html",
-      "date": "Thu, 01 Oct 2026 04:45:00 GMT",
-      "source": "rmcsport.bfmtv.com",
-      "category": "Data & Performance",
-      "summary": "La Premier League promet encore son lot de rebondissements ! Entre Arsenal et Manchester City qui se disputent déjà la tête du classement, Liverpool en quête de nouveaux repères et plusieurs cadors à la peine, le championnat anglais ne manque pas d’enjeux en ce début de saison...",
+      "title": "\"Je lui ai dit qu'il nous avait volé deux points\" : la colère froide de Laurent Peyrelade envers l'arbitrage de Bastia-Orléans",
+      "link": "https://www.foot-national.com/actus/je-lui-ai-dit-quil-nous-avait-vole-deux-points-la-colere-froide-de-laurent-peyrelade-envers-larbitrage-de-bastia-orleans-957495",
+      "date": "Fri, 02 Oct 2026 08:31:00 +0200",
+      "source": "foot-national.com",
+      "category": "Arbitrage & SAOT",
+      "summary": "Après le coup de sifflet final entre Bastia et Orléans ce jeudi 1er octobre, dans le cadre de la neuvième journée de Ligue 3, l'entraîneur du Sporting Laurent Peyrelade est revenu sur l'expulsion de son joueur Noah Zilliox dans les derniers instants de la partie.",
       "tags": [
         "Veille RSS",
-        "Data & Performance"
+        "Arbitrage & SAOT"
       ]
     },
     {
@@ -112,15 +112,15 @@
       ]
     },
     {
-      "title": "It Takes Little to Rewrite Perception: Targeted Semantic Substitution in Vision-Language Models at $\\epsilon \\leq 4/255$",
-      "link": "https://arxiv.org/abs/2609.38298",
-      "date": "Thu, 01 Oct 2026 00:00:00 -0400",
-      "source": "arxiv.org",
-      "category": "Arbitrage & SAOT",
-      "summary": "arXiv:2609.38298v1 Announce Type: new Abstract: Vision Language Models (VLMs) are widely deployed in safety-critical scenarios, and understanding to which extent they can be controlled by adversarial perturbation is a prerequisite for evaluating their trustworthiness. Existing...",
+      "title": "Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches?",
+      "link": "https://towardsdatascience.com/can-an-apartment-search-agent-call-the-model-fewer-times-and-still-find-good-matches/",
+      "date": "Thu, 01 Oct 2026 14:00:01 GMT",
+      "source": "towardsdatascience.com",
+      "category": "Data & Performance",
+      "summary": "I traced 2,500 listing checks with Weights & Biases Weave, removed avoidable model work one change at a time, and scored every version against the same answers. The post Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches? appeared first on Tow...",
       "tags": [
         "Veille RSS",
-        "Arbitrage & SAOT"
+        "Data & Performance"
       ]
     }
   ]

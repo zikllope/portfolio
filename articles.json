@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "02/10/2026 à 11:42",
+  "last_updated": "03/10/2026 à 10:56",
   "total_articles": 9,
   "articles": [
     {
@@ -100,24 +100,24 @@
       ]
     },
     {
-      "title": "St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4)",
-      "link": "https://theanalyst.com/articles/fcs-football-awards-week-4-team-players-2026-season",
-      "date": "Mon, 28 Sep 2026 12:31:38 +0000",
+      "title": "How Would a Points Deduction Affect Manchester City’s 2026-27 Premier League Season?",
+      "link": "https://theanalyst.com/articles/manchester-city-points-deduction-charges-opta-supercomputer-premier-league-2026-27",
+      "date": "Fri, 02 Oct 2026 12:31:06 +0000",
       "source": "theanalyst.com",
       "category": "Data & Performance",
-      "summary": "The St. Thomas Tommies and Montana's Eli Gillman lead the way among Stats Perform's Week 4 FCS football awards recipients. The post St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4) appeared first on Opta Analyst.",
+      "summary": "After the Opta supercomputer ran 100,000 simulations of the 2026-27 Premier League season, we have calculated the exact impact of every possible points deduction. The post How Would a Points Deduction Affect Manchester City’s 2026-27 Premier League Season? appeared first on Op...",
       "tags": [
         "Veille RSS",
         "Data & Performance"
       ]
     },
     {
-      "title": "Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches?",
-      "link": "https://towardsdatascience.com/can-an-apartment-search-agent-call-the-model-fewer-times-and-still-find-good-matches/",
-      "date": "Thu, 01 Oct 2026 14:00:01 GMT",
-      "source": "towardsdatascience.com",
+      "title": "St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4)",
+      "link": "https://theanalyst.com/articles/fcs-football-awards-week-4-team-players-2026-season",
+      "date": "Mon, 28 Sep 2026 12:31:38 +0000",
+      "source": "theanalyst.com",
       "category": "Data & Performance",
-      "summary": "I traced 2,500 listing checks with Weights & Biases Weave, removed avoidable model work one change at a time, and scored every version against the same answers. The post Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches? appeared first on Tow...",
+      "summary": "The St. Thomas Tommies and Montana's Eli Gillman lead the way among Stats Perform's Week 4 FCS football awards recipients. The post St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4) appeared first on Opta Analyst.",
       "tags": [
         "Veille RSS",
         "Data & Performance"

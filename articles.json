@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "06/10/2026 à 12:34",
+  "last_updated": "07/10/2026 à 12:27",
   "total_articles": 9,
   "articles": [
     {
@@ -88,27 +88,15 @@
       ]
     },
     {
-      "title": "Adversaires peu concernés, recettes seulement pour l'Argentine... une parodie de match pour la der de Messi?",
-      "link": "https://rmcsport.bfmtv.com/football/matchs-amicaux/adversaires-peu-concernes-recettes-seulement-pour-l-argentine-une-parodie-de-match-pour-la-der-de-messi_AV-202610060432.html",
-      "date": "Tue, 06 Oct 2026 09:43:08 GMT",
+      "title": "Simulation, carton rouge rendu à l'arbitre: Marc Cucurella s'est mis à dos un nouveau pays lors de Croatie-Espagne",
+      "link": "https://rmcsport.bfmtv.com/football/equipe-espagne/simulation-carton-rouge-rendu-a-l-arbitre-marc-cucurella-s-est-mis-a-dos-un-nouveau-pays-lors-de-croatie-espagne_AV-202610070331.html",
+      "date": "Wed, 07 Oct 2026 07:51:18 GMT",
       "source": "rmcsport.bfmtv.com",
-      "category": "Data & Performance",
-      "summary": "L'Argentine affronte le Bénin en match amical dans la nuit de mardi à mercredi (1h) pour la dernière sélection de Lionel Messi. Une rencontre qui ressemblera davantage à un lucratif jubilé d'adieux.",
+      "category": "Arbitrage & SAOT",
+      "summary": "Marc Cucurella, latéral gauche de l'Espagne, a provoqué la colère du public et des joueurs croates lors de la victoire de la Roja à Split (1-2), lundi en Ligue des nations.",
       "tags": [
         "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
-      "title": "France-Belgique: Rabiot aurait agacé le staff de Zidane en prenant trop de temps avant son entrée en jeu",
-      "link": "https://rmcsport.bfmtv.com/football/equipe-de-france/france-belgique-rabiot-aurait-agace-le-staff-de-zidane-en-prenant-trop-de-temps-avant-son-entree-en-jeu_AV-202610060348.html",
-      "date": "Tue, 06 Oct 2026 08:17:46 GMT",
-      "source": "rmcsport.bfmtv.com",
-      "category": "Data & Performance",
-      "summary": "Entré en jeu à la place d'Eduardo Camavinga en toute fin de match, Adrien Rabiot (31 ans) aurait agacé le staff les Bleus, selon les constatations depuis les tribunes.",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
+        "Arbitrage & SAOT"
       ]
     },
     {
@@ -118,6 +106,18 @@
       "source": "theanalyst.com",
       "category": "Data & Performance",
       "summary": "After the Opta supercomputer ran 100,000 simulations of the 2026-27 Premier League season, we have calculated the exact impact of every possible points deduction. The post How Would a Points Deduction Affect Manchester City’s 2026-27 Premier League Season? appeared first on Op...",
+      "tags": [
+        "Veille RSS",
+        "Data & Performance"
+      ]
+    },
+    {
+      "title": "St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4)",
+      "link": "https://theanalyst.com/articles/fcs-football-awards-week-4-team-players-2026-season",
+      "date": "Mon, 28 Sep 2026 12:31:38 +0000",
+      "source": "theanalyst.com",
+      "category": "Data & Performance",
+      "summary": "The St. Thomas Tommies and Montana's Eli Gillman lead the way among Stats Perform's Week 4 FCS football awards recipients. The post St. Thomas, Gillman, Benson, Hossman Lees, Perrilliat Earn FCS Football Awards (Week 4) appeared first on Opta Analyst.",
       "tags": [
         "Veille RSS",
         "Data & Performance"

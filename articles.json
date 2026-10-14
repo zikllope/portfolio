@@ -1,127 +1,59 @@
 {
-  "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "14/10/2026 à 10:58",
-  "total_articles": 9,
+  "last_updated": "2026-10-14",
   "articles": [
     {
-      "title": "Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale",
-      "link": "https://theanalyst.com/eu/2024/02/semi-automated-offside-technology-explained/",
+      "category": "Arbitrage & SAOT",
       "date": "2026-03-15",
       "source": "The Analyst (Opta)",
-      "category": "Arbitrage & SAOT",
+      "link": "https://theanalyst.com/eu/2024/02/semi-automated-offside-technology-explained/",
+      "title": "Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale",
       "summary": "Déploiement de 12 caméras optiques dédiées et d'un capteur inertiel IMU à 500 Hz placé au cœur du ballon : comment la vision par ordinateur et le tracking squelettique à 29 points d'articulation par joueur réduisent le temps de décision de 70 secondes à moins de 25 secondes.",
-      "tags": [
-        "SAOT",
-        "Computer Vision",
-        "Arbitrage",
-        "Tracking 3D"
-      ]
+      "tags": ["SAOT", "Computer Vision", "Arbitrage", "Tracking 3D"]
     },
     {
-      "title": "Computer Vision & Tracking multi-joueurs : modéliser la tactique spatio-temporelle",
-      "link": "https://arxiv.org/abs/2304.05389",
+      "category": "Data & Performance",
       "date": "2026-02-28",
       "source": "arXiv cs.CV",
-      "category": "Data & Performance",
+      "link": "https://arxiv.org/abs/2304.05389",
+      "title": "Computer Vision & Tracking multi-joueurs : modéliser la tactique spatio-temporelle",
       "summary": "Étude des réseaux de neurones convolutifs et Transformers appliqués à l'extraction de trajectoires 2D/3D en temps réel à partir de flux vidéo broadcast, permettant le calcul automatisé du pressing, de la compacité de bloc et du contrôle d'espace.",
-      "tags": [
-        "Deep Learning",
-        "Computer Vision",
-        "Tactique",
-        "Tracking"
-      ]
+      "tags": ["Deep Learning", "Computer Vision", "Tactique", "Tracking"]
     },
     {
-      "title": "Expected Goals (xG) et Expected Threat (xT) : l'évaluation algorithmique des actions",
-      "link": "https://towardsdatascience.com",
+      "category": "Data & Performance",
       "date": "2026-01-20",
       "source": "Towards Data Science",
-      "category": "Data & Performance",
+      "link": "https://towardsdatascience.com/what-is-expected-goals-xg-in-soccer-and-how-is-it-calculated/",
+      "title": "Expected Goals (xG) et Expected Threat (xT) : l'évaluation algorithmique des actions",
       "summary": "Comment les modèles d'apprentissage supervisé (arbres de décision Gradient Boosting, réseaux de neurones) calculent la probabilité qu'un tir se transforme en but selon la position, l'angle, la pression adverse et la trajectoire de passe.",
-      "tags": [
-        "Machine Learning",
-        "xG / xT",
-        "Big Data",
-        "Performance"
-      ]
+      "tags": ["Machine Learning", "xG / xT", "Big Data", "Performance"]
     },
     {
-      "title": "Génération automatisée de résumés vidéo et commentaires multilingues par IA générative",
-      "link": "https://www.theverge.com",
-      "date": "2025-12-10",
-      "source": "The Verge / Innovation",
       "category": "Média & Narration IA",
+      "date": "2025-12-10",
+      "source": "The Verge",
+      "link": "https://www.theverge.com/ai-artificial-intelligence",
+      "title": "Génération automatisée de résumés vidéo et commentaires multilingues par IA générative",
       "summary": "Utilisation de modèles multimodaux pour détecter les moments forts (cris de foule, gestes d'arbitres, tirs cadrés) afin d'assembler des résumés de match personnalisés en temps réel et de synthétiser des commentaires audio multilingues.",
-      "tags": [
-        "IA Générative",
-        "Multimodal",
-        "Broadcast",
-        "LLM"
-      ]
+      "tags": ["IA Générative", "Multimodal", "Broadcast", "LLM"]
     },
     {
-      "title": "Premier League & SAOT : bilan technique de l'intégration technologique",
-      "link": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "category": "Arbitrage & SAOT",
       "date": "2025-11-18",
       "source": "BBC Sport",
-      "category": "Arbitrage & SAOT",
+      "link": "https://www.bbc.com/sport/football",
+      "title": "Premier League & SAOT : bilan technique de l'intégration technologique",
       "summary": "Retours d'expérience sur la précision millimétrique des reconstructions 3D diffusées aux spectateurs et téléspectateurs, et analyse de l'acceptation par le corps arbitral et le public.",
-      "tags": [
-        "Premier League",
-        "SAOT",
-        "VAR",
-        "Réglementation"
-      ]
+      "tags": ["Premier League", "SAOT", "VAR", "Réglementation"]
     },
     {
-      "title": "Prévention algorithmique des blessures : capteurs GPS et biomécanique prédictive",
-      "link": "https://theanalyst.com",
+      "category": "Data & Performance",
       "date": "2025-10-04",
-      "source": "The Analyst",
-      "category": "Data & Performance",
+      "source": "The Analyst (Opta)",
+      "link": "https://theanalyst.com/eu/football/",
+      "title": "Prévention algorithmique des blessures : capteurs GPS et biomécanique prédictive",
       "summary": "Croisement des données de charge d'entraînement (accélérations, décélérations, fréquence cardiaque) et d'historique médical par des modèles prédictifs pour identifier les pics de fatigue et prévenir les déchirures musculaires.",
-      "tags": [
-        "IoT",
-        "Biométrie",
-        "Santé athlète",
-        "Prédictif"
-      ]
-    },
-    {
-      "title": "Recalé en Italie, \"exilé\" en Allemagne puis en Belgique... la cinglante revanche de Nicolo Tresoldi, auteur d'un triplé contre l'Inter Milan",
-      "link": "https://rmcsport.bfmtv.com/football/ligue-des-champions/recale-en-italie-exile-en-allemagne-puis-en-belgique-la-cinglante-revanche-de-nicolo-tresoldi-auteur-d-un-triple-contre-l-inter-milan_AV-202610140210.html",
-      "date": "Wed, 14 Oct 2026 06:36:36 GMT",
-      "source": "rmcsport.bfmtv.com",
-      "category": "Data & Performance",
-      "summary": "Nicolo Tresoldi, attaquant alemano-italien du Club Bruges, a inscrit un triplé lors de l'exploit de son équipe sur le terrain de l'Inter Milan (3-4), mardi en Ligue des champions. Une grosse revanche pour le buteur, boudé par tous les clubs italiens.",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
-      "title": "Conference League Predictions 2026-27: The Opta Supercomputer Projections",
-      "link": "https://theanalyst.com/articles/conference-league-predictions-opta-supercomputer-2026-27",
-      "date": "Tue, 13 Oct 2026 12:50:28 +0000",
-      "source": "theanalyst.com",
-      "category": "Data & Performance",
-      "summary": "Ahead of the start of the league phase of the 2026-27 Conference League, the Opta supercomputer has run 10,000 simulations of the season. But who won the competition most often? The post Conference League Predictions 2026-27: The Opta Supercomputer Projections appeared first o...",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
-      "title": "How Would a Points Deduction Affect Manchester City’s 2026-27 Premier League Season?",
-      "link": "https://theanalyst.com/articles/manchester-city-points-deduction-charges-opta-supercomputer-premier-league-2026-27",
-      "date": "Sat, 03 Oct 2026 13:13:16 +0000",
-      "source": "theanalyst.com",
-      "category": "Data & Performance",
-      "summary": "After the Opta supercomputer ran 100,000 simulations of the 2026-27 Premier League season, we have calculated the exact impact of every possible points deduction. The post How Would a Points Deduction Affect Manchester City’s 2026-27 Premier League Season? appeared first on Op...",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
+      "tags": ["IoT", "Biométrie", "Santé athlète", "Prédictif"]
     }
   ]
 }

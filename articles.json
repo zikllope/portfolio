@@ -1,59 +1,127 @@
 {
-  "last_updated": "2026-10-14",
+  "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
+  "last_updated": "15/10/2026 à 10:41",
+  "total_articles": 9,
   "articles": [
     {
-      "category": "Arbitrage & SAOT",
+      "title": "Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale",
+      "link": "https://theanalyst.com/eu/2024/02/semi-automated-offside-technology-explained/",
       "date": "2026-03-15",
       "source": "The Analyst (Opta)",
-      "link": "https://theanalyst.com/eu/2024/02/semi-automated-offside-technology-explained/",
-      "title": "Hors-jeu semi-automatisé (SAOT) : anatomie d'une révolution arbitrale",
+      "category": "Arbitrage & SAOT",
       "summary": "Déploiement de 12 caméras optiques dédiées et d'un capteur inertiel IMU à 500 Hz placé au cœur du ballon : comment la vision par ordinateur et le tracking squelettique à 29 points d'articulation par joueur réduisent le temps de décision de 70 secondes à moins de 25 secondes.",
-      "tags": ["SAOT", "Computer Vision", "Arbitrage", "Tracking 3D"]
+      "tags": [
+        "SAOT",
+        "Computer Vision",
+        "Arbitrage",
+        "Tracking 3D"
+      ]
     },
     {
-      "category": "Data & Performance",
+      "title": "Computer Vision & Tracking multi-joueurs : modéliser la tactique spatio-temporelle",
+      "link": "https://arxiv.org/abs/2304.05389",
       "date": "2026-02-28",
       "source": "arXiv cs.CV",
-      "link": "https://arxiv.org/abs/2304.05389",
-      "title": "Computer Vision & Tracking multi-joueurs : modéliser la tactique spatio-temporelle",
+      "category": "Data & Performance",
       "summary": "Étude des réseaux de neurones convolutifs et Transformers appliqués à l'extraction de trajectoires 2D/3D en temps réel à partir de flux vidéo broadcast, permettant le calcul automatisé du pressing, de la compacité de bloc et du contrôle d'espace.",
-      "tags": ["Deep Learning", "Computer Vision", "Tactique", "Tracking"]
+      "tags": [
+        "Deep Learning",
+        "Computer Vision",
+        "Tactique",
+        "Tracking"
+      ]
     },
     {
-      "category": "Data & Performance",
+      "title": "Expected Goals (xG) et Expected Threat (xT) : l'évaluation algorithmique des actions",
+      "link": "https://towardsdatascience.com",
       "date": "2026-01-20",
       "source": "Towards Data Science",
-      "link": "https://towardsdatascience.com/what-is-expected-goals-xg-in-soccer-and-how-is-it-calculated/",
-      "title": "Expected Goals (xG) et Expected Threat (xT) : l'évaluation algorithmique des actions",
+      "category": "Data & Performance",
       "summary": "Comment les modèles d'apprentissage supervisé (arbres de décision Gradient Boosting, réseaux de neurones) calculent la probabilité qu'un tir se transforme en but selon la position, l'angle, la pression adverse et la trajectoire de passe.",
-      "tags": ["Machine Learning", "xG / xT", "Big Data", "Performance"]
+      "tags": [
+        "Machine Learning",
+        "xG / xT",
+        "Big Data",
+        "Performance"
+      ]
     },
     {
-      "category": "Média & Narration IA",
-      "date": "2025-12-10",
-      "source": "The Verge",
-      "link": "https://www.theverge.com/ai-artificial-intelligence",
       "title": "Génération automatisée de résumés vidéo et commentaires multilingues par IA générative",
+      "link": "https://www.theverge.com",
+      "date": "2025-12-10",
+      "source": "The Verge / Innovation",
+      "category": "Média & Narration IA",
       "summary": "Utilisation de modèles multimodaux pour détecter les moments forts (cris de foule, gestes d'arbitres, tirs cadrés) afin d'assembler des résumés de match personnalisés en temps réel et de synthétiser des commentaires audio multilingues.",
-      "tags": ["IA Générative", "Multimodal", "Broadcast", "LLM"]
+      "tags": [
+        "IA Générative",
+        "Multimodal",
+        "Broadcast",
+        "LLM"
+      ]
     },
     {
-      "category": "Arbitrage & SAOT",
+      "title": "Premier League & SAOT : bilan technique de l'intégration technologique",
+      "link": "https://feeds.bbci.co.uk/sport/football/rss.xml",
       "date": "2025-11-18",
       "source": "BBC Sport",
-      "link": "https://www.bbc.com/sport/football",
-      "title": "Premier League & SAOT : bilan technique de l'intégration technologique",
+      "category": "Arbitrage & SAOT",
       "summary": "Retours d'expérience sur la précision millimétrique des reconstructions 3D diffusées aux spectateurs et téléspectateurs, et analyse de l'acceptation par le corps arbitral et le public.",
-      "tags": ["Premier League", "SAOT", "VAR", "Réglementation"]
+      "tags": [
+        "Premier League",
+        "SAOT",
+        "VAR",
+        "Réglementation"
+      ]
     },
     {
-      "category": "Data & Performance",
-      "date": "2025-10-04",
-      "source": "The Analyst (Opta)",
-      "link": "https://theanalyst.com/eu/football/",
       "title": "Prévention algorithmique des blessures : capteurs GPS et biomécanique prédictive",
+      "link": "https://theanalyst.com",
+      "date": "2025-10-04",
+      "source": "The Analyst",
+      "category": "Data & Performance",
       "summary": "Croisement des données de charge d'entraînement (accélérations, décélérations, fréquence cardiaque) et d'historique médical par des modèles prédictifs pour identifier les pics de fatigue et prévenir les déchirures musculaires.",
-      "tags": ["IoT", "Biométrie", "Santé athlète", "Prédictif"]
+      "tags": [
+        "IoT",
+        "Biométrie",
+        "Santé athlète",
+        "Prédictif"
+      ]
+    },
+    {
+      "title": "Conference League Predictions 2026-27: The Opta Supercomputer Projections",
+      "link": "https://theanalyst.com/articles/conference-league-predictions-opta-supercomputer-2026-27",
+      "date": "Thu, 15 Oct 2026 06:41:43 +0000",
+      "source": "theanalyst.com",
+      "category": "Data & Performance",
+      "summary": "Ahead of the start of the league phase of the 2026-27 Conference League, the Opta supercomputer has run 10,000 simulations of the season. But who won the competition most often? The post Conference League Predictions 2026-27: The Opta Supercomputer Projections appeared first o...",
+      "tags": [
+        "Veille RSS",
+        "Data & Performance"
+      ]
+    },
+    {
+      "title": "Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling",
+      "link": "https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/",
+      "date": "Tue, 13 Oct 2026 14:00:00 GMT",
+      "source": "towardsdatascience.com",
+      "category": "Arbitrage & SAOT",
+      "summary": "Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail. The post Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling appeared first on Towards Data Science.",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
+      ]
+    },
+    {
+      "title": "The Gap Is in the Geometry: A Convergent Meta-Analysis of Multi-Facet Aerial and Remote Sensing Video Understanding",
+      "link": "https://arxiv.org/abs/2610.19102",
+      "date": "Thu, 15 Oct 2026 00:00:00 -0400",
+      "source": "arxiv.org",
+      "category": "Média & Narration IA",
+      "summary": "arXiv:2610.19102v1 Announce Type: new Abstract: Aerial and remote sensing video is increasingly evaluated like web video, by posing multiple-choice questions to multimodal large language models (MLLMs) over sampled frames and reporting accuracy. This paper argues that this rec...",
+      "tags": [
+        "Veille RSS",
+        "Média & Narration IA"
+      ]
     }
   ]
 }

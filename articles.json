@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "15/10/2026 à 10:41",
+  "last_updated": "16/10/2026 à 10:27",
   "total_articles": 9,
   "articles": [
     {
@@ -88,6 +88,18 @@
       ]
     },
     {
+      "title": "Sutton's predictions v boxer & Ipswich fan Fabio Wardley",
+      "link": "https://www.bbc.co.uk/sport/football/articles/crgqwvnnyv30o?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 15 Oct 2026 19:26:51 GMT",
+      "source": "feeds.bbci.co.uk",
+      "category": "Arbitrage & SAOT",
+      "summary": "BBC Sport football expert Chris Sutton takes on boxer and Ipswich fan Fabio Wardley, plus the BBC readers and AI with his predictions for this weekend's Premier League fixtures.",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
+      ]
+    },
+    {
       "title": "Conference League Predictions 2026-27: The Opta Supercomputer Projections",
       "link": "https://theanalyst.com/articles/conference-league-predictions-opta-supercomputer-2026-27",
       "date": "Thu, 15 Oct 2026 06:41:43 +0000",
@@ -100,27 +112,15 @@
       ]
     },
     {
-      "title": "Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling",
-      "link": "https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/",
-      "date": "Tue, 13 Oct 2026 14:00:00 GMT",
+      "title": "What OpenAI’s 719 Math Papers Mean for Data Science",
+      "link": "https://towardsdatascience.com/what-openais-719-math-papers-mean-for-data-science/",
+      "date": "Thu, 15 Oct 2026 14:00:00 GMT",
       "source": "towardsdatascience.com",
-      "category": "Arbitrage & SAOT",
-      "summary": "Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail. The post Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling appeared first on Towards Data Science.",
+      "category": "Data & Performance",
+      "summary": "Matching messy text, choosing representative examples, and generating comparison data. The post What OpenAI’s 719 Math Papers Mean for Data Science appeared first on Towards Data Science.",
       "tags": [
         "Veille RSS",
-        "Arbitrage & SAOT"
-      ]
-    },
-    {
-      "title": "The Gap Is in the Geometry: A Convergent Meta-Analysis of Multi-Facet Aerial and Remote Sensing Video Understanding",
-      "link": "https://arxiv.org/abs/2610.19102",
-      "date": "Thu, 15 Oct 2026 00:00:00 -0400",
-      "source": "arxiv.org",
-      "category": "Média & Narration IA",
-      "summary": "arXiv:2610.19102v1 Announce Type: new Abstract: Aerial and remote sensing video is increasingly evaluated like web video, by posing multiple-choice questions to multimodal large language models (MLLMs) over sampled frames and reporting accuracy. This paper argues that this rec...",
-      "tags": [
-        "Veille RSS",
-        "Média & Narration IA"
+        "Data & Performance"
       ]
     }
   ]

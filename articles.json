@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "16/10/2026 à 10:27",
+  "last_updated": "17/10/2026 à 09:59",
   "total_articles": 9,
   "articles": [
     {
@@ -88,6 +88,30 @@
       ]
     },
     {
+      "title": "PSG : Luis Enrique a lancé un nouveau défi à ses cadres",
+      "link": "https://www.footmercato.net/a2936896400245098781-psg-luis-enrique-a-lance-un-nouveau-defi-a-ses-cadres",
+      "date": "Sat, 17 Oct 2026 09:28:02 +0200",
+      "source": "footmercato.net",
+      "category": "Arbitrage & SAOT",
+      "summary": "Entre l’enchaînement des matchs et les formes disparates de certains de ses joueurs, Luis Enrique cherche à stimuler la concurrence.La saison du PSG est déjà bien lancée. 6e de Ligue 1 au moment (…)",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
+      ]
+    },
+    {
+      "title": "\"Le contenu, c’est notre obsession\": avant de recevoir Saint-Étienne, le Red Star ne veut pas changer ses habitudes",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-2/le-contenu-c-est-notre-obsession-avant-de-recevoir-saint-etienne-le-red-star-ne-veut-pas-changer-ses-habitudes_AN-202610170046.html",
+      "date": "Sat, 17 Oct 2026 06:17:00 GMT",
+      "source": "rmcsport.bfmtv.com",
+      "category": "Data & Performance",
+      "summary": "Le choc de Ligue 2 entre le Red Star et Saint-Étienne ce samedi va permettre aux Audoniens de se jauger, alors qu’ils sont sur le podium. Dans la continuité de leur belle saison passée (4e) malgré les changements.",
+      "tags": [
+        "Veille RSS",
+        "Data & Performance"
+      ]
+    },
+    {
       "title": "Sutton's predictions v boxer & Ipswich fan Fabio Wardley",
       "link": "https://www.bbc.co.uk/sport/football/articles/crgqwvnnyv30o?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 15 Oct 2026 19:26:51 GMT",
@@ -97,30 +121,6 @@
       "tags": [
         "Veille RSS",
         "Arbitrage & SAOT"
-      ]
-    },
-    {
-      "title": "Conference League Predictions 2026-27: The Opta Supercomputer Projections",
-      "link": "https://theanalyst.com/articles/conference-league-predictions-opta-supercomputer-2026-27",
-      "date": "Thu, 15 Oct 2026 06:41:43 +0000",
-      "source": "theanalyst.com",
-      "category": "Data & Performance",
-      "summary": "Ahead of the start of the league phase of the 2026-27 Conference League, the Opta supercomputer has run 10,000 simulations of the season. But who won the competition most often? The post Conference League Predictions 2026-27: The Opta Supercomputer Projections appeared first o...",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
-      "title": "What OpenAI’s 719 Math Papers Mean for Data Science",
-      "link": "https://towardsdatascience.com/what-openais-719-math-papers-mean-for-data-science/",
-      "date": "Thu, 15 Oct 2026 14:00:00 GMT",
-      "source": "towardsdatascience.com",
-      "category": "Data & Performance",
-      "summary": "Matching messy text, choosing representative examples, and generating comparison data. The post What OpenAI’s 719 Math Papers Mean for Data Science appeared first on Towards Data Science.",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
       ]
     }
   ]

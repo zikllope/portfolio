@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "18/10/2026 à 10:12",
+  "last_updated": "19/10/2026 à 11:47",
   "total_articles": 9,
   "articles": [
     {
@@ -88,30 +88,6 @@
       ]
     },
     {
-      "title": "PSG-Barça : Les Barcelonais inarrêtables cette saison… les Parisiens passent-ils au révélateur ?",
-      "link": "https://rmcsport.bfmtv.com/football/ligue-des-champions/video-psg-barca-les-barcelonais-inarretables-cette-saison-les-parisiens-passent-ils-au-revelateur_VN-202610180159.html",
-      "date": "Sun, 18 Oct 2026 09:24:19 GMT",
-      "source": "rmcsport.bfmtv.com",
-      "category": "Data & Performance",
-      "summary": "Déjà une finale avant l’heure… Le PSG–BARCA de mardi prochain est un choc entre les deux plus belles équipes d’Europe actuellement… Après cette semaine européenne et le festival face à Manchester City, à quoi va ressembler ce match pour les Parisiens ?",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
-      "title": "PSG : \"Nous luttons pour toute l'Europe\", la réponse de Zabarnyi à Marine Le Pen sur la guerre en Ukraine",
-      "link": "https://rmcsport.bfmtv.com/football/ligue-1/video-psg-nous-luttons-pour-toute-l-europe-la-reponse-de-zabarnyi-a-marine-le-pen-sur-la-guerre-en-ukraine_VN-202610170371.html",
-      "date": "Sat, 17 Oct 2026 21:15:17 GMT",
-      "source": "rmcsport.bfmtv.com",
-      "category": "Data & Performance",
-      "summary": "Présent en zone mixte après la victoire du PSG sur la pelouse de Strasbourg (1-3) lors de la 7e journée de Ligue 1, Illya Zabarnyi, défenseur parisien, a répondu au propos de Marine Le Pen. Cette dernière ayant déclarée vouloir stopper l'aide de la France dans la guerre en Ukr...",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
       "title": "Sutton's predictions v boxer & Ipswich fan Fabio Wardley",
       "link": "https://www.bbc.co.uk/sport/football/articles/crgqwvnnyv30o?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 15 Oct 2026 19:26:51 GMT",
@@ -121,6 +97,30 @@
       "tags": [
         "Veille RSS",
         "Arbitrage & SAOT"
+      ]
+    },
+    {
+      "title": "Conference League Predictions 2026-27: The Opta Supercomputer Projections",
+      "link": "https://theanalyst.com/articles/conference-league-predictions-opta-supercomputer-2026-27",
+      "date": "Thu, 15 Oct 2026 06:41:43 +0000",
+      "source": "theanalyst.com",
+      "category": "Data & Performance",
+      "summary": "Ahead of the start of the league phase of the 2026-27 Conference League, the Opta supercomputer has run 10,000 simulations of the season. But who won the competition most often? The post Conference League Predictions 2026-27: The Opta Supercomputer Projections appeared first o...",
+      "tags": [
+        "Veille RSS",
+        "Data & Performance"
+      ]
+    },
+    {
+      "title": "I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim.",
+      "link": "https://towardsdatascience.com/i-built-a-claim-checker-for-writing-with-codex-it-passed-a-wrong-claim/",
+      "date": "Fri, 16 Oct 2026 14:00:00 GMT",
+      "source": "towardsdatascience.com",
+      "category": "Data & Performance",
+      "summary": "The tool found the right passage but missed the mismatch, and the audit shows where rule-based checks break down. The post I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim. appeared first on Towards Data Science.",
+      "tags": [
+        "Veille RSS",
+        "Data & Performance"
       ]
     }
   ]

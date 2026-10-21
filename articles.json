@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "20/10/2026 à 10:46",
+  "last_updated": "21/10/2026 à 10:58",
   "total_articles": 9,
   "articles": [
     {
@@ -88,6 +88,18 @@
       ]
     },
     {
+      "title": "Ille-et-Vilaine: les clubs de foot amateurs du département vont bénéficier d'aides carburant versées par la FFF et la Ligue de Bretagne",
+      "link": "https://rmcsport.bfmtv.com/football/ille-et-vilaine-les-clubs-de-foot-amateurs-du-departement-vont-beneficier-d-aides-carburant-versees-par-la-fff-et-la-ligue-de-bretagne_AN-202610210401.html",
+      "date": "Wed, 21 Oct 2026 09:26:02 GMT",
+      "source": "rmcsport.bfmtv.com",
+      "category": "Data & Performance",
+      "summary": "Le président du District Ille-et-Vilaine de la FFF et de la Ligue de Bretagne de football, Philippe Le Yondre, a confirmé, ce mercredi 21 octobre, que les clubs amateurs du département allaient toucher des bons carburants.",
+      "tags": [
+        "Veille RSS",
+        "Data & Performance"
+      ]
+    },
+    {
       "title": "Conference League Predictions 2026-27: The Opta Supercomputer Projections",
       "link": "https://theanalyst.com/articles/conference-league-predictions-opta-supercomputer-2026-27",
       "date": "Thu, 15 Oct 2026 06:41:43 +0000",
@@ -106,18 +118,6 @@
       "source": "towardsdatascience.com",
       "category": "Data & Performance",
       "summary": "The tool found the right passage but missed the mismatch, and the audit shows where rule-based checks break down. The post I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim. appeared first on Towards Data Science.",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
-      "title": "What OpenAI’s 719 Math Papers Mean for Data Science",
-      "link": "https://towardsdatascience.com/what-openais-719-math-papers-mean-for-data-science/",
-      "date": "Thu, 15 Oct 2026 14:00:00 GMT",
-      "source": "towardsdatascience.com",
-      "category": "Data & Performance",
-      "summary": "Matching messy text, choosing representative examples, and generating comparison data. The post What OpenAI’s 719 Math Papers Mean for Data Science appeared first on Towards Data Science.",
       "tags": [
         "Veille RSS",
         "Data & Performance"

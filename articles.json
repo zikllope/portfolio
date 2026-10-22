@@ -1,6 +1,6 @@
 {
   "subject": "Intelligence artificielle et football : quand les algorithmes arbitrent, analysent et racontent le match",
-  "last_updated": "21/10/2026 à 10:58",
+  "last_updated": "22/10/2026 à 10:57",
   "total_articles": 9,
   "articles": [
     {
@@ -88,12 +88,24 @@
       ]
     },
     {
-      "title": "Ille-et-Vilaine: les clubs de foot amateurs du département vont bénéficier d'aides carburant versées par la FFF et la Ligue de Bretagne",
-      "link": "https://rmcsport.bfmtv.com/football/ille-et-vilaine-les-clubs-de-foot-amateurs-du-departement-vont-beneficier-d-aides-carburant-versees-par-la-fff-et-la-ligue-de-bretagne_AN-202610210401.html",
-      "date": "Wed, 21 Oct 2026 09:26:02 GMT",
+      "title": "OM : Projectiles et simulation d'affrontements dans les tribunes... les forces de l'ordre s'échauffent avant le match à Sturm Graz",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-1/video-om-projectiles-et-simulation-d-affrontements-dans-les-tribunes-les-forces-de-l-ordre-s-echauffent-avant-le-match-a-sturm-graz_VN-202610220314.html",
+      "date": "Thu, 22 Oct 2026 07:39:13 GMT",
+      "source": "rmcsport.bfmtv.com",
+      "category": "Arbitrage & SAOT",
+      "summary": "Alors qu'un millier de supporters marseillais est attendu ce jeudi en Autriche pour le match de Ligue Europa entre Sturm Graz et l'OM (18h45), les autorités craignent des débordements quatre jours après de violents affrontements lors du derby contre le Grazer AK. C'est pourquo...",
+      "tags": [
+        "Veille RSS",
+        "Arbitrage & SAOT"
+      ]
+    },
+    {
+      "title": "Bruges-Lens: pourquoi Thauvin n’a pas débuté le match de Ligue des champions",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-des-champions/bruges-lens-pourquoi-thauvin-n-a-pas-debute-le-match-de-ligue-des-champions_AV-202610220182.html",
+      "date": "Thu, 22 Oct 2026 05:51:12 GMT",
       "source": "rmcsport.bfmtv.com",
       "category": "Data & Performance",
-      "summary": "Le président du District Ille-et-Vilaine de la FFF et de la Ligue de Bretagne de football, Philippe Le Yondre, a confirmé, ce mercredi 21 octobre, que les clubs amateurs du département allaient toucher des bons carburants.",
+      "summary": "Yannick Cahuzac a justifié mercredi l’absence de Florian Thauvin dans le onze de départ de Lens lors de la défaite à Bruges (3-0) en Ligue des champions. L’entraîneur lensois a confirmé que son habituel capitaine ne voulait pas débuter le choc de la troisième journée de la pha...",
       "tags": [
         "Veille RSS",
         "Data & Performance"
@@ -106,18 +118,6 @@
       "source": "theanalyst.com",
       "category": "Data & Performance",
       "summary": "Ahead of the start of the league phase of the 2026-27 Conference League, the Opta supercomputer has run 10,000 simulations of the season. But who won the competition most often? The post Conference League Predictions 2026-27: The Opta Supercomputer Projections appeared first o...",
-      "tags": [
-        "Veille RSS",
-        "Data & Performance"
-      ]
-    },
-    {
-      "title": "I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim.",
-      "link": "https://towardsdatascience.com/i-built-a-claim-checker-for-writing-with-codex-it-passed-a-wrong-claim/",
-      "date": "Fri, 16 Oct 2026 14:00:00 GMT",
-      "source": "towardsdatascience.com",
-      "category": "Data & Performance",
-      "summary": "The tool found the right passage but missed the mismatch, and the audit shows where rule-based checks break down. The post I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim. appeared first on Towards Data Science.",
       "tags": [
         "Veille RSS",
         "Data & Performance"

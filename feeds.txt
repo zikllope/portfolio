@@ -1,0 +1,24 @@
+# feeds.txt - Sources de veille
+# Sujet : Securite et souverainete des donnees a l'ere de l'IA : le local-first comme reponse
+# Une URL par ligne. Les lignes commencant par # sont ignorees.
+# Un flux qui ne repond plus est signale dans les logs GitHub Actions : a remplacer.
+
+# --- Institutionnel (FR) ---
+https://www.cert.ssi.gouv.fr/feed/
+https://www.cnil.fr/fr/rss.xml
+
+# --- Securite / infrastructure (FR) ---
+https://www.it-connect.fr/feed/
+https://www.numerama.com/feed/
+https://www.zdnet.fr/feeds/rss/
+
+# --- Securite / vie privee (EN) ---
+https://www.bleepingcomputer.com/feed/
+https://feeds.feedburner.com/TheHackersNews
+https://www.theregister.com/headlines.atom
+https://www.privacyguides.org/en/feed_rss_created.xml
+https://feeds.arstechnica.com/arstechnica/index
+
+# --- IA locale / self-hosting ---
+https://huggingface.co/blog/feed.xml
+https://selfh.st/rss/

@@ -1,0 +1,61 @@
+/**
+ * Google Apps Script - livraison de la veille (gratuit, aucun secret GitHub nécessaire)
+ * Installation : script.google.com > Nouveau projet > coller ce fichier > exécuter setup() une fois (autoriser).
+ *  - Chaque jour ~7h : met à jour le Google Doc « Veille SISR » (créé automatiquement, plus récent en haut)
+ *  - Chaque lundi ~8h : envoie un email récapitulatif des 7 derniers jours avec le lien du Doc
+ */
+const RAW_URL = 'https://raw.githubusercontent.com/zikllope/portfolio/main/veille_archive.json'; // adapter si la branche/le dépôt diffère
+const DOC_TITLE = 'Veille SISR - Sécurité & souveraineté des données';
+
+function setup() {
+  ScriptApp.getProjectTriggers().forEach(t => ScriptApp.deleteTrigger(t));
+  ScriptApp.newTrigger('updateDoc').timeBased().everyDays(1).atHour(7).create();
+  ScriptApp.newTrigger('sendWeeklyEmail').timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(8).create();
+  updateDoc();
+}
+
+function getArticles_() {
+  return JSON.parse(UrlFetchApp.fetch(RAW_URL, {muteHttpExceptions: false}).getContentText()).articles || [];
+}
+
+function getDoc_() {
+  const props = PropertiesService.getScriptProperties();
+  let id = props.getProperty('DOC_ID');
+  if (id) { try { return DocumentApp.openById(id); } catch (e) {} }
+  const doc = DocumentApp.create(DOC_TITLE);
+  props.setProperty('DOC_ID', doc.getId());
+  return doc;
+}
+
+function updateDoc() {
+  const arts = getArticles_();
+  const doc = getDoc_(), body = doc.getBody();
+  body.clear();
+  body.appendParagraph(DOC_TITLE).setHeading(DocumentApp.ParagraphHeading.TITLE);
+  body.appendParagraph('Mis à jour le ' + Utilities.formatDate(new Date(), 'Europe/Paris', 'dd/MM/yyyy HH:mm') + ' - ' + arts.length + ' articles archivés');
+  let currentMonth = '';
+  arts.forEach(a => {
+    const month = a.date.slice(0, 7);
+    if (month !== currentMonth) { currentMonth = month; body.appendParagraph(month).setHeading(DocumentApp.ParagraphHeading.HEADING1); }
+    const p = body.appendParagraph(a.title).setHeading(DocumentApp.ParagraphHeading.HEADING3);
+    p.setLinkUrl(a.link);
+    body.appendParagraph(a.date + ' · ' + a.source + ' · ' + a.category);
+    if (a.summary) body.appendParagraph(a.summary);
+    body.appendParagraph('Mon avis / à retenir : ').setItalic(true);
+  });
+  doc.saveAndClose();
+}
+
+function sendWeeklyEmail() {
+  const since = Utilities.formatDate(new Date(Date.now() - 7 * 864e5), 'UTC', 'yyyy-MM-dd');
+  const week = getArticles_().filter(a => a.date >= since);
+  const url = getDoc_().getUrl();
+  let html = '<h2>Veille de la semaine - ' + week.length + ' articles</h2><p>Archive complète : <a href="' + url + '">Google Doc</a></p>';
+  ['IA locale & Self-hosting', 'Souveraineté & RGPD', 'Sécurité & Infrastructure'].forEach(cat => {
+    const items = week.filter(a => a.category === cat);
+    if (!items.length) return;
+    html += '<h3>' + cat + '</h3><ul>' + items.map(a => '<li><a href="' + a.link + '">' + a.title + '</a> <small>(' + a.source + ', ' + a.date + ')</small><br>' + a.summary + '</li>').join('') + '</ul>';
+  });
+  if (!week.length) html += '<p>Aucun nouvel article cette semaine.</p>';
+  MailApp.sendEmail({to: Session.getActiveUser().getEmail(), subject: 'Veille SISR - semaine du ' + Utilities.formatDate(new Date(), 'Europe/Paris', 'dd/MM'), htmlBody: html});
+}

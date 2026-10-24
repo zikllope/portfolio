@@ -1,1 +1,345 @@
-{"subject":"Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse","last_updated":"2026-10-24","total_articles":0,"articles":[]}
+{
+ "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
+ "last_updated": "2026-10-24",
+ "total_articles": 26,
+ "articles": [
+  {
+   "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+   "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+   "date": "2026-10-24",
+   "source": "feeds.feedburner.com",
+   "category": "Souveraineté & RGPD",
+   "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow cert...",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits Red Hat (23 octobre 2026)",
+   "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1373/",
+   "date": "2026-10-23",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni de service et un problème de sécurité non spécifié par l'éditeur.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (23 octobre 2026)",
+   "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1369/",
+   "date": "2026-10-23",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Vulnérabilité dans Mattermost Server (23 octobre 2026)",
+   "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1368/",
+   "date": "2026-10-23",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Microsoft Edge (23 octobre 2026)",
+   "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1371/",
+   "date": "2026-10-23",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (23 octobre 2026)",
+   "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1375/",
+   "date": "2026-10-23",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Windows 11 : avec Project Pantheon, Microsoft teste une mémoire IA qui ne retient que ce que vous choisissez",
+   "link": "https://www.it-connect.fr/windows-11-project-pantheon-context-vault-memoire-ia/",
+   "date": "2026-10-23",
+   "source": "it-connect.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Microsoft teste Project Pantheon, une mémoire IA pour Windows 11 qui ne retient que ce que vous sauvegardez, avec un serveur MCP ouvert à Claude et Cursor. Le post Windows 11 : avec Project Pantheon, Microsoft teste une mémoire IA qui ne retient que ce que vous choisissez a ét...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "You gave your AI agent access, but who is giving it orders?",
+   "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+   "date": "2026-10-23",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure conne...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "date": "2026-10-23",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat a...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+   "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+   "date": "2026-10-23",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or ...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Railway warns devs to rotate secrets after potential breach",
+   "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+   "date": "2026-10-22",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "date": "2026-10-22",
+   "source": "bleepingcomputer.com",
+   "category": "IA locale & Self-hosting",
+   "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+   "tags": [
+    "Veille RSS",
+    "IA locale & Self-hosting"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Machine speed attacks require machine speed detection and response",
+   "link": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+   "date": "2026-10-22",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated co...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+   "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+   "date": "2026-10-22",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+   "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+   "date": "2026-10-22",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any netwo...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants",
+   "link": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
+   "date": "2026-10-22",
+   "source": "theregister.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "AI agents did the dirty work, with hackers gaining privileged access in some environments in under three hours",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données",
+   "link": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
+   "date": "2026-10-20",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "La CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont confrontés les professi...",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?",
+   "link": "https://www.cnil.fr/fr/webinaire-demarchage-telephonique",
+   "date": "2026-10-19",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection téléphonique.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques",
+   "link": "https://www.cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes",
+   "date": "2026-10-16",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "La CNIL, l’ICO et la CNPD publient leur étude conjointe « De la protection des données à la création de valeur en finance : évaluation des données, comptabilité, fusions-acquisitions et gouvernance », rassemblant analyses et bonnes pratiques à destination des entreprises et de...",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Reconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?",
+   "link": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-quel-cadre",
+   "date": "2026-10-16",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "La reconstitution d’adresses électroniques professionnelles à partir de données accessibles en ligne est utilisée pour contacter des interlocuteurs, notamment dans le cadre de la prospection. Elle est encadrée par le RGPD et ne peut reposer sur l’intérêt légitime que si certai...",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?",
+   "link": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
+   "date": "2026-10-16",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "Lorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de la prospection. La reconstitution d’adresse électronique doit respecter le RGP...",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "How to build scalable web apps with OpenAI's Privacy Filter",
+   "link": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+   "date": "2026-04-27",
+   "source": "huggingface.co",
+   "category": "Souveraineté & RGPD",
+   "summary": "",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Nemotron-Personas-India: Synthesized Data for Sovereign AI",
+   "link": "https://huggingface.co/blog/nvidia/nemotron-personas-india",
+   "date": "2025-10-13",
+   "source": "huggingface.co",
+   "category": "Souveraineté & RGPD",
+   "summary": "",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "SyGra: The One-Stop Framework for Building Data for LLMs and SLMs",
+   "link": "https://huggingface.co/blog/ServiceNow-AI/sygra-data-gen-framework",
+   "date": "2025-09-22",
+   "source": "huggingface.co",
+   "category": "IA locale & Self-hosting",
+   "summary": "",
+   "tags": [
+    "Veille RSS",
+    "IA locale & Self-hosting"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Scaling AI-based Data Processing with Hugging Face + Dask",
+   "link": "https://huggingface.co/blog/dask-scaling",
+   "date": "2024-10-09",
+   "source": "huggingface.co",
+   "category": "Sécurité & Infrastructure",
+   "summary": "",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  },
+  {
+   "title": "Ethics and Society Newsletter #6: Building Better AI: The Importance of Data Quality",
+   "link": "https://huggingface.co/blog/ethics-soc-6",
+   "date": "2024-06-24",
+   "source": "huggingface.co",
+   "category": "Sécurité & Infrastructure",
+   "summary": "",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-24"
+  }
+ ]
+}

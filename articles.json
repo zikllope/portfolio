@@ -1,8 +1,21 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-10-25",
+  "last_updated": "2026-10-26",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "La règle sacrée a désormais une exception : Google peut cibler ses publicités grâce à vos mails et vos photos, si vous les confiez à son IA",
+      "link": "https://www.numerama.com/cyberguerre/2360679-la-regle-sacree-a-desormais-une-exception-google-peut-cibler-ses-publicites-grace-a-vos-mails-et-vos-photos-si-vous-les-confiez-a-son-ia.html",
+      "date": "2026-10-26",
+      "source": "numerama.com",
+      "category": "Souveraineté & RGPD",
+      "summary": "Google a modifié sa politique de confidentialité pour permettre l’utilisation publicitaire des données de Gmail, Drive et Google Photos lorsqu’un utilisateur choisit de les partager avec certains de ses services, notamment ses outils d’IA.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-10-26"
+    },
     {
       "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
       "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
@@ -143,19 +156,6 @@
       "tags": [
         "Veille RSS",
         "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-24"
-    },
-    {
-      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "date": "2026-10-22",
-      "source": "bleepingcomputer.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-      "tags": [
-        "Veille RSS",
-        "IA locale & Self-hosting"
       ],
       "added": "2026-10-24"
     }

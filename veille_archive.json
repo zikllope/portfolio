@@ -1,8 +1,138 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-10-28",
- "total_articles": 46,
+ "last_updated": "2026-10-29",
+ "total_articles": 56,
  "articles": [
+  {
+   "title": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
+   "link": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+   "date": "2026-10-29",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "Le 22 octobre 2026, la CNIL a sanctionné les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT d’une amende de 7 millions d’euros pour non-respect des règles applicables en matière de traceurs (cookies).",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "date": "2026-10-29",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server throug...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Metabase (28 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1403/",
+   "date": "2026-10-28",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Metabase. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits Veeam (28 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1399/",
+   "date": "2026-10-28",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Palo Alto Networks PAN-OS (28 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1402/",
+   "date": "2026-10-28",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Palo Alto Networks PAN-OS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. Palo Alto Networks indique que les vulnérabilités CVE-2026-109618 et CVE-2026-109619 sont activement exploi...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "Vulnérabilité dans CPython (28 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1397/",
+   "date": "2026-10-28",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Google Chrome (28 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1398/",
+   "date": "2026-10-28",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+   "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "date": "2026-10-28",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the ...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+   "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+   "date": "2026-10-28",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was obser...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
+  {
+   "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
+   "link": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+   "date": "2026-10-28",
+   "source": "theregister.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-29"
+  },
   {
    "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
    "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",

@@ -1,8 +1,138 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
+      "date": "2026-10-29",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76418 est activement exploitée.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "Vulnérabilité dans les produits NetApp (29 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
+      "date": "2026-10-29",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans les produits NetApp. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Veeam Backup for Microsoft 365 (29 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1411/",
+      "date": "2026-10-29",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Veeam Backup for Microsoft 365. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Elastic Cloud Enterprise (29 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1419/",
+      "date": "2026-10-29",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Elastic Cloud Enterprise. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Kaspersky (29 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1417/",
+      "date": "2026-10-29",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans les produits Kaspersky. Elle permet à un attaquant de provoquer un déni de service.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "Fragnesia et PHP2Shell : la chaîne d’attaque qui a offert un accès root sur 24 firewalls",
+      "link": "https://www.it-connect.fr/fragnesia-php2shell-cisa-chaine-attaque-root/",
+      "date": "2026-10-29",
+      "source": "it-connect.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Les failles PHP2Shell et Fragnesia (noyau Linux) sont exploitées ensemble pour obtenir un accès root sur 24 firewalls. L'agence CISA a publié une alerte. Le post Fragnesia et PHP2Shell : la chaîne d’attaque qui a offert un accès root sur 24 firewalls a été publié sur IT-Connect.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "3 Ways AI Agents Already Operate in Your Browser",
+      "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+      "date": "2026-10-29",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distin...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "date": "2026-10-29",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borro...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "date": "2026-10-29",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
+    {
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "date": "2026-10-29",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditi...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-10-30"
+    },
     {
       "title": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
       "link": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
@@ -28,136 +158,6 @@
         "Sécurité & Infrastructure"
       ],
       "added": "2026-10-29"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Metabase (28 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1403/",
-      "date": "2026-10-28",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Metabase. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Veeam (28 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1399/",
-      "date": "2026-10-28",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Palo Alto Networks PAN-OS (28 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1402/",
-      "date": "2026-10-28",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Palo Alto Networks PAN-OS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. Palo Alto Networks indique que les vulnérabilités CVE-2026-109618 et CVE-2026-109619 sont activement exploi...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "Vulnérabilité dans CPython (28 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1397/",
-      "date": "2026-10-28",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome (28 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1398/",
-      "date": "2026-10-28",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-      "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-      "date": "2026-10-28",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the ...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-      "date": "2026-10-28",
-      "source": "feeds.feedburner.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was obser...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus",
-      "link": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
-      "date": "2026-10-28",
-      "source": "theregister.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Company chiefs believe the attackers could be the same as those who used ARTEX to breach South Korea’s financial giants",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-29"
-    },
-    {
-      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-      "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-      "date": "2026-10-28",
-      "source": "feeds.feedburner.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-28"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Edge (27 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1395/",
-      "date": "2026-10-27",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-10-28"
     }
   ]
 }

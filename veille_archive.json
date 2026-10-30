@@ -1,8 +1,138 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-10-29",
- "total_articles": 56,
+ "last_updated": "2026-10-30",
+ "total_articles": 66,
  "articles": [
+  {
+   "title": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
+   "date": "2026-10-29",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76418 est activement exploitée.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "Vulnérabilité dans les produits NetApp (29 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
+   "date": "2026-10-29",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Une vulnérabilité a été découverte dans les produits NetApp. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Veeam Backup for Microsoft 365 (29 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1411/",
+   "date": "2026-10-29",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Veeam Backup for Microsoft 365. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Elastic Cloud Enterprise (29 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1419/",
+   "date": "2026-10-29",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Elastic Cloud Enterprise. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "Vulnérabilité dans les produits Kaspersky (29 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1417/",
+   "date": "2026-10-29",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Une vulnérabilité a été découverte dans les produits Kaspersky. Elle permet à un attaquant de provoquer un déni de service.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "Fragnesia et PHP2Shell : la chaîne d’attaque qui a offert un accès root sur 24 firewalls",
+   "link": "https://www.it-connect.fr/fragnesia-php2shell-cisa-chaine-attaque-root/",
+   "date": "2026-10-29",
+   "source": "it-connect.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Les failles PHP2Shell et Fragnesia (noyau Linux) sont exploitées ensemble pour obtenir un accès root sur 24 firewalls. L'agence CISA a publié une alerte. Le post Fragnesia et PHP2Shell : la chaîne d’attaque qui a offert un accès root sur 24 firewalls a été publié sur IT-Connect.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "3 Ways AI Agents Already Operate in Your Browser",
+   "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+   "date": "2026-10-29",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distin...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+   "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+   "date": "2026-10-29",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borro...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "date": "2026-10-29",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
+  {
+   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "date": "2026-10-29",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditi...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-10-30"
+  },
   {
    "title": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
    "link": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",

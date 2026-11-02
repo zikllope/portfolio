@@ -1,8 +1,73 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-02",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance",
+      "link": "https://www.it-connect.fr/cve-2026-98432-faille-noyau-linux-tcp-root-distance/",
+      "date": "2026-11-02",
+      "source": "it-connect.fr",
+      "category": "IA locale & Self-hosting",
+      "summary": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ? Le post CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance a été publié sur IT-Connect.",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-02"
+    },
+    {
+      "title": "Piratage de la Switch 2 : jeux natifs sur Mac et iPhone, émulation PC… Nintendo est dans une mauvaise passe",
+      "link": "https://www.numerama.com/cyberguerre/2365507-piratage-de-la-switch-2-jeux-natifs-sur-mac-et-iphone-emulation-pc-nintendo-est-dans-une-mauvaise-passe.html",
+      "date": "2026-11-02",
+      "source": "numerama.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Depuis le 22 octobre, un jailbreak de la Nintendo Switch 2 permet de copier ses jeux, leurs mises à jour et ses sauvegardes pour les émuler sur PC ou les faire tourner nativement sur les Mac avec puce Apple Silicon, les iPhone et les smartphones Android. La situation se dégrad...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-02"
+    },
+    {
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "date": "2026-11-02",
+      "source": "feeds.feedburner.com",
+      "category": "IA locale & Self-hosting",
+      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to h...",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-02"
+    },
+    {
+      "title": "India floats AI plan under which ‘The model travels to the data, rather than the data travelling to the model’",
+      "link": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
+      "date": "2026-11-02",
+      "source": "theregister.com",
+      "category": "IA locale & Self-hosting",
+      "summary": "Wants more local AI, without Big Tech getting open access to everything",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-02"
+    },
+    {
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "date": "2026-11-01",
+      "source": "bleepingcomputer.com",
+      "category": "IA locale & Self-hosting",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-02"
+    },
     {
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
@@ -88,71 +153,6 @@
       "source": "cert.ssi.gouv.fr",
       "category": "Sécurité & Infrastructure",
       "summary": "Une vulnérabilité a été découverte dans Stormshield Management Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-31"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome (30 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1422/",
-      "date": "2026-10-30",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-31"
-    },
-    {
-      "title": "Vulnérabilité dans CPython (30 octobre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
-      "date": "2026-10-30",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-31"
-    },
-    {
-      "title": "Windows 11 KB5127936 : beaucoup de changements et le menu contextuel devient personnalisable",
-      "link": "https://www.it-connect.fr/windows-11-kb5127936-menu-contextuel-personnalisable/",
-      "date": "2026-10-30",
-      "source": "it-connect.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "KB5127936 : menu contextuel personnalisable, Cloud rebuild, CLAT pour IPv6 et correctif Always On VPN. Voici l'essentiel de la mise à jour Windows 11 d'octobre. Le post Windows 11 KB5127936 : beaucoup de changements et le menu contextuel devient personnalisable a été publié su...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-31"
-    },
-    {
-      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-      "date": "2026-10-30",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-10-31"
-    },
-    {
-      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
-      "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
-      "date": "2026-10-30",
-      "source": "feeds.arstechnica.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
       "tags": [
         "Veille RSS",
         "Sécurité & Infrastructure"

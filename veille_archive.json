@@ -1,8 +1,190 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-11-03",
- "total_articles": 91,
+ "last_updated": "2026-11-04",
+ "total_articles": 105,
  "articles": [
+  {
+   "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
+   "date": "2026-11-03",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Multiples vulnérabilités dans GLPI (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
+   "date": "2026-11-03",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Multiples vulnérabilités dans PostgreSQL (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
+   "date": "2026-11-03",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Xen (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
+   "date": "2026-11-03",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Google Android (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
+   "date": "2026-11-03",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "date": "2026-11-03",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "date": "2026-11-03",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "date": "2026-11-03",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-p...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+   "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+   "date": "2026-11-03",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social e...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+   "date": "2026-11-03",
+   "source": "feeds.feedburner.com",
+   "category": "IA locale & Self-hosting",
+   "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an at...",
+   "tags": [
+    "Veille RSS",
+    "IA locale & Self-hosting"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "date": "2026-11-03",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard mak...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "date": "2026-11-03",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regula...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "AI policy wonks declare 'sovereign agents' a threat to civilization",
+   "link": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+   "date": "2026-11-03",
+   "source": "theregister.com",
+   "category": "Souveraineté & RGPD",
+   "summary": "These are AI agents that operate outside of human control and 'pursue open-ended, evolving survival'",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-04"
+  },
+  {
+   "title": "Britain on notice: AI-powered ransomware attacks to arrive by 2028",
+   "link": "https://www.theregister.com/security/2026/11/03/britain-on-notice-ai-powered-ransomware-attacks-to-arrive-by-2028/5307200",
+   "date": "2026-11-03",
+   "source": "theregister.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Cyber agency warns critical infrastructure is a likely target as chief urges bosses to stop doing 'tech on the cheap'",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-04"
+  },
   {
    "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
    "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",

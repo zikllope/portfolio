@@ -1,8 +1,125 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-11-04",
- "total_articles": 105,
+ "last_updated": "2026-11-05",
+ "total_articles": 114,
  "articles": [
+  {
+   "title": "Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs",
+   "link": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+   "date": "2026-11-05",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "La CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent ces outils et ceux qui les utilisent dans leur mise en conformité.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "date": "2026-11-05",
+   "source": "feeds.feedburner.com",
+   "category": "IA locale & Self-hosting",
+   "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidat...",
+   "tags": [
+    "Veille RSS",
+    "IA locale & Self-hosting"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
+   "date": "2026-11-04",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
+   "date": "2026-11-04",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits SonicWall (04 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1456/",
+   "date": "2026-11-04",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection SQL (SQLi).",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "Vulnérabilité dans MongoDB (04 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1454/",
+   "date": "2026-11-04",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "Une vulnérabilité a été découverte dans MongoDB. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
+   "date": "2026-11-04",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants",
+   "link": "https://www.cnil.fr/fr/cepd-privacy-for-kids",
+   "date": "2026-11-04",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "Le Comité européen de la protection des données (CEPD), en lien avec différentes autorités de protection de données, dont la CNIL, lance sa plateforme Privacy for kids dédiée à l’éducation au numérique.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-05"
+  },
+  {
+   "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+   "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+   "date": "2026-11-04",
+   "source": "feeds.arstechnica.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-05"
+  },
   {
    "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",

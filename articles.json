@@ -1,8 +1,151 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-06",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "*sshole : sur Alpine Linux, un mot de passe trop long peut mener à un accès root via SSH",
+      "link": "https://www.it-connect.fr/faille-openssh-musl-sshhole-alpine-linux/",
+      "date": "2026-11-06",
+      "source": "it-connect.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "La faille *sshole (CVE-2026-123158) ouvre en SSH, avec un mot de passe trop long, des comptes Linux sans mot de passe. Alpine Linux est le premier concerné. Le post *sshole : sur Alpine Linux, un mot de passe trop long peut mener à un accès root via SSH a été publié sur IT-Con...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
+      "link": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+      "date": "2026-11-06",
+      "source": "theregister.com",
+      "category": "Souveraineté & RGPD",
+      "summary": "CEO says sovereigns probably exploited PHP2SHELL ages ago, and suggests containers are dead",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
+      "date": "2026-11-05",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Siemens (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1464/",
+      "date": "2026-11-05",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1468/",
+      "date": "2026-11-05",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans OpenSSH. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Cisco (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1467/",
+      "date": "2026-11-05",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Multiples vulnérabilités dans OpenOffice (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1463/",
+      "date": "2026-11-05",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+      "date": "2026-11-05",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "date": "2026-11-05",
+      "source": "feeds.feedburner.com",
+      "category": "Souveraineté & RGPD",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimi...",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Get root on a musl Linux system by slamming it with an overly long password",
+      "link": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910",
+      "date": "2026-11-05",
+      "source": "theregister.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Decade-old vulnerability in OpenSSH is now fixed, so get a-patchin'",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-06"
+    },
+    {
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "date": "2026-11-05",
+      "source": "feeds.arstechnica.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-06"
+    },
     {
       "title": "Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs",
       "link": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
@@ -15,149 +158,6 @@
         "Souveraineté & RGPD"
       ],
       "added": "2026-11-05"
-    },
-    {
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "date": "2026-11-05",
-      "source": "feeds.feedburner.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidat...",
-      "tags": [
-        "Veille RSS",
-        "IA locale & Self-hosting"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
-      "date": "2026-11-04",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
-      "date": "2026-11-04",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits SonicWall (04 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1456/",
-      "date": "2026-11-04",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection SQL (SQLi).",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Vulnérabilité dans MongoDB (04 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1454/",
-      "date": "2026-11-04",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "Une vulnérabilité a été découverte dans MongoDB. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
-      "date": "2026-11-04",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants",
-      "link": "https://www.cnil.fr/fr/cepd-privacy-for-kids",
-      "date": "2026-11-04",
-      "source": "cnil.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "Le Comité européen de la protection des données (CEPD), en lien avec différentes autorités de protection de données, dont la CNIL, lance sa plateforme Privacy for kids dédiée à l’éducation au numérique.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-      "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-      "date": "2026-11-04",
-      "source": "feeds.arstechnica.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-05"
-    },
-    {
-      "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
-      "date": "2026-11-03",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-04"
-    },
-    {
-      "title": "Multiples vulnérabilités dans GLPI (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
-      "date": "2026-11-03",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-04"
-    },
-    {
-      "title": "Multiples vulnérabilités dans PostgreSQL (03 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
-      "date": "2026-11-03",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-04"
     }
   ]
 }

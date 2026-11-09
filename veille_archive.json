@@ -1,8 +1,73 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-11-08",
- "total_articles": 136,
+ "last_updated": "2026-11-09",
+ "total_articles": 141,
  "articles": [
+  {
+   "title": "Cybersécurité des collectivités territoriales : la CNIL prononce dix sanctions",
+   "link": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+   "date": "2026-11-09",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "En novembre 2026, la CNIL a prononcé dix sanctions simplifiées à l’encontre de collectivités territoriales et d’un établissement public, pour des manquements relatifs à la cybersécurité.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-09"
+  },
+  {
+   "title": "L’IA pourrait mettre en danger toute l’industrie automobile",
+   "link": "https://www.numerama.com/vroom/2370307-lia-pourrait-mettre-en-danger-toute-lindustrie-automobile.html",
+   "date": "2026-11-09",
+   "source": "numerama.com",
+   "category": "Souveraineté & RGPD",
+   "summary": "Alors que l'utilisation de l'IA explose et que les centres de données fleurissent dans le monde, la demande de composants électroniques n'a jamais été aussi forte. L'industrie automobile n'y échappera pas et pourrait se retrouver sous haute tension d'ici à la prochaine décennie.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-09"
+  },
+  {
+   "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+   "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+   "date": "2026-11-09",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings an...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-09"
+  },
+  {
+   "title": "Japanese homeware giant pulls online store after cloud breach puts 7.7M records at risk",
+   "link": "https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377",
+   "date": "2026-11-09",
+   "source": "theregister.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "No reopening date as orders face delays and some customers are told to refuse deliveries to cancel purchases",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-09"
+  },
+  {
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "date": "2026-11-08",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-09"
+  },
   {
    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (06 novembre 2026)",
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1470/",

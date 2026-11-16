@@ -1,8 +1,60 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-11-15",
- "total_articles": 198,
+ "last_updated": "2026-11-16",
+ "total_articles": 202,
  "articles": [
+  {
+   "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+   "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+   "date": "2026-11-16",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "date": "2026-11-15",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "title": "TSMC employee data breach linked to cloud provider",
+   "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "date": "2026-11-15",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+   "link": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
+   "date": "2026-11-15",
+   "source": "theregister.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-16"
+  },
   {
    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",

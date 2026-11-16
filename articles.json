@@ -1,8 +1,60 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-16",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+      "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+      "date": "2026-11-16",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "date": "2026-11-15",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "title": "TSMC employee data breach linked to cloud provider",
+      "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "date": "2026-11-15",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-16"
+    },
+    {
+      "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+      "link": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
+      "date": "2026-11-15",
+      "source": "theregister.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-16"
+    },
     {
       "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
       "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
@@ -106,58 +158,6 @@
         "Souveraineté & RGPD"
       ],
       "added": "2026-11-14"
-    },
-    {
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-      "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-      "date": "2026-11-13",
-      "source": "feeds.feedburner.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software i...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-14"
-    },
-    {
-      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-      "date": "2026-11-13",
-      "source": "feeds.feedburner.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, de...",
-      "tags": [
-        "Veille RSS",
-        "IA locale & Self-hosting"
-      ],
-      "added": "2026-11-13"
-    },
-    {
-      "title": "Vulnérabilité dans Sonicwall SonicOS (12 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1507/",
-      "date": "2026-11-12",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "Une vulnérabilité a été découverte dans Sonicwall SonicOS. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-13"
-    },
-    {
-      "title": "Vulnérabilité dans NetApp ONTAP tools pour VMware vSphere 10 (12 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1518/",
-      "date": "2026-11-12",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP tools pour VMware vSphere 10. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-13"
     }
   ]
 }

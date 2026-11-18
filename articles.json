@@ -1,8 +1,151 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "Le Groupe VYV et la CNIL publient « La Voix des jeunesses » : une enquête pour éclairer les usages de l’IA conversationnelle",
+      "link": "https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses",
+      "date": "2026-11-18",
+      "source": "cnil.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "Alors que près d’un jeune sur deux se confie à une IA sur des sujets intimes, avec le livret « La Voix des jeunesses », le Groupe VYV, premier acteur mutualiste de santé et de protection sociale en France, et la CNIL croisent enquête européenne, témoignages, et expertises pour...",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros",
+      "link": "https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros",
+      "date": "2026-11-18",
+      "source": "cnil.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "En novembre 2026, la CNIL a infligé une sanction de 5 millions d’euros à une société en raison de l’insuffisance des mesures prises pour assurer la sécurité des données de ses clients et d’une durée excessive de conservation des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "date": "2026-11-18",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most loo...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "date": "2026-11-18",
+      "source": "feeds.feedburner.com",
+      "category": "Souveraineté & RGPD",
+      "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with...",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "date": "2026-11-18",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligenc...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor",
+      "link": "https://www.it-connect.fr/windows-11-telemetrie-agents-ia-codage/",
+      "date": "2026-11-17",
+      "source": "it-connect.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "Un composant de Windows 11 repère les agents IA de codage (Claude, Codex, Cursor...) et peut le signaler à Microsoft via les données de diagnostic facultatives. Le post IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor a été publié sur IT-Connect.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "date": "2026-11-17",
+      "source": "bleepingcomputer.com",
+      "category": "IA locale & Self-hosting",
+      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+      "date": "2026-11-17",
+      "source": "bleepingcomputer.com",
+      "category": "IA locale & Self-hosting",
+      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Opting out of Gemini tracking? Google will still hold your data 20x longer",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/17/opting-out-of-gemini-tracking-google-will-still-hold-your-data-20x-longer/5310517",
+      "date": "2026-11-17",
+      "source": "theregister.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "From 72 hours to 2 months in a single quiet announcement. Careful what you ask Google's AI, because it's storing it even if you ask it not to",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Hackers smash 'n' grab AI vendor: Take off with license data of Uber drivers",
+      "link": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
+      "date": "2026-11-17",
+      "source": "theregister.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Ride-hailing biz says stolen credentials allowed crooks to help themselves to driver's license data",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-18"
+    },
+    {
+      "title": "Google makes it easier to use Gemini without training AI on your data",
+      "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "date": "2026-11-17",
+      "source": "feeds.arstechnica.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-18"
+    },
     {
       "title": "Multiples vulnérabilités dans Typo3 (17 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
@@ -13,149 +156,6 @@
       "tags": [
         "Veille RSS",
         "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
-      "date": "2026-11-17",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans Juniper Networks Junos OS Evolved. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Mitel MiCollab (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
-      "date": "2026-11-17",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Tenable Identity Exposure (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1550/",
-      "date": "2026-11-17",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Vulnérabilité dans Axis OS (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1549/",
-      "date": "2026-11-17",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans Axis OS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026",
-      "link": "https://www.cnil.fr/fr/38-sanctions-simplifiees",
-      "date": "2026-11-17",
-      "source": "cnil.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "Cookies, sécurité des données, prospection commerciale, non-coopération : entre juin et octobre 2026, la CNIL a prononcé 38 nouvelles sanctions dans le cadre de la procédure simplifiée, dont 23 ont pour origine des plaintes.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance",
-      "link": "https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/",
-      "date": "2026-11-17",
-      "source": "it-connect.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Des paquets TCP bien synchronisés, et tout le serveur tombe. NoisyTCP (CVE-2026-99288), une faille Linux vieille de 11 ans menace les serveurs Linux. Le post NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance a été publié sur...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-      "date": "2026-11-17",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "date": "2026-11-17",
-      "source": "feeds.feedburner.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more o...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-      "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-      "date": "2026-11-16",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-      "date": "2026-11-16",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-17"
-    },
-    {
-      "title": "Google warns that fully-automated AI attacks are coming soon",
-      "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-      "date": "2026-11-16",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
       ],
       "added": "2026-11-17"
     }

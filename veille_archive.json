@@ -1,8 +1,177 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-11-18",
- "total_articles": 226,
+ "last_updated": "2026-11-19",
+ "total_articles": 239,
  "articles": [
+  {
+   "title": "Une immense cyberattaque frappe la Commission européenne : l’arme des hackers est un outil IA qui a échappé à son propre créateur",
+   "link": "https://www.numerama.com/cyberguerre/2378643-une-immense-cyberattaque-frappe-la-commission-europeenne-larme-des-hackers-est-un-outil-ia-qui-a-echappe-a-son-propre-createur.html",
+   "date": "2026-11-19",
+   "source": "numerama.com",
+   "category": "Souveraineté & RGPD",
+   "summary": "Depuis plus de dix jours, les agents de la Commission européenne ne peuvent plus utiliser normalement plusieurs outils internes, dont leur plateforme de paie. Selon Politico, les pirates ont utilisé un outil d’IA déjà détourné par des cybercriminels, et Bruxelles ignore encore...",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Critiques et cachées depuis 11 ans : l’IA déterre deux failles dans NGINX, le serveur de 225 millions de sites",
+   "link": "https://www.numerama.com/cyberguerre/2378467-critiques-et-cachees-depuis-11-ans-lia-deterre-deux-failles-dans-nginx-le-serveur-de-225-millions-de-sites.html",
+   "date": "2026-11-19",
+   "source": "numerama.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Deux vulnérabilités permettent de prendre à distance le contrôle de serveurs NGINX, le logiciel qui fait tourner une large part du web.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+   "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+   "date": "2026-11-19",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to h...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+   "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+   "date": "2026-11-19",
+   "source": "feeds.feedburner.com",
+   "category": "IA locale & Self-hosting",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulne...",
+   "tags": [
+    "Veille RSS",
+    "IA locale & Self-hosting"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Oracle Java SE (18 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1562/",
+   "date": "2026-11-18",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits F5 (18 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1567/",
+   "date": "2026-11-18",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits Tenable (18 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
+   "date": "2026-11-18",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Oracle Weblogic (18 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1565/",
+   "date": "2026-11-18",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Oracle MySQL (18 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1563/",
+   "date": "2026-11-18",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "IA pratique : demandez à Gemini Notebook de vous créer un site Web à partir de vos notes",
+   "link": "https://www.zdnet.fr/pratique/ia-pratique-demandez-a-gemini-notebook-de-vous-creer-un-site-web-a-partir-de-vos-notes-508075.htm#xtor=123456",
+   "date": "2026-11-18",
+   "source": "zdnet.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "Cette nouvelle fonctionnalité du service d’intelligence artificielle de Google vous permet de créer des sites interactifs à l’aide de données complexes.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+   "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+   "date": "2026-11-18",
+   "source": "feeds.feedburner.com",
+   "category": "IA locale & Self-hosting",
+   "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, ...",
+   "tags": [
+    "Veille RSS",
+    "IA locale & Self-hosting"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+   "date": "2026-11-18",
+   "source": "feeds.feedburner.com",
+   "category": "IA locale & Self-hosting",
+   "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthentica...",
+   "tags": [
+    "Veille RSS",
+    "IA locale & Self-hosting"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "title": "AI-powered cyber threats are changing the rules of enterprise recovery",
+   "link": "https://www.theregister.com/security/2026/11/18/sponsored-ai-powered-cyber-threats-are-changing-the-rules-of-enterprise-recovery/5310515",
+   "date": "2026-11-18",
+   "source": "theregister.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "SPONSORED POST: As cyberattacks become more sophisticated, organizations need to look beyond prevention and ensure they can recover critical data quickly and reliably",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-19"
+  },
   {
    "title": "Le Groupe VYV et la CNIL publient « La Voix des jeunesses » : une enquête pour éclairer les usages de l’IA conversationnelle",
    "link": "https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses",

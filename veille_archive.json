@@ -1,8 +1,177 @@
 {
  "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
- "last_updated": "2026-11-19",
- "total_articles": 239,
+ "last_updated": "2026-11-20",
+ "total_articles": 252,
  "articles": [
+  {
+   "title": "Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation",
+   "link": "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
+   "date": "2026-11-20",
+   "source": "cnil.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "Le 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 sur PC : entre la build Cyberleek et les extractions PS5, la pression s’accentue pour Rockstar",
+   "link": "https://www.numerama.com/pop-culture/2379627-gta-6-sur-pc-entre-la-build-cyberleek-et-les-extractions-ps5-la-pression-saccentue-pour-rockstar.html",
+   "date": "2026-11-20",
+   "source": "numerama.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Le hacker Cyberleek affirme avoir mis en ligne une build Xbox complète de GTA 6, au lendemain de la sortie du jeu. Mais il manque le fichier qui permet de la lancer, et aucun émulateur ne sait faire tourner un jeu Xbox Series sur PC. Côté PS5, c'est le chiffrement de Sony qui ...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "N-able says recent security breach led to major service outage",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+   "date": "2026-11-20",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+   "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+   "date": "2026-11-20",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked ...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+   "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+   "date": "2026-11-20",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsup...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits Mitel (19 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
+   "date": "2026-11-19",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Wireshark (19 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
+   "date": "2026-11-19",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "Vulnérabilité dans VMware Tanzu (19 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
+   "date": "2026-11-19",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "Multiples vulnérabilités dans Progress WS_FTP Server (19 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
+   "date": "2026-11-19",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Souveraineté & RGPD",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Progress WS_FTP Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "tags": [
+    "Veille RSS",
+    "Souveraineté & RGPD"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "Multiples vulnérabilités dans les produits Cisco (19 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
+   "date": "2026-11-19",
+   "source": "cert.ssi.gouv.fr",
+   "category": "Sécurité & Infrastructure",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+   "date": "2026-11-19",
+   "source": "bleepingcomputer.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+   "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+   "date": "2026-11-19",
+   "source": "feeds.feedburner.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spre...",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "title": "European Commission scrambles to contain AI-assisted cyberattack",
+   "link": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+   "date": "2026-11-19",
+   "source": "theregister.com",
+   "category": "Sécurité & Infrastructure",
+   "summary": "Staff HR and medical reimbursement systems taken offline as officials investigate whether personal data was compromised",
+   "tags": [
+    "Veille RSS",
+    "Sécurité & Infrastructure"
+   ],
+   "added": "2026-11-20"
+  },
   {
    "title": "Une immense cyberattaque frappe la Commission européenne : l’arme des hackers est un outil IA qui a échappé à son propre créateur",
    "link": "https://www.numerama.com/cyberguerre/2378643-une-immense-cyberattaque-frappe-la-commission-europeenne-larme-des-hackers-est-un-outil-ia-qui-a-echappe-a-son-propre-createur.html",

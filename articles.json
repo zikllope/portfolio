@@ -1,163 +1,163 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "total_articles": 12,
   "articles": [
     {
-      "title": "Une immense cyberattaque frappe la Commission européenne : l’arme des hackers est un outil IA qui a échappé à son propre créateur",
-      "link": "https://www.numerama.com/cyberguerre/2378643-une-immense-cyberattaque-frappe-la-commission-europeenne-larme-des-hackers-est-un-outil-ia-qui-a-echappe-a-son-propre-createur.html",
-      "date": "2026-11-19",
+      "title": "Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation",
+      "link": "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
+      "date": "2026-11-20",
+      "source": "cnil.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "Le 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "title": "GTA 6 sur PC : entre la build Cyberleek et les extractions PS5, la pression s’accentue pour Rockstar",
+      "link": "https://www.numerama.com/pop-culture/2379627-gta-6-sur-pc-entre-la-build-cyberleek-et-les-extractions-ps5-la-pression-saccentue-pour-rockstar.html",
+      "date": "2026-11-20",
       "source": "numerama.com",
-      "category": "Souveraineté & RGPD",
-      "summary": "Depuis plus de dix jours, les agents de la Commission européenne ne peuvent plus utiliser normalement plusieurs outils internes, dont leur plateforme de paie. Selon Politico, les pirates ont utilisé un outil d’IA déjà détourné par des cybercriminels, et Bruxelles ignore encore...",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-19"
-    },
-    {
-      "title": "Critiques et cachées depuis 11 ans : l’IA déterre deux failles dans NGINX, le serveur de 225 millions de sites",
-      "link": "https://www.numerama.com/cyberguerre/2378467-critiques-et-cachees-depuis-11-ans-lia-deterre-deux-failles-dans-nginx-le-serveur-de-225-millions-de-sites.html",
-      "date": "2026-11-19",
-      "source": "numerama.com",
       "category": "Sécurité & Infrastructure",
-      "summary": "Deux vulnérabilités permettent de prendre à distance le contrôle de serveurs NGINX, le logiciel qui fait tourner une large part du web.",
+      "summary": "Le hacker Cyberleek affirme avoir mis en ligne une build Xbox complète de GTA 6, au lendemain de la sortie du jeu. Mais il manque le fichier qui permet de la lancer, et aucun émulateur ne sait faire tourner un jeu Xbox Series sur PC. Côté PS5, c'est le chiffrement de Sony qui ...",
       "tags": [
         "Veille RSS",
         "Sécurité & Infrastructure"
       ],
-      "added": "2026-11-19"
+      "added": "2026-11-20"
     },
     {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "date": "2026-11-19",
-      "source": "feeds.feedburner.com",
+      "title": "N-able says recent security breach led to major service outage",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+      "date": "2026-11-20",
+      "source": "bleepingcomputer.com",
       "category": "Sécurité & Infrastructure",
-      "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to h...",
+      "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
       "tags": [
         "Veille RSS",
         "Sécurité & Infrastructure"
       ],
-      "added": "2026-11-19"
+      "added": "2026-11-20"
     },
     {
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "date": "2026-11-19",
+      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+      "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "date": "2026-11-20",
       "source": "feeds.feedburner.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulne...",
-      "tags": [
-        "Veille RSS",
-        "IA locale & Self-hosting"
-      ],
-      "added": "2026-11-19"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Java SE (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1562/",
-      "date": "2026-11-18",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-19"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits F5 (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1567/",
-      "date": "2026-11-18",
-      "source": "cert.ssi.gouv.fr",
       "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
+      "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked ...",
       "tags": [
         "Veille RSS",
         "Sécurité & Infrastructure"
       ],
-      "added": "2026-11-19"
+      "added": "2026-11-20"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Tenable (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
-      "date": "2026-11-18",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-19"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Weblogic (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1565/",
-      "date": "2026-11-18",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-19"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle MySQL (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1563/",
-      "date": "2026-11-18",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-19"
-    },
-    {
-      "title": "IA pratique : demandez à Gemini Notebook de vous créer un site Web à partir de vos notes",
-      "link": "https://www.zdnet.fr/pratique/ia-pratique-demandez-a-gemini-notebook-de-vous-creer-un-site-web-a-partir-de-vos-notes-508075.htm#xtor=123456",
-      "date": "2026-11-18",
-      "source": "zdnet.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "Cette nouvelle fonctionnalité du service d’intelligence artificielle de Google vous permet de créer des sites interactifs à l’aide de données complexes.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-19"
-    },
-    {
-      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-      "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-      "date": "2026-11-18",
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "date": "2026-11-20",
       "source": "feeds.feedburner.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, ...",
+      "category": "Sécurité & Infrastructure",
+      "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsup...",
       "tags": [
         "Veille RSS",
-        "IA locale & Self-hosting"
+        "Sécurité & Infrastructure"
       ],
-      "added": "2026-11-19"
+      "added": "2026-11-20"
     },
     {
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "date": "2026-11-18",
-      "source": "feeds.feedburner.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthentica...",
+      "title": "Multiples vulnérabilités dans les produits Mitel (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
+      "date": "2026-11-19",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
       "tags": [
         "Veille RSS",
-        "IA locale & Self-hosting"
+        "Souveraineté & RGPD"
       ],
-      "added": "2026-11-19"
+      "added": "2026-11-20"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Wireshark (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
+      "date": "2026-11-19",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "title": "Vulnérabilité dans VMware Tanzu (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
+      "date": "2026-11-19",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Progress WS_FTP Server (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
+      "date": "2026-11-19",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Progress WS_FTP Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Cisco (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
+      "date": "2026-11-19",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "date": "2026-11-19",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "date": "2026-11-19",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spre...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-20"
     }
   ]
 }

@@ -1,8 +1,151 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+      "date": "2026-11-25",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+      "date": "2026-11-25",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+      "date": "2026-11-25",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+      "date": "2026-11-25",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+      "date": "2026-11-25",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+      "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "date": "2026-11-25",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infras...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Hackers reportedly breached CIA intelligence analysis system",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+      "date": "2026-11-25",
+      "source": "bleepingcomputer.com",
+      "category": "IA locale & Self-hosting",
+      "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "date": "2026-11-25",
+      "source": "feeds.feedburner.com",
+      "category": "IA locale & Self-hosting",
+      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnera...",
+      "tags": [
+        "Veille RSS",
+        "IA locale & Self-hosting"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "date": "2026-11-25",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services,...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "date": "2026-11-24",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-25"
+    },
+    {
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "date": "2026-11-24",
+      "source": "bleepingcomputer.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-25"
+    },
     {
       "title": "Multiples vulnérabilités dans Postfix (24 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
@@ -13,149 +156,6 @@
       "tags": [
         "Veille RSS",
         "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "Vulnérabilité dans Laravel (24 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1609/",
-      "date": "2026-11-24",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Elastic (24 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1614/",
-      "date": "2026-11-24",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "Vulnérabilité dans Google Chrome (24 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1608/",
-      "date": "2026-11-24",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans Google Chrome. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "Multiples vulnérabilités dans OpenSSL (24 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1613/",
-      "date": "2026-11-24",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "Acteurs du secteur de la livraison : comment définir les responsabilités au regard du RGPD ?",
-      "link": "https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites",
-      "date": "2026-11-24",
-      "source": "cnil.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "Dans le cadre de leurs activités, les professionnels de la livraison sont amenés à traiter des données personnelles. Dans la plupart des cas, la CNIL considère que le transporteur est responsable de traitement, mais ce n’est pas systématique. Comment clarifier les rôles de cha...",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
-      "link": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
-      "date": "2026-11-24",
-      "source": "it-connect.fr",
-      "category": "IA locale & Self-hosting",
-      "summary": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows. Le post privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory a été publié sur IT-Connect.",
-      "tags": [
-        "Veille RSS",
-        "IA locale & Self-hosting"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-      "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-      "date": "2026-11-24",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability nois...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-      "date": "2026-11-24",
-      "source": "bleepingcomputer.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services. [...]",
-      "tags": [
-        "Veille RSS",
-        "IA locale & Self-hosting"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-      "date": "2026-11-24",
-      "source": "feeds.feedburner.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed ...",
-      "tags": [
-        "Veille RSS",
-        "IA locale & Self-hosting"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
-      "date": "2026-11-24",
-      "source": "feeds.feedburner.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - ...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-24"
-    },
-    {
-      "title": "European Commission confirms personal data stolen in AI-assisted cyberattack",
-      "link": "https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834",
-      "date": "2026-11-24",
-      "source": "theregister.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "EU Academy names and email addresses exposed, with users warned via website notice rather than contacted directly",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
       ],
       "added": "2026-11-24"
     }

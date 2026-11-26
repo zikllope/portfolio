@@ -1,8 +1,60 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "total_articles": 12,
   "articles": [
+    {
+      "title": "« Ne soyez pas un crétin enragé » : l’IA bouscule les maths, et ce chercheur star pense que le chiffrement est le prochain sur la liste",
+      "link": "https://www.numerama.com/tech/2385329-ne-soyez-pas-un-cretin-enrage-lia-bouscule-les-maths-et-ce-chercheur-star-pense-que-le-chiffrement-est-le-prochain-sur-la-liste.html",
+      "date": "2026-11-26",
+      "source": "numerama.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Le 25 novembre 2026, l'informaticien Scott Aaronson a publié un billet de blog survolté sur les découvertes mathématiques en série de l'IA. Il y affirme aussi que les laboratoires d'IA détiendraient « des révélations explosives » sur nos systèmes de chiffrement. De quoi agiter...",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "title": "Rackspace pulls plug on Spot cloud service after security breach",
+      "link": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+      "date": "2026-11-26",
+      "source": "theregister.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Customers face frantic scramble to migrate workloads and rotate compromised credentials",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "title": "Google search alternative Kagi launches Gmail rival",
+      "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+      "date": "2026-11-25",
+      "source": "feeds.arstechnica.com",
+      "category": "Souveraineté & RGPD",
+      "summary": "The pitch is an unusual combination of privacy promises and AI features.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-26"
+    },
+    {
+      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+      "date": "2026-11-25",
+      "source": "feeds.arstechnica.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-26"
+    },
     {
       "title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
@@ -106,58 +158,6 @@
         "IA locale & Self-hosting"
       ],
       "added": "2026-11-25"
-    },
-    {
-      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-      "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-      "date": "2026-11-25",
-      "source": "feeds.feedburner.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services,...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "Rackspace shuts down Spot cloud platform after security breach",
-      "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-      "date": "2026-11-24",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-      "date": "2026-11-24",
-      "source": "bleepingcomputer.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Postfix (24 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
-      "date": "2026-11-24",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-24"
     }
   ]
 }

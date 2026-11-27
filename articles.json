@@ -1,163 +1,163 @@
 {
   "subject": "Sécurité et souveraineté des données à l'ère de l'IA : le local-first comme réponse",
-  "last_updated": "2026-11-26",
+  "last_updated": "2026-11-27",
   "total_articles": 12,
   "articles": [
     {
-      "title": "« Ne soyez pas un crétin enragé » : l’IA bouscule les maths, et ce chercheur star pense que le chiffrement est le prochain sur la liste",
-      "link": "https://www.numerama.com/tech/2385329-ne-soyez-pas-un-cretin-enrage-lia-bouscule-les-maths-et-ce-chercheur-star-pense-que-le-chiffrement-est-le-prochain-sur-la-liste.html",
-      "date": "2026-11-26",
+      "title": "IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS",
+      "link": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil",
+      "date": "2026-11-27",
+      "source": "cnil.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "Avec la publication du guide « IA en contexte de soins : accompagner le bon usage » qu’elles ont conjointement élaboré, la Haute Autorité de santé (HAS) et la CNIL se mobilisent pour accompagner les acteurs de la santé en clarifiant les règles et les bonnes pratiques.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux",
+      "link": "https://www.it-connect.fr/clonezilla-live-3-3-5-3-zfs-mdraid/",
+      "date": "2026-11-27",
+      "source": "it-connect.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "Clonezilla Live 3.3.5-3 ajoute la prise en charge de ZFS, clone le RAID logiciel MDRAID de disque à disque et corrige des bugs risqués pour vos données. Le post Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux a été publié sur IT-Connect.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Série noire aux États-Unis : des pirates se sont infiltrés dans Cloud One, la plateforme cloud géante de l’US Air Force",
+      "link": "https://www.numerama.com/cyberguerre/2386483-serie-noire-aux-etats-unis-des-pirates-se-sont-infiltres-dans-cloud-one-la-plateforme-cloud-geante-de-lus-air-force.html",
+      "date": "2026-11-27",
       "source": "numerama.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Le 25 novembre 2026, l'informaticien Scott Aaronson a publié un billet de blog survolté sur les découvertes mathématiques en série de l'IA. Il y affirme aussi que les laboratoires d'IA détiendraient « des révélations explosives » sur nos systèmes de chiffrement. De quoi agiter...",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-26"
-    },
-    {
-      "title": "Rackspace pulls plug on Spot cloud service after security breach",
-      "link": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
-      "date": "2026-11-26",
-      "source": "theregister.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Customers face frantic scramble to migrate workloads and rotate compromised credentials",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-26"
-    },
-    {
-      "title": "Google search alternative Kagi launches Gmail rival",
-      "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
-      "date": "2026-11-25",
-      "source": "feeds.arstechnica.com",
       "category": "Souveraineté & RGPD",
-      "summary": "The pitch is an unusual combination of privacy promises and AI features.",
+      "summary": "Les hackers seraient parvenus jusqu'à la couche d'administration de la plateforme, qui héberge des données tactiques, logistiques et de personnel de l'armée de l'air américaine.",
       "tags": [
         "Veille RSS",
         "Souveraineté & RGPD"
       ],
-      "added": "2026-11-26"
+      "added": "2026-11-27"
     },
     {
-      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
-      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
-      "date": "2026-11-25",
-      "source": "feeds.arstechnica.com",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-26"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
-      "date": "2026-11-25",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
-      "date": "2026-11-25",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
-      "date": "2026-11-25",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
-      "date": "2026-11-25",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Sécurité & Infrastructure",
-      "summary": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "tags": [
-        "Veille RSS",
-        "Sécurité & Infrastructure"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
-      "date": "2026-11-25",
-      "source": "cert.ssi.gouv.fr",
-      "category": "Souveraineté & RGPD",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "tags": [
-        "Veille RSS",
-        "Souveraineté & RGPD"
-      ],
-      "added": "2026-11-25"
-    },
-    {
-      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-      "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-      "date": "2026-11-25",
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "date": "2026-11-27",
       "source": "bleepingcomputer.com",
       "category": "Sécurité & Infrastructure",
-      "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infras...",
+      "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
       "tags": [
         "Veille RSS",
         "Sécurité & Infrastructure"
       ],
-      "added": "2026-11-25"
+      "added": "2026-11-27"
     },
     {
-      "title": "Hackers reportedly breached CIA intelligence analysis system",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-      "date": "2026-11-25",
-      "source": "bleepingcomputer.com",
-      "category": "IA locale & Self-hosting",
-      "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "date": "2026-11-27",
+      "source": "feeds.feedburner.com",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and tw...",
       "tags": [
         "Veille RSS",
-        "IA locale & Self-hosting"
+        "Sécurité & Infrastructure"
       ],
-      "added": "2026-11-25"
+      "added": "2026-11-27"
     },
     {
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-      "date": "2026-11-25",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "date": "2026-11-27",
       "source": "feeds.feedburner.com",
       "category": "IA locale & Self-hosting",
-      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnera...",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHEL...",
       "tags": [
         "Veille RSS",
         "IA locale & Self-hosting"
       ],
-      "added": "2026-11-25"
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Europe's AI sovereignty push: Lots of cloud, not much silver lining",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/27/europes-ai-sovereignty-push-lots-of-cloud-not-much-silver-lining/5312120",
+      "date": "2026-11-27",
+      "source": "theregister.com",
+      "category": "Souveraineté & RGPD",
+      "summary": "Datacenter spending is booming but the models, the chips, and the clout all live in US and Asia",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Vulnérabilité dans Drupal (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
+      "date": "2026-11-26",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans Drupal. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Drupal indique que la vulnérabilité CVE-2026-136716 est activement exploitée.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Tenable (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/",
+      "date": "2026-11-26",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits NetApp (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/",
+      "date": "2026-11-26",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Vulnérabilité dans Mattermost Server (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/",
+      "date": "2026-11-26",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Sécurité & Infrastructure",
+      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "tags": [
+        "Veille RSS",
+        "Sécurité & Infrastructure"
+      ],
+      "added": "2026-11-27"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GitLab (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/",
+      "date": "2026-11-26",
+      "source": "cert.ssi.gouv.fr",
+      "category": "Souveraineté & RGPD",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "tags": [
+        "Veille RSS",
+        "Souveraineté & RGPD"
+      ],
+      "added": "2026-11-27"
     }
   ]
 }
